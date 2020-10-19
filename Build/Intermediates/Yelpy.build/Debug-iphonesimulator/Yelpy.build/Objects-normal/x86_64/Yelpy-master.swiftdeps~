@@ -1,0 +1,9 @@
+version: "Apple Swift version 5.2.4 (swiftlang-1103.0.32.9 clang-1103.0.32.53)"
+options: "6c68ba98a26469e20c1cd9f4a8737803"
+build_time: [1603072158, 83454000]
+inputs:
+  "/Users/haruna/Downloads/yelpy/Yelpy/Cells/RestaurantCell.swift": [1602957699, 0]
+  "/Users/haruna/Downloads/yelpy/Yelpy/Controllers/RestaurantsViewController.swift": [1602960157, 0]
+  "/Users/haruna/Downloads/yelpy/Yelpy/Network/API.swift": [1602959015, 0]
+  "/Users/haruna/Downloads/yelpy/Yelpy/AppDelegate.swift": [1590100261, 0]
+  "/Users/haruna/Downloads/yelpy/Yelpy/SceneDelegate.swift": [1590100261, 0]
