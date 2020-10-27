@@ -3,7 +3,7 @@
 //  Yelpy
 //
 //  Created by Memo on 5/21/20.
-//  Copyright © 2020 memo. All rights reserved.
+//  Copyright © 2020 Haruna. All rights reserved.
 //
 
 import UIKit
@@ -15,9 +15,8 @@ class RestaurantsViewController: UIViewController {
     // ––––– TODO: Next, place TableView outlet here
     @IBOutlet weak var tableView: UITableView!
     
-    
     // –––––– TODO: Initialize restaurantsArray
-    var restaurantsArray: [[String:Any]] = []
+    var restaurantsArray: [Restaurant] = []
     
     
     // ––––– TODO: Add tableView datasource + delegate
@@ -35,12 +34,22 @@ class RestaurantsViewController: UIViewController {
     // ––––– TODO: Get data from API helper and retrieve restaurants
     func getApiData() {
         API.getRestaurants() { (completionRestaurants) in
-            self.restaurantsArray = completionRestaurants!
+            guard let completionRestaurants = completionRestaurants else {
+                return
+            }
+            self.restaurantsArray = completionRestaurants
             self.tableView.reloadData()
         }
     }
     
-    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        let cell = sender as! UITableViewCell
+        if let indexPath = tableView.indexPath(for: cell) {
+            let r = restaurantsArray[indexPath.row]
+            let detailVC = segue.destination as! DetailsViewController
+            detailVC.r = r
+        }
+    }
 
 }
 
@@ -60,15 +69,7 @@ extension RestaurantsViewController: UITableViewDelegate, UITableViewDataSource 
         // Get individual restaurant
         let restaurant = restaurantsArray[indexPath.row]
         
-        cell.restaurantNameLabel.text = restaurant["name"] as! String
-        
-        if let imageUrlString = restaurant["image_url"] as? String {
-            let imageUrl = URL(string: imageUrlString)!
-            cell.restaurantImage.af.setImage(withURL: imageUrl)   
-        }
-        
-        
-        
+        cell.r = restaurant
         return cell
     }
     

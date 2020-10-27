@@ -1,6 +1,6 @@
 version: "Apple Swift version 5.2.4 (swiftlang-1103.0.32.9 clang-1103.0.32.53)"
 options: "6cc7e63f6bbc21631c853edc01d4e476"
-build_time: [1603761471, 443632000]
+build_time: [1603766878, 385625000]
 inputs:
   "/Users/haruna/Documents/iOSdev/yelpy/Pods/Alamofire/Source/AFError.swift": [1590100371, 0]
   "/Users/haruna/Documents/iOSdev/yelpy/Pods/Alamofire/Source/Alamofire.swift": [1590100371, 0]

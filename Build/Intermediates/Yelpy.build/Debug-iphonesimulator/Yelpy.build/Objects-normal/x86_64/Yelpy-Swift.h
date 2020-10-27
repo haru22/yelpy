@@ -220,12 +220,27 @@ SWIFT_CLASS("_TtC5Yelpy11AppDelegate")
 
 @class UIImageView;
 @class UILabel;
+@class NSBundle;
 @class NSCoder;
+
+SWIFT_CLASS("_TtC5Yelpy21DetailsViewController")
+@interface DetailsViewController : UIViewController
+@property (nonatomic, weak) IBOutlet UIImageView * _Null_unspecified restaurantImage;
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified restaurantName;
+- (void)viewDidLoad;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
+@end
+
 
 SWIFT_CLASS("_TtC5Yelpy14RestaurantCell")
 @interface RestaurantCell : UITableViewCell
 @property (nonatomic, weak) IBOutlet UIImageView * _Null_unspecified restaurantImage;
 @property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified restaurantNameLabel;
+@property (nonatomic, weak) IBOutlet UIImageView * _Null_unspecified starImage;
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified reviewLabel;
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified phoneLabel;
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified categoryLabel;
 - (void)awakeFromNib;
 - (void)setSelected:(BOOL)selected animated:(BOOL)animated;
 - (nonnull instancetype)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString * _Nullable)reuseIdentifier OBJC_DESIGNATED_INITIALIZER SWIFT_AVAILABILITY(ios,introduced=3.0);
@@ -233,12 +248,13 @@ SWIFT_CLASS("_TtC5Yelpy14RestaurantCell")
 @end
 
 @class UITableView;
-@class NSBundle;
+@class UIStoryboardSegue;
 
 SWIFT_CLASS("_TtC5Yelpy25RestaurantsViewController")
 @interface RestaurantsViewController : UIViewController
 @property (nonatomic, weak) IBOutlet UITableView * _Null_unspecified tableView;
 - (void)viewDidLoad;
+- (void)prepareForSegue:(UIStoryboardSegue * _Nonnull)segue sender:(id _Nullable)sender;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
 @end

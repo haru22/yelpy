@@ -3,7 +3,7 @@
 //  Yelpy
 //
 //  Created by Memo on 5/21/20.
-//  Copyright © 2020 memo. All rights reserved.
+//  Copyright © 2020 Haruna. All rights reserved.
 //
 
 import Foundation
@@ -11,11 +11,10 @@ import Foundation
 
 struct API {
     
-
-    static func getRestaurants(completion: @escaping ([[String:Any]]?) -> Void) {
+    static func getRestaurants(completion: @escaping ([Restaurant]?) -> Void) {
         
         // ––––– TODO: Add your own API key!
-        let apikey = "gjSp5LrrEi9tJFLQALnw-RdZSRy-TLiJsfPM09LzFMNpMnmSHQZ2n2R_f3ptONYEalxMIudE9avxn_bQvvDZJc1zpPdfPDOvdh08RlT8vZGbqFx3dbtkuliMwATHXnYx"
+        let apikey = "Cldg0z2qVHylucGoyfF-uy_QgL1Xg-OZN5wjZAZYdPW0DEXISjI-f2CsrK4pTx7Utcar_8iQrpGApOBhqelxyApQTcsCtxiFil76zIW9BHHf6N5fYF00Z7G_0DGLX3Yx"
         
         // Coordinates for San Francisco
         let lat = 37.773972
@@ -39,15 +38,23 @@ struct API {
         
 
                 // ––––– TODO: Get data from API and return it using completion
-                let dataDictionary = try! JSONSerialization.jsonObject(with: data, options: []) as! [String:Any]
                 
-                // array = []
-                // dictionary = [String:Any]
-                // array of dictionary = [ [String:Any] ]
+                // 1. Convert json response to a dictionary
+                let dataDictionary = try! JSONSerialization.jsonObject(with: data, options: []) as! [String: Any]
+                // 2. Grab the businesses data and convert it to an array of dictionaries
+                //    for each restaurant
+                let restaurantDictionaries = dataDictionary["businesses"] as! [[String: Any]]
+                // 3. completion is an escaping method  which allows the data to be used
+                //    outside of the closure
                 
-                // Convert it to array
-                let restaurantsArray = dataDictionary["businesses"] as! [ [String:Any] ]
-                return completion(restaurantsArray)
+                
+                var restaurantObjectArray: [Restaurant] = []
+                
+                for dict in restaurantDictionaries {
+                    let restaurant = Restaurant(dict: dict)
+                    restaurantObjectArray.append(restaurant)
+                }
+                return completion(restaurantObjectArray)
                 
                 }
             }
@@ -56,5 +63,4 @@ struct API {
         
         }
     }
-
     
