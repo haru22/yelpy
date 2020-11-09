@@ -29,6 +29,21 @@ depends-member:
 - !private ["9Alamofire0A8ExtendedP", "af"]
 - !private ["9Alamofire0A8ExtendedP", "image"]
 - !private ["9Alamofire0A9ExtensionV", "setImage"]
+- !private ["12SkeletonView17AssociatedObjectsP", "Stars"]
+- !private ["12SkeletonView17AssociatedObjectsP", "String"]
+- ["12SkeletonView17AssociatedObjectsP", ""]
+- !private ["12SkeletonView17AssociatedObjectsP", "af"]
+- !private ["12SkeletonView17AssociatedObjectsP", "awakeFromNib"]
+- !private ["12SkeletonView17AssociatedObjectsP", "categoryLabel"]
+- !private ["12SkeletonView17AssociatedObjectsP", "image"]
+- !private ["12SkeletonView17AssociatedObjectsP", "phoneLabel"]
+- !private ["12SkeletonView17AssociatedObjectsP", "r"]
+- !private ["12SkeletonView17AssociatedObjectsP", "restaurantImage"]
+- !private ["12SkeletonView17AssociatedObjectsP", "restaurantNameLabel"]
+- !private ["12SkeletonView17AssociatedObjectsP", "reviewLabel"]
+- !private ["12SkeletonView17AssociatedObjectsP", "setSelected"]
+- !private ["12SkeletonView17AssociatedObjectsP", "starImage"]
+- !private ["12SkeletonView17AssociatedObjectsP", "text"]
 - !private ["SK", "init"]
 - !private ["So15CALayerDelegateP", "Stars"]
 - !private ["So15CALayerDelegateP", "String"]
@@ -65,6 +80,7 @@ depends-member:
 - !private ["Sl", "init"]
 - !private ["Sl", "subscript"]
 - !private ["SL", "init"]
+- !private ["12SkeletonView21ContainsMultilineTextP", "text"]
 - !private ["s28CustomDebugStringConvertibleP", "Stars"]
 - !private ["s28CustomDebugStringConvertibleP", "String"]
 - ["s28CustomDebugStringConvertibleP", ""]
@@ -199,6 +215,21 @@ depends-member:
 - !private ["SH", "starImage"]
 - !private ["SH", "subscript"]
 - !private ["SH", "text"]
+- !private ["12SkeletonView15IterableElementP", "Stars"]
+- !private ["12SkeletonView15IterableElementP", "String"]
+- ["12SkeletonView15IterableElementP", ""]
+- !private ["12SkeletonView15IterableElementP", "af"]
+- !private ["12SkeletonView15IterableElementP", "awakeFromNib"]
+- !private ["12SkeletonView15IterableElementP", "categoryLabel"]
+- !private ["12SkeletonView15IterableElementP", "image"]
+- !private ["12SkeletonView15IterableElementP", "phoneLabel"]
+- !private ["12SkeletonView15IterableElementP", "r"]
+- !private ["12SkeletonView15IterableElementP", "restaurantImage"]
+- !private ["12SkeletonView15IterableElementP", "restaurantNameLabel"]
+- !private ["12SkeletonView15IterableElementP", "reviewLabel"]
+- !private ["12SkeletonView15IterableElementP", "setSelected"]
+- !private ["12SkeletonView15IterableElementP", "starImage"]
+- !private ["12SkeletonView15IterableElementP", "text"]
 - !private ["s25LosslessStringConvertibleP", "init"]
 - !private ["s10MirrorPathP", "init"]
 - !private ["So8NSCodingP", "Stars"]
@@ -260,6 +291,21 @@ depends-member:
 - !private ["Sq", "review"]
 - !private ["Sq", "text"]
 - !private ["Sm", "init"]
+- !private ["12SkeletonView11RecoverableP", "Stars"]
+- !private ["12SkeletonView11RecoverableP", "String"]
+- ["12SkeletonView11RecoverableP", ""]
+- !private ["12SkeletonView11RecoverableP", "af"]
+- !private ["12SkeletonView11RecoverableP", "awakeFromNib"]
+- !private ["12SkeletonView11RecoverableP", "categoryLabel"]
+- !private ["12SkeletonView11RecoverableP", "image"]
+- !private ["12SkeletonView11RecoverableP", "phoneLabel"]
+- !private ["12SkeletonView11RecoverableP", "r"]
+- !private ["12SkeletonView11RecoverableP", "restaurantImage"]
+- !private ["12SkeletonView11RecoverableP", "restaurantNameLabel"]
+- !private ["12SkeletonView11RecoverableP", "reviewLabel"]
+- !private ["12SkeletonView11RecoverableP", "setSelected"]
+- !private ["12SkeletonView11RecoverableP", "starImage"]
+- !private ["12SkeletonView11RecoverableP", "text"]
 - !private ["5Yelpy10RestaurantC", "imageURL"]
 - !private ["5Yelpy10RestaurantC", "mainCategory"]
 - !private ["5Yelpy10RestaurantC", "name"]
@@ -285,6 +331,18 @@ depends-member:
 - ["5Yelpy14RestaurantCellC", "starImage"]
 - !private ["ST", "init"]
 - !private ["ST", "subscript"]
+- !private ["12SkeletonView0A12ReusableCellP", "Stars"]
+- !private ["12SkeletonView0A12ReusableCellP", "String"]
+- ["12SkeletonView0A12ReusableCellP", ""]
+- !private ["12SkeletonView0A12ReusableCellP", "awakeFromNib"]
+- !private ["12SkeletonView0A12ReusableCellP", "categoryLabel"]
+- !private ["12SkeletonView0A12ReusableCellP", "phoneLabel"]
+- !private ["12SkeletonView0A12ReusableCellP", "r"]
+- !private ["12SkeletonView0A12ReusableCellP", "restaurantImage"]
+- !private ["12SkeletonView0A12ReusableCellP", "restaurantNameLabel"]
+- !private ["12SkeletonView0A12ReusableCellP", "reviewLabel"]
+- !private ["12SkeletonView0A12ReusableCellP", "setSelected"]
+- !private ["12SkeletonView0A12ReusableCellP", "starImage"]
 - !private ["5Yelpy5StarsV", "dict"]
 - !private ["SS", "init"]
 - !private ["Sy", "init"]
@@ -624,11 +682,13 @@ depends-member:
 depends-nominal:
 - !private "9Alamofire0A8ExtendedP"
 - !private "9Alamofire0A9ExtensionV"
+- "12SkeletonView17AssociatedObjectsP"
 - !private "SK"
 - "So15CALayerDelegateP"
 - "s7CVarArgP"
 - !private "Sl"
 - !private "SL"
+- !private "12SkeletonView21ContainsMultilineTextP"
 - "s28CustomDebugStringConvertibleP"
 - !private "s17CustomReflectableP"
 - "s23CustomStringConvertibleP"
@@ -643,6 +703,7 @@ depends-nominal:
 - !private "s26ExpressibleByStringLiteralP"
 - !private "s33ExpressibleByUnicodeScalarLiteralP"
 - "SH"
+- "12SkeletonView15IterableElementP"
 - !private "s25LosslessStringConvertibleP"
 - !private "s10MirrorPathP"
 - "So8NSCodingP"
@@ -650,9 +711,11 @@ depends-nominal:
 - "So8NSObjectP"
 - !private "Sq"
 - !private "Sm"
+- "12SkeletonView11RecoverableP"
 - !private "5Yelpy10RestaurantC"
 - "5Yelpy14RestaurantCellC"
 - !private "ST"
+- "12SkeletonView0A12ReusableCellP"
 - !private "5Yelpy5StarsV"
 - !private "SS"
 - !private "Sy"
@@ -705,14 +768,21 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64.swiftmodule"
 - "/Users/haruna/Documents/iOSdev/yelpy/Build/Products/Debug-iphonesimulator/AlamofireImage/AlamofireImage.framework/Modules/AlamofireImage.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/haruna/Documents/iOSdev/yelpy/Build/Products/Debug-iphonesimulator/lottie-ios/Lottie.framework/Modules/Lottie.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Users/haruna/Documents/iOSdev/yelpy/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/Alamofire.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/haruna/Documents/iOSdev/yelpy/Build/Products/Debug-iphonesimulator/SkeletonView/SkeletonView.framework/Modules/SkeletonView.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Users/haruna/Documents/iOSdev/yelpy/Build/Products/Debug-iphonesimulator/AlamofireImage/AlamofireImage.framework/Headers/AlamofireImage-umbrella.h"
 - "/Users/haruna/Documents/iOSdev/yelpy/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-umbrella.h"
+- "/Users/haruna/Documents/iOSdev/yelpy/Build/Products/Debug-iphonesimulator/lottie-ios/Lottie.framework/Headers/lottie-ios-umbrella.h"
+- "/Users/haruna/Documents/iOSdev/yelpy/Build/Products/Debug-iphonesimulator/SkeletonView/SkeletonView.framework/Headers/SkeletonView-umbrella.h"
 - "/Users/haruna/Documents/iOSdev/yelpy/Build/Products/Debug-iphonesimulator/AlamofireImage/AlamofireImage.framework/Headers/AlamofireImage-Swift.h"
-- "/Users/haruna/Documents/iOSdev/yelpy/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/Users/haruna/Documents/iOSdev/yelpy/Build/Products/Debug-iphonesimulator/lottie-ios/Lottie.framework/Headers/Lottie-Swift.h"
+- "/Users/haruna/Documents/iOSdev/yelpy/Build/Products/Debug-iphonesimulator/SkeletonView/SkeletonView.framework/Headers/SkeletonView-Swift.h"
 - "/Users/haruna/Documents/iOSdev/yelpy/Build/Products/Debug-iphonesimulator/AlamofireImage/AlamofireImage.framework/Modules/module.modulemap"
+- "/Users/haruna/Documents/iOSdev/yelpy/Build/Products/Debug-iphonesimulator/lottie-ios/Lottie.framework/Modules/module.modulemap"
 - "/Users/haruna/Documents/iOSdev/yelpy/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/module.modulemap"
+- "/Users/haruna/Documents/iOSdev/yelpy/Build/Products/Debug-iphonesimulator/SkeletonView/SkeletonView.framework/Modules/module.modulemap"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/usr/include/objc/ObjectiveC.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"

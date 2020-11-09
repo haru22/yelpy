@@ -726,7 +726,6 @@ depends-external:
 - "/Users/haruna/Documents/iOSdev/yelpy/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/Alamofire.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Users/haruna/Documents/iOSdev/yelpy/Pods/Target Support Files/AlamofireImage/AlamofireImage-umbrella.h"
 - "/Users/haruna/Documents/iOSdev/yelpy/Pods/Target Support Files/Alamofire/Alamofire-umbrella.h"
-- "/Users/haruna/Documents/iOSdev/yelpy/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
 - "/Users/haruna/Documents/iOSdev/yelpy/Build/Intermediates/Pods.build/Debug-iphonesimulator/AlamofireImage.build/unextended-module.modulemap"
 - "/Users/haruna/Documents/iOSdev/yelpy/Build/Intermediates/Pods.build/Debug-iphonesimulator/Alamofire.build/module.modulemap"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/usr/include/objc/ObjectiveC.apinotes"

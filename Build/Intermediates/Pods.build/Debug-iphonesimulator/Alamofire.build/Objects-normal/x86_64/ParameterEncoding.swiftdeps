@@ -31,7 +31,6 @@ depends-top-level:
 - "AssignmentPrecedence"
 - "Bool"
 - !private "BooleanLiteralType"
-- "CastingPrecedence"
 - !private "Data"
 - !private "FloatLiteralType"
 - "HTTPMethod"
@@ -115,6 +114,7 @@ depends-member:
 - !private ["Sl", "map"]
 - !private ["Sl", "sorted"]
 - !private ["Sl", "subscript"]
+- !private ["Sl", "update"]
 - !private ["Sl", "utf8"]
 - !private ["SL", "addingPercentEncoding"]
 - !private ["SL", "init"]
@@ -132,6 +132,7 @@ depends-member:
 - !private ["s28CustomDebugStringConvertibleP", "boolValue"]
 - !private ["s28CustomDebugStringConvertibleP", "contains"]
 - !private ["s28CustomDebugStringConvertibleP", "data"]
+- !private ["s28CustomDebugStringConvertibleP", "headers"]
 - !private ["s28CustomDebugStringConvertibleP", "httpBody"]
 - !private ["s28CustomDebugStringConvertibleP", "init"]
 - !private ["s28CustomDebugStringConvertibleP", "isBool"]
@@ -142,15 +143,14 @@ depends-member:
 - !private ["s28CustomDebugStringConvertibleP", "method"]
 - !private ["s28CustomDebugStringConvertibleP", "objCType"]
 - !private ["s28CustomDebugStringConvertibleP", "percentEncodedQuery"]
-- !private ["s28CustomDebugStringConvertibleP", "setValue"]
 - !private ["s28CustomDebugStringConvertibleP", "sorted"]
 - !private ["s28CustomDebugStringConvertibleP", "subscript"]
 - !private ["s28CustomDebugStringConvertibleP", "url"]
 - !private ["s28CustomDebugStringConvertibleP", "utf8"]
-- !private ["s28CustomDebugStringConvertibleP", "value"]
 - !private ["s17CustomReflectableP", "addingPercentEncoding"]
 - !private ["s17CustomReflectableP", "append"]
 - !private ["s17CustomReflectableP", "contains"]
+- !private ["s17CustomReflectableP", "headers"]
 - !private ["s17CustomReflectableP", "httpBody"]
 - !private ["s17CustomReflectableP", "init"]
 - !private ["s17CustomReflectableP", "isEmpty"]
@@ -159,11 +159,9 @@ depends-member:
 - !private ["s17CustomReflectableP", "map"]
 - !private ["s17CustomReflectableP", "method"]
 - !private ["s17CustomReflectableP", "percentEncodedQuery"]
-- !private ["s17CustomReflectableP", "setValue"]
 - !private ["s17CustomReflectableP", "subscript"]
 - !private ["s17CustomReflectableP", "url"]
 - !private ["s17CustomReflectableP", "utf8"]
-- !private ["s17CustomReflectableP", "value"]
 - !private ["s23CustomStringConvertibleP", "String"]
 - ["s23CustomStringConvertibleP", "WritingOptions"]
 - !private ["s23CustomStringConvertibleP", "addingPercentEncoding"]
@@ -173,7 +171,9 @@ depends-member:
 - !private ["s23CustomStringConvertibleP", "appendLiteral"]
 - !private ["s23CustomStringConvertibleP", "boolValue"]
 - !private ["s23CustomStringConvertibleP", "contains"]
+- !private ["s23CustomStringConvertibleP", "contentType"]
 - !private ["s23CustomStringConvertibleP", "data"]
+- !private ["s23CustomStringConvertibleP", "headers"]
 - !private ["s23CustomStringConvertibleP", "httpBody"]
 - !private ["s23CustomStringConvertibleP", "init"]
 - !private ["s23CustomStringConvertibleP", "isBool"]
@@ -184,12 +184,11 @@ depends-member:
 - !private ["s23CustomStringConvertibleP", "method"]
 - !private ["s23CustomStringConvertibleP", "objCType"]
 - !private ["s23CustomStringConvertibleP", "percentEncodedQuery"]
-- !private ["s23CustomStringConvertibleP", "setValue"]
 - !private ["s23CustomStringConvertibleP", "sorted"]
 - !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "update"]
 - !private ["s23CustomStringConvertibleP", "url"]
 - !private ["s23CustomStringConvertibleP", "utf8"]
-- !private ["s23CustomStringConvertibleP", "value"]
 - !private ["10Foundation4DataV", "init"]
 - !private ["10Foundation12DataProtocolP", "append"]
 - !private ["10Foundation12DataProtocolP", "contains"]
@@ -250,6 +249,7 @@ depends-member:
 - !private ["SQ", "boolValue"]
 - ["SQ", "brackets"]
 - !private ["SQ", "contains"]
+- !private ["SQ", "contentType"]
 - !private ["SQ", "data"]
 - !private ["SQ", "delete"]
 - !private ["SQ", "encode"]
@@ -258,6 +258,7 @@ depends-member:
 - ["SQ", "hash"]
 - ["SQ", "hashValue"]
 - !private ["SQ", "head"]
+- !private ["SQ", "headers"]
 - ["SQ", "httpBody"]
 - !private ["SQ", "init"]
 - !private ["SQ", "isBool"]
@@ -274,12 +275,10 @@ depends-member:
 - !private ["SQ", "percentEncodedQuery"]
 - !private ["SQ", "prettyPrinted"]
 - ["SQ", "queryString"]
-- !private ["SQ", "setValue"]
 - !private ["SQ", "sorted"]
 - !private ["SQ", "subscript"]
 - !private ["SQ", "url"]
 - !private ["SQ", "utf8"]
-- !private ["SQ", "value"]
 - !private ["s5ErrorP", "parameterEncodingFailed"]
 - !private ["s25ExpressibleByArrayLiteralP", "afURLQueryAllowed"]
 - !private ["s25ExpressibleByArrayLiteralP", "append"]
@@ -287,6 +286,8 @@ depends-member:
 - !private ["s25ExpressibleByArrayLiteralP", "joined"]
 - !private ["s25ExpressibleByArrayLiteralP", "map"]
 - !private ["s25ExpressibleByArrayLiteralP", "prettyPrinted"]
+- !private ["s25ExpressibleByArrayLiteralP", "subscript"]
+- !private ["s25ExpressibleByArrayLiteralP", "update"]
 - !private ["s27ExpressibleByBooleanLiteralP", "String"]
 - !private ["s27ExpressibleByBooleanLiteralP", "boolValue"]
 - !private ["s27ExpressibleByBooleanLiteralP", "isBool"]
@@ -294,6 +295,7 @@ depends-member:
 - !private ["s30ExpressibleByDictionaryLiteralP", "isEmpty"]
 - !private ["s30ExpressibleByDictionaryLiteralP", "keys"]
 - !private ["s30ExpressibleByDictionaryLiteralP", "subscript"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "update"]
 - !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "addingPercentEncoding"]
 - !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
 - !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "utf8"]
@@ -315,6 +317,10 @@ depends-member:
 - !private ["s33ExpressibleByUnicodeScalarLiteralP", "addingPercentEncoding"]
 - !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
 - !private ["s33ExpressibleByUnicodeScalarLiteralP", "utf8"]
+- !private ["9Alamofire10HTTPHeaderV", "contentType"]
+- !private ["9Alamofire11HTTPHeadersV", "deinit"]
+- !private ["9Alamofire11HTTPHeadersV", "subscript"]
+- !private ["9Alamofire11HTTPHeadersV", "update"]
 - !private ["9Alamofire10HTTPMethodV", "deinit"]
 - !private ["9Alamofire10HTTPMethodV", "delete"]
 - !private ["9Alamofire10HTTPMethodV", "get"]
@@ -330,6 +336,7 @@ depends-member:
 - !private ["SH", "boolValue"]
 - ["SH", "brackets"]
 - !private ["SH", "contains"]
+- !private ["SH", "contentType"]
 - !private ["SH", "data"]
 - !private ["SH", "delete"]
 - !private ["SH", "encode"]
@@ -338,6 +345,7 @@ depends-member:
 - ["SH", "hash"]
 - ["SH", "hashValue"]
 - !private ["SH", "head"]
+- !private ["SH", "headers"]
 - ["SH", "httpBody"]
 - !private ["SH", "init"]
 - !private ["SH", "isBool"]
@@ -353,11 +361,9 @@ depends-member:
 - !private ["SH", "objCType"]
 - !private ["SH", "percentEncodedQuery"]
 - ["SH", "queryString"]
-- !private ["SH", "setValue"]
 - !private ["SH", "subscript"]
 - !private ["SH", "url"]
 - !private ["SH", "utf8"]
-- !private ["SH", "value"]
 - !private ["s6HasherV", "combine"]
 - !private ["9Alamofire12JSONEncodingV", "AFError"]
 - ["9Alamofire12JSONEncodingV", "JSONEncoding"]
@@ -484,13 +490,12 @@ depends-member:
 - !private ["SY", "head"]
 - !private ["SY", "prettyPrinted"]
 - !private ["10Foundation20ReferenceConvertibleP", "afURLQueryAllowed"]
+- !private ["10Foundation20ReferenceConvertibleP", "headers"]
 - !private ["10Foundation20ReferenceConvertibleP", "httpBody"]
 - !private ["10Foundation20ReferenceConvertibleP", "init"]
 - !private ["10Foundation20ReferenceConvertibleP", "method"]
 - !private ["10Foundation20ReferenceConvertibleP", "percentEncodedQuery"]
-- !private ["10Foundation20ReferenceConvertibleP", "setValue"]
 - !private ["10Foundation20ReferenceConvertibleP", "url"]
-- !private ["10Foundation20ReferenceConvertibleP", "value"]
 - !private ["ST", "addingPercentEncoding"]
 - !private ["ST", "append"]
 - !private ["ST", "contains"]
@@ -501,6 +506,7 @@ depends-member:
 - !private ["ST", "map"]
 - !private ["ST", "sorted"]
 - !private ["ST", "subscript"]
+- !private ["ST", "update"]
 - !private ["ST", "utf8"]
 - !private ["s10SetAlgebraP", "afURLQueryAllowed"]
 - !private ["s10SetAlgebraP", "prettyPrinted"]
@@ -554,17 +560,15 @@ depends-member:
 - !private ["9Alamofire11URLEncodingV", "query"]
 - ["9Alamofire11URLEncodingV", "queryComponents"]
 - ["9Alamofire11URLEncodingV", "queryString"]
+- !private ["10Foundation10URLRequestV", "headers"]
 - !private ["10Foundation10URLRequestV", "httpBody"]
 - !private ["10Foundation10URLRequestV", "method"]
-- !private ["10Foundation10URLRequestV", "setValue"]
 - !private ["10Foundation10URLRequestV", "url"]
-- !private ["10Foundation10URLRequestV", "value"]
 - !private ["9Alamofire21URLRequestConvertibleP", "asURLRequest"]
+- !private ["9Alamofire21URLRequestConvertibleP", "headers"]
 - !private ["9Alamofire21URLRequestConvertibleP", "httpBody"]
 - !private ["9Alamofire21URLRequestConvertibleP", "method"]
-- !private ["9Alamofire21URLRequestConvertibleP", "setValue"]
 - !private ["9Alamofire21URLRequestConvertibleP", "url"]
-- !private ["9Alamofire21URLRequestConvertibleP", "value"]
 - !private ["So20NSJSONWritingOptionsV", "prettyPrinted"]
 - !private ["s14_ArrayProtocolP", "append"]
 - !private ["s14_ArrayProtocolP", "contains"]
@@ -626,6 +630,7 @@ depends-member:
 - !private ["s21_ObjectiveCBridgeableP", "afURLQueryAllowed"]
 - !private ["s21_ObjectiveCBridgeableP", "append"]
 - !private ["s21_ObjectiveCBridgeableP", "contains"]
+- !private ["s21_ObjectiveCBridgeableP", "headers"]
 - !private ["s21_ObjectiveCBridgeableP", "httpBody"]
 - !private ["s21_ObjectiveCBridgeableP", "init"]
 - !private ["s21_ObjectiveCBridgeableP", "isEmpty"]
@@ -634,11 +639,9 @@ depends-member:
 - !private ["s21_ObjectiveCBridgeableP", "map"]
 - !private ["s21_ObjectiveCBridgeableP", "method"]
 - !private ["s21_ObjectiveCBridgeableP", "percentEncodedQuery"]
-- !private ["s21_ObjectiveCBridgeableP", "setValue"]
 - !private ["s21_ObjectiveCBridgeableP", "subscript"]
 - !private ["s21_ObjectiveCBridgeableP", "url"]
 - !private ["s21_ObjectiveCBridgeableP", "utf8"]
-- !private ["s21_ObjectiveCBridgeableP", "value"]
 depends-nominal:
 - !private "9Alamofire7AFErrorO"
 - !private "9Alamofire0A8ExtendedP"
@@ -673,6 +676,8 @@ depends-nominal:
 - !private "s32ExpressibleByStringInterpolationP"
 - !private "s26ExpressibleByStringLiteralP"
 - !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "9Alamofire10HTTPHeaderV"
+- !private "9Alamofire11HTTPHeadersV"
 - !private "9Alamofire10HTTPMethodV"
 - "SH"
 - !private "s6HasherV"
@@ -743,7 +748,7 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Users/haruna/Documents/iOSdev/yelpy/Pods/Target Support Files/Alamofire/Alamofire-umbrella.h"
-- "/Users/haruna/Documents/iOSdev/yelpy/Build/Intermediates/Pods.build/Debug-iphonesimulator/Alamofire.build/unextended-module.modulemap"
+- "/Users/haruna/Documents/iOSdev/yelpy/Build/Intermediates/Pods.build/Debug-iphonesimulator/Alamofire.build/module.modulemap"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/usr/include/objc/ObjectiveC.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"

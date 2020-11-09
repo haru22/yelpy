@@ -81,6 +81,7 @@ provides-dynamic-lookup:
 - "credential"
 - "data"
 - "defaultDestination"
+- "defaultDestinationURL"
 - "delegate"
 - "description"
 - "destination"
@@ -106,6 +107,7 @@ provides-dynamic-lookup:
 - "downloadProgress"
 - "downloadProgressHandler"
 - "downloadable"
+- "enqueueCompletion"
 - "error"
 - "eventMonitor"
 - "fileManager"
@@ -132,6 +134,8 @@ provides-dynamic-lookup:
 - "mutableDownloadState"
 - "mutableState"
 - "nextResponseSerializer"
+- "onURLRequestCreation"
+- "onURLSessionTaskCreation"
 - "performedRequests"
 - "prepareForRetry"
 - "processNextResponseSerializer"
@@ -519,6 +523,7 @@ depends-member:
 - !private ["s23CustomStringConvertibleP", "data"]
 - !private ["s23CustomStringConvertibleP", "dataTask"]
 - !private ["s23CustomStringConvertibleP", "default"]
+- ["s23CustomStringConvertibleP", "defaultDestinationURL"]
 - !private ["s23CustomStringConvertibleP", "delegate"]
 - ["s23CustomStringConvertibleP", "deletingLastPathComponent"]
 - ["s23CustomStringConvertibleP", "description"]
@@ -534,6 +539,7 @@ depends-member:
 - !private ["s23CustomStringConvertibleP", "downloadProgressHandler"]
 - !private ["s23CustomStringConvertibleP", "downloadTask"]
 - !private ["s23CustomStringConvertibleP", "downloadable"]
+- !private ["s23CustomStringConvertibleP", "enqueueCompletion"]
 - !private ["s23CustomStringConvertibleP", "error"]
 - !private ["s23CustomStringConvertibleP", "eventMonitor"]
 - !private ["s23CustomStringConvertibleP", "expectedContentLength"]
@@ -722,6 +728,7 @@ depends-member:
 - ["9Alamofire17DataStreamRequestC", "convertible"]
 - ["9Alamofire17DataStreamRequestC", "deinit"]
 - ["9Alamofire17DataStreamRequestC", "didReceive"]
+- ["9Alamofire17DataStreamRequestC", "enqueueCompletion"]
 - !private ["9Alamofire17DataStreamRequestC", "error"]
 - !private ["9Alamofire17DataStreamRequestC", "eventMonitor"]
 - ["9Alamofire17DataStreamRequestC", "finish"]
@@ -801,6 +808,7 @@ depends-member:
 - !private ["9Alamofire15DownloadRequestC", "_mutableDownloadState"]
 - ["9Alamofire15DownloadRequestC", "cancel"]
 - ["9Alamofire15DownloadRequestC", "defaultDestination"]
+- ["9Alamofire15DownloadRequestC", "defaultDestinationURL"]
 - ["9Alamofire15DownloadRequestC", "deinit"]
 - ["9Alamofire15DownloadRequestC", "destination"]
 - !private ["9Alamofire15DownloadRequestC", "didCancel"]
@@ -921,6 +929,7 @@ depends-member:
 - !private ["SQ", "data"]
 - !private ["SQ", "dataTask"]
 - !private ["SQ", "default"]
+- ["SQ", "defaultDestinationURL"]
 - !private ["SQ", "delegate"]
 - ["SQ", "deletingLastPathComponent"]
 - ["SQ", "description"]
@@ -937,6 +946,7 @@ depends-member:
 - !private ["SQ", "downloadProgressHandler"]
 - !private ["SQ", "downloadTask"]
 - !private ["SQ", "downloadable"]
+- !private ["SQ", "enqueueCompletion"]
 - !private ["SQ", "error"]
 - !private ["SQ", "eventMonitor"]
 - !private ["SQ", "expectedContentLength"]
@@ -1183,6 +1193,7 @@ depends-member:
 - !private ["SH", "data"]
 - !private ["SH", "dataTask"]
 - !private ["SH", "default"]
+- ["SH", "defaultDestinationURL"]
 - !private ["SH", "delegate"]
 - ["SH", "deletingLastPathComponent"]
 - ["SH", "description"]
@@ -1199,6 +1210,7 @@ depends-member:
 - !private ["SH", "downloadProgressHandler"]
 - !private ["SH", "downloadTask"]
 - !private ["SH", "downloadable"]
+- !private ["SH", "enqueueCompletion"]
 - !private ["SH", "error"]
 - !private ["SH", "eventMonitor"]
 - !private ["SH", "expectedContentLength"]
@@ -1345,6 +1357,8 @@ depends-member:
 - ["9Alamofire7RequestC12MutableStateV", "state"]
 - ["9Alamofire7RequestC12MutableStateV", "tasks"]
 - ["9Alamofire7RequestC12MutableStateV", "uploadProgressHandler"]
+- ["9Alamofire7RequestC12MutableStateV", "urlRequestHandler"]
+- ["9Alamofire7RequestC12MutableStateV", "urlSessionTaskHandler"]
 - !private ["9Alamofire7RequestC12MutableStateV", "withState"]
 - ["So8NSCodingP", "Persistence"]
 - !private ["So8NSCodingP", "expectedContentLength"]
@@ -1703,6 +1717,7 @@ depends-member:
 - ["9Alamofire7RequestC", "credential"]
 - ["9Alamofire7RequestC", "data"]
 - ["9Alamofire7RequestC", "defaultDestination"]
+- ["9Alamofire7RequestC", "defaultDestinationURL"]
 - ["9Alamofire7RequestC", "deinit"]
 - ["9Alamofire7RequestC", "delegate"]
 - ["9Alamofire7RequestC", "description"]
@@ -1730,6 +1745,7 @@ depends-member:
 - ["9Alamofire7RequestC", "downloadProgress"]
 - !private ["9Alamofire7RequestC", "downloadProgressHandler"]
 - ["9Alamofire7RequestC", "downloadable"]
+- ["9Alamofire7RequestC", "enqueueCompletion"]
 - ["9Alamofire7RequestC", "error"]
 - ["9Alamofire7RequestC", "eventMonitor"]
 - !private ["9Alamofire7RequestC", "fatalError"]
@@ -1758,6 +1774,8 @@ depends-member:
 - ["9Alamofire7RequestC", "mutableDownloadState"]
 - !private ["9Alamofire7RequestC", "mutableState"]
 - ["9Alamofire7RequestC", "nextResponseSerializer"]
+- ["9Alamofire7RequestC", "onURLRequestCreation"]
+- ["9Alamofire7RequestC", "onURLSessionTaskCreation"]
 - ["9Alamofire7RequestC", "performedRequests"]
 - !private ["9Alamofire7RequestC", "precondition"]
 - ["9Alamofire7RequestC", "prepareForRetry"]
@@ -1892,10 +1910,11 @@ depends-member:
 - ["9Alamofire17DataStreamRequestC0C0V", "value"]
 - !private ["So8NSStreamC", "write"]
 - ["9Alamofire17DataStreamRequestC0C12MutableStateV", "Data"]
-- ["9Alamofire17DataStreamRequestC0C12MutableStateV", "DispatchQueue"]
 - ["9Alamofire17DataStreamRequestC0C12MutableStateV", "OutputStream"]
 - ["9Alamofire17DataStreamRequestC0C12MutableStateV", "Void"]
+- ["9Alamofire17DataStreamRequestC0C12MutableStateV", "enqueuedCompletionEvents"]
 - ["9Alamofire17DataStreamRequestC0C12MutableStateV", "init"]
+- ["9Alamofire17DataStreamRequestC0C12MutableStateV", "numberOfExecutingStreams"]
 - ["9Alamofire17DataStreamRequestC0C12MutableStateV", "outputStream"]
 - ["9Alamofire17DataStreamRequestC0C12MutableStateV", "streams"]
 - !private ["Sx", "init"]
@@ -2347,7 +2366,7 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Users/haruna/Documents/iOSdev/yelpy/Pods/Target Support Files/Alamofire/Alamofire-umbrella.h"
-- "/Users/haruna/Documents/iOSdev/yelpy/Build/Intermediates/Pods.build/Debug-iphonesimulator/Alamofire.build/unextended-module.modulemap"
+- "/Users/haruna/Documents/iOSdev/yelpy/Build/Intermediates/Pods.build/Debug-iphonesimulator/Alamofire.build/module.modulemap"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/usr/include/objc/ObjectiveC.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
@@ -2361,4 +2380,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
-interface-hash: "558941c9c1a8b592137fd76ff4339617"
+interface-hash: "9c850169fd95c3ac4947459dd24461a5"

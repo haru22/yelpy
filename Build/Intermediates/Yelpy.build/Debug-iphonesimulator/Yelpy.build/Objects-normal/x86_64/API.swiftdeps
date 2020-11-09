@@ -36,6 +36,12 @@ depends-member:
 - !private ["9Alamofire0A8ExtendedP", "append"]
 - !private ["9Alamofire0A8ExtendedP", "default"]
 - !private ["Sa", "append"]
+- !private ["12SkeletonView17AssociatedObjectsP", "dataTask"]
+- !private ["12SkeletonView17AssociatedObjectsP", "default"]
+- !private ["12SkeletonView17AssociatedObjectsP", "init"]
+- !private ["12SkeletonView17AssociatedObjectsP", "jsonObject"]
+- !private ["12SkeletonView17AssociatedObjectsP", "main"]
+- !private ["12SkeletonView17AssociatedObjectsP", "resume"]
 - !private ["SK", "append"]
 - !private ["s7CVarArgP", "append"]
 - !private ["s7CVarArgP", "dataTask"]
@@ -106,6 +112,7 @@ depends-member:
 - !private ["SH", "resume"]
 - !private ["SH", "setValue"]
 - !private ["SH", "subscript"]
+- !private ["6Lottie14InterpolatableP", "append"]
 - !private ["So19NSJSONSerializationC", "jsonObject"]
 - !private ["SM", "append"]
 - !private ["10Foundation19MutableDataProtocolP", "append"]
@@ -129,6 +136,7 @@ depends-member:
 - !private ["Sk", "append"]
 - !private ["Sm", "append"]
 - !private ["SY", "reloadIgnoringLocalCacheData"]
+- !private ["12SkeletonView9RecursiveP", "append"]
 - !private ["10Foundation20ReferenceConvertibleP", "init"]
 - !private ["10Foundation20ReferenceConvertibleP", "setValue"]
 - !private ["5Yelpy10RestaurantC", "init"]
@@ -177,6 +185,7 @@ depends-nominal:
 - "5Yelpy3APIV"
 - !private "9Alamofire0A8ExtendedP"
 - !private "Sa"
+- !private "12SkeletonView17AssociatedObjectsP"
 - !private "SK"
 - !private "s7CVarArgP"
 - !private "So23NSURLRequestCachePolicyV"
@@ -195,6 +204,7 @@ depends-nominal:
 - !private "s25ExpressibleByArrayLiteralP"
 - !private "s30ExpressibleByDictionaryLiteralP"
 - !private "SH"
+- !private "6Lottie14InterpolatableP"
 - !private "So19NSJSONSerializationC"
 - !private "SM"
 - !private "10Foundation19MutableDataProtocolP"
@@ -206,6 +216,7 @@ depends-nominal:
 - !private "Sk"
 - !private "Sm"
 - !private "SY"
+- !private "12SkeletonView9RecursiveP"
 - !private "10Foundation20ReferenceConvertibleP"
 - !private "5Yelpy10RestaurantC"
 - !private "7Combine9SchedulerP"
@@ -244,14 +255,21 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64.swiftmodule"
 - "/Users/haruna/Documents/iOSdev/yelpy/Build/Products/Debug-iphonesimulator/AlamofireImage/AlamofireImage.framework/Modules/AlamofireImage.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/haruna/Documents/iOSdev/yelpy/Build/Products/Debug-iphonesimulator/lottie-ios/Lottie.framework/Modules/Lottie.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Users/haruna/Documents/iOSdev/yelpy/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/Alamofire.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/haruna/Documents/iOSdev/yelpy/Build/Products/Debug-iphonesimulator/SkeletonView/SkeletonView.framework/Modules/SkeletonView.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Users/haruna/Documents/iOSdev/yelpy/Build/Products/Debug-iphonesimulator/AlamofireImage/AlamofireImage.framework/Headers/AlamofireImage-umbrella.h"
 - "/Users/haruna/Documents/iOSdev/yelpy/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-umbrella.h"
+- "/Users/haruna/Documents/iOSdev/yelpy/Build/Products/Debug-iphonesimulator/lottie-ios/Lottie.framework/Headers/lottie-ios-umbrella.h"
+- "/Users/haruna/Documents/iOSdev/yelpy/Build/Products/Debug-iphonesimulator/SkeletonView/SkeletonView.framework/Headers/SkeletonView-umbrella.h"
 - "/Users/haruna/Documents/iOSdev/yelpy/Build/Products/Debug-iphonesimulator/AlamofireImage/AlamofireImage.framework/Headers/AlamofireImage-Swift.h"
-- "/Users/haruna/Documents/iOSdev/yelpy/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/Users/haruna/Documents/iOSdev/yelpy/Build/Products/Debug-iphonesimulator/lottie-ios/Lottie.framework/Headers/Lottie-Swift.h"
+- "/Users/haruna/Documents/iOSdev/yelpy/Build/Products/Debug-iphonesimulator/SkeletonView/SkeletonView.framework/Headers/SkeletonView-Swift.h"
 - "/Users/haruna/Documents/iOSdev/yelpy/Build/Products/Debug-iphonesimulator/AlamofireImage/AlamofireImage.framework/Modules/module.modulemap"
+- "/Users/haruna/Documents/iOSdev/yelpy/Build/Products/Debug-iphonesimulator/lottie-ios/Lottie.framework/Modules/module.modulemap"
 - "/Users/haruna/Documents/iOSdev/yelpy/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/module.modulemap"
+- "/Users/haruna/Documents/iOSdev/yelpy/Build/Products/Debug-iphonesimulator/SkeletonView/SkeletonView.framework/Modules/module.modulemap"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/usr/include/objc/ObjectiveC.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"

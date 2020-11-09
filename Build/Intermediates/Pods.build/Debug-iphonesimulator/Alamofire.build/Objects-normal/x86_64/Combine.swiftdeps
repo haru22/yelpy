@@ -26,6 +26,7 @@ provides-member:
 - ["9Alamofire17DataStreamRequestC", "publishDecodable"]
 - ["9Alamofire15DownloadRequestC", "publishResponse"]
 - ["9Alamofire15DownloadRequestC", "publishResponse"]
+- ["9Alamofire15DownloadRequestC", "publishURL"]
 - ["9Alamofire15DownloadRequestC", "publishData"]
 - ["9Alamofire15DownloadRequestC", "publishString"]
 - ["9Alamofire15DownloadRequestC", "publishDecodable"]
@@ -37,6 +38,7 @@ provides-dynamic-lookup:
 - "publishResponse"
 - "publishStream"
 - "publishString"
+- "publishURL"
 - "publishUnserialized"
 depends-top-level:
 - !private ">"
@@ -83,6 +85,7 @@ depends-top-level:
 - "Subscribers"
 - "Subscription"
 - "URL"
+- !private "URLResponseSerializer"
 - "Void"
 - !private "assert"
 depends-member:
@@ -140,6 +143,7 @@ depends-member:
 - ["s23CustomStringConvertibleP", "Stream"]
 - !private ["s23CustomStringConvertibleP", "StringResponseSerializer"]
 - !private ["s23CustomStringConvertibleP", "StringStreamSerializer"]
+- !private ["s23CustomStringConvertibleP", "URLResponseSerializer"]
 - !private ["s23CustomStringConvertibleP", "cancel"]
 - !private ["s23CustomStringConvertibleP", "main"]
 - !private ["s23CustomStringConvertibleP", "publishResponse"]
@@ -294,11 +298,13 @@ depends-member:
 - ["9Alamofire15DownloadRequestC", "String"]
 - !private ["9Alamofire15DownloadRequestC", "StringResponseSerializer"]
 - ["9Alamofire15DownloadRequestC", "URL"]
+- !private ["9Alamofire15DownloadRequestC", "URLResponseSerializer"]
 - !private ["9Alamofire15DownloadRequestC", "cancel"]
 - ["9Alamofire15DownloadRequestC", "publishData"]
 - ["9Alamofire15DownloadRequestC", "publishDecodable"]
 - ["9Alamofire15DownloadRequestC", "publishResponse"]
 - ["9Alamofire15DownloadRequestC", "publishString"]
+- ["9Alamofire15DownloadRequestC", "publishURL"]
 - ["9Alamofire15DownloadRequestC", "publishUnserialized"]
 - !private ["9Alamofire15DownloadRequestC", "response"]
 - !private ["9Alamofire15DownloadRequestC", "resume"]
@@ -356,6 +362,7 @@ depends-member:
 - ["SQ", "Stream"]
 - !private ["SQ", "StringResponseSerializer"]
 - !private ["SQ", "StringStreamSerializer"]
+- !private ["SQ", "URLResponseSerializer"]
 - !private ["SQ", "callAsFunction"]
 - !private ["SQ", "cancel"]
 - !private ["SQ", "failure"]
@@ -393,6 +400,7 @@ depends-member:
 - ["SH", "Stream"]
 - !private ["SH", "StringResponseSerializer"]
 - !private ["SH", "StringStreamSerializer"]
+- !private ["SH", "URLResponseSerializer"]
 - !private ["SH", "callAsFunction"]
 - !private ["SH", "cancel"]
 - !private ["SH", "failure"]
@@ -469,12 +477,14 @@ depends-member:
 - !private ["9Alamofire7RequestC", "StringResponseSerializer"]
 - !private ["9Alamofire7RequestC", "StringStreamSerializer"]
 - ["9Alamofire7RequestC", "URL"]
+- !private ["9Alamofire7RequestC", "URLResponseSerializer"]
 - !private ["9Alamofire7RequestC", "cancel"]
 - ["9Alamofire7RequestC", "publishData"]
 - ["9Alamofire7RequestC", "publishDecodable"]
 - ["9Alamofire7RequestC", "publishResponse"]
 - ["9Alamofire7RequestC", "publishStream"]
 - ["9Alamofire7RequestC", "publishString"]
+- ["9Alamofire7RequestC", "publishURL"]
 - ["9Alamofire7RequestC", "publishUnserialized"]
 - !private ["9Alamofire7RequestC", "response"]
 - !private ["9Alamofire7RequestC", "responseStream"]
@@ -514,6 +524,8 @@ depends-member:
 - ["s20TextOutputStreamableP", "Encoding"]
 - !private ["7Combine15TopLevelDecoderP", "init"]
 - ["9Alamofire14URLConvertibleP", "Encoding"]
+- !private ["9Alamofire21URLResponseSerializerV", "deinit"]
+- !private ["9Alamofire21URLResponseSerializerV", "init"]
 - ["s30_CustomPlaygroundQuickLookableP", "Encoding"]
 - ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "Encoding"]
 - ["s34_ExpressibleByBuiltinStringLiteralP", "Encoding"]
@@ -601,6 +613,7 @@ depends-nominal:
 - "s20TextOutputStreamableP"
 - !private "7Combine15TopLevelDecoderP"
 - "9Alamofire14URLConvertibleP"
+- !private "9Alamofire21URLResponseSerializerV"
 - "s30_CustomPlaygroundQuickLookableP"
 - "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
 - "s34_ExpressibleByBuiltinStringLiteralP"
@@ -625,7 +638,7 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Users/haruna/Documents/iOSdev/yelpy/Pods/Target Support Files/Alamofire/Alamofire-umbrella.h"
-- "/Users/haruna/Documents/iOSdev/yelpy/Build/Intermediates/Pods.build/Debug-iphonesimulator/Alamofire.build/unextended-module.modulemap"
+- "/Users/haruna/Documents/iOSdev/yelpy/Build/Intermediates/Pods.build/Debug-iphonesimulator/Alamofire.build/module.modulemap"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/usr/include/objc/ObjectiveC.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
@@ -639,4 +652,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
-interface-hash: "953dd2618a7d353e094ac509c6cf7da9"
+interface-hash: "0a5c080a8c25eadfd7770bea709695c9"

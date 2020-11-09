@@ -56,6 +56,7 @@ provides-dynamic-lookup:
 - "updateStatesForTask"
 - "upload"
 - "waitingCompletions"
+- "withAllRequests"
 depends-top-level:
 - !private "!"
 - !private "!="
@@ -715,6 +716,7 @@ depends-member:
 - !private ["9Alamofire15RequestDelegateP", "updateStatesForTask"]
 - !private ["9Alamofire15RequestDelegateP", "upload"]
 - !private ["9Alamofire15RequestDelegateP", "waitingCompletions"]
+- !private ["9Alamofire15RequestDelegateP", "withAllRequests"]
 - ["9Alamofire7SessionC27RequestEncodableConvertibleV", "HTTPHeaders"]
 - ["9Alamofire7SessionC27RequestEncodableConvertibleV", "HTTPMethod"]
 - ["9Alamofire7SessionC27RequestEncodableConvertibleV", "ParameterEncoder"]
@@ -862,6 +864,7 @@ depends-member:
 - ["9Alamofire7SessionC", "updateStatesForTask"]
 - ["9Alamofire7SessionC", "upload"]
 - ["9Alamofire7SessionC", "waitingCompletions"]
+- ["9Alamofire7SessionC", "withAllRequests"]
 - !private ["9Alamofire15SessionDelegateC", "deinit"]
 - !private ["9Alamofire15SessionDelegateC", "eventMonitor"]
 - !private ["9Alamofire15SessionDelegateC", "init"]
@@ -937,6 +940,7 @@ depends-member:
 - !private ["9Alamofire20SessionStateProviderP", "updateStatesForTask"]
 - !private ["9Alamofire20SessionStateProviderP", "upload"]
 - !private ["9Alamofire20SessionStateProviderP", "waitingCompletions"]
+- !private ["9Alamofire20SessionStateProviderP", "withAllRequests"]
 - !private ["Sh", "forEach"]
 - !private ["Sh", "insert"]
 - !private ["Sh", "remove"]
@@ -1234,7 +1238,7 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Users/haruna/Documents/iOSdev/yelpy/Pods/Target Support Files/Alamofire/Alamofire-umbrella.h"
-- "/Users/haruna/Documents/iOSdev/yelpy/Build/Intermediates/Pods.build/Debug-iphonesimulator/Alamofire.build/unextended-module.modulemap"
+- "/Users/haruna/Documents/iOSdev/yelpy/Build/Intermediates/Pods.build/Debug-iphonesimulator/Alamofire.build/module.modulemap"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/usr/include/objc/ObjectiveC.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
@@ -1248,4 +1252,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
-interface-hash: "fd358ce4f3b2e197dc9fdd6d81de8dc2"
+interface-hash: "1ffd6e5a211ba280404a06e5eb74e5d3"

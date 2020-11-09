@@ -6,6 +6,7 @@ provides-top-level:
 - "DataPreprocessor"
 - "PassthroughPreprocessor"
 - "GoogleXSSIPreprocessor"
+- "URLResponseSerializer"
 - "DataResponseSerializer"
 - "StringResponseSerializer"
 - "JSONResponseSerializer"
@@ -24,6 +25,7 @@ provides-nominal:
 - "9Alamofire16DataPreprocessorP"
 - "9Alamofire23PassthroughPreprocessorV"
 - "9Alamofire22GoogleXSSIPreprocessorV"
+- "9Alamofire21URLResponseSerializerV"
 - "9Alamofire22DataResponseSerializerC"
 - "9Alamofire24StringResponseSerializerC"
 - "9Alamofire22JSONResponseSerializerC"
@@ -46,6 +48,7 @@ provides-member:
 - ["9Alamofire22GoogleXSSIPreprocessorV", ""]
 - ["9Alamofire11DataRequestC", ""]
 - ["9Alamofire15DownloadRequestC", ""]
+- ["9Alamofire21URLResponseSerializerV", ""]
 - ["9Alamofire22DataResponseSerializerC", ""]
 - ["9Alamofire24StringResponseSerializerC", ""]
 - ["9Alamofire22JSONResponseSerializerC", ""]
@@ -74,6 +77,7 @@ provides-member:
 - ["9Alamofire11DataRequestC", "response"]
 - ["9Alamofire15DownloadRequestC", "response"]
 - ["9Alamofire15DownloadRequestC", "response"]
+- ["9Alamofire15DownloadRequestC", "responseURL"]
 - ["9Alamofire11DataRequestC", "responseData"]
 - ["9Alamofire15DownloadRequestC", "responseData"]
 - ["9Alamofire11DataRequestC", "responseString"]
@@ -100,10 +104,13 @@ provides-dynamic-lookup:
 - "responseStreamDecodable"
 - "responseStreamString"
 - "responseString"
+- "responseURL"
 - "serialize"
+- "updateAndCompleteIfPossible"
 depends-top-level:
 - !private "!"
 - !private "-"
+- !private "-="
 - !private "=="
 - !private "??"
 - "AFDataResponse"
@@ -160,6 +167,7 @@ depends-top-level:
 - "TernaryPrecedence"
 - "URL"
 - "URLRequest"
+- "URLResponseSerializer"
 - !private "UTF8"
 - "Void"
 - !private "||"
@@ -167,13 +175,21 @@ depends-member:
 - ["9Alamofire7AFErrorO", "deinit"]
 - !private ["9Alamofire7AFErrorO", "responseSerializationFailed"]
 - !private ["9Alamofire0A8ExtendedP", "append"]
+- !private ["9Alamofire0A8ExtendedP", "forEach"]
+- !private ["9Alamofire0A8ExtendedP", "isEmpty"]
+- !private ["9Alamofire0A8ExtendedP", "removeAll"]
 - !private ["Sa", "append"]
+- !private ["Sa", "forEach"]
+- !private ["Sa", "isEmpty"]
+- !private ["Sa", "removeAll"]
 - ["SK", "Encoding"]
 - !private ["SK", "append"]
 - !private ["SK", "dropFirst"]
+- !private ["SK", "forEach"]
 - !private ["SK", "init"]
 - !private ["SK", "isEmpty"]
 - !private ["SK", "prefix"]
+- !private ["SK", "removeAll"]
 - !private ["SK", "utf8"]
 - !private ["So8CAActionP", "init"]
 - ["s7CVarArgP", "Encoding"]
@@ -181,10 +197,13 @@ depends-member:
 - !private ["s7CVarArgP", "append"]
 - !private ["s7CVarArgP", "async"]
 - !private ["s7CVarArgP", "contains"]
+- !private ["s7CVarArgP", "forEach"]
 - !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "isEmpty"]
 - !private ["s7CVarArgP", "jsonObject"]
 - !private ["s7CVarArgP", "main"]
 - !private ["s7CVarArgP", "processInfo"]
+- !private ["s7CVarArgP", "removeAll"]
 - !private ["s7CVarArgP", "statusCode"]
 - !private ["s7CVarArgP", "systemUptime"]
 - !private ["s7CVarArgP", "textEncodingName"]
@@ -200,18 +219,22 @@ depends-member:
 - !private ["Sl", "append"]
 - !private ["Sl", "contains"]
 - !private ["Sl", "dropFirst"]
+- !private ["Sl", "forEach"]
 - !private ["Sl", "init"]
 - !private ["Sl", "isEmpty"]
 - !private ["Sl", "prefix"]
+- !private ["Sl", "removeAll"]
 - !private ["Sl", "utf8"]
 - ["SL", "Encoding"]
 - !private ["SL", "init"]
 - !private ["SL", "utf8"]
 - !private ["10Foundation15ContiguousBytesP", "append"]
 - !private ["10Foundation15ContiguousBytesP", "dropFirst"]
+- !private ["10Foundation15ContiguousBytesP", "forEach"]
 - !private ["10Foundation15ContiguousBytesP", "init"]
 - !private ["10Foundation15ContiguousBytesP", "isEmpty"]
 - !private ["10Foundation15ContiguousBytesP", "prefix"]
+- !private ["10Foundation15ContiguousBytesP", "removeAll"]
 - ["s28CustomDebugStringConvertibleP", "Encoding"]
 - ["s28CustomDebugStringConvertibleP", "ReadingOptions"]
 - !private ["s28CustomDebugStringConvertibleP", ""]
@@ -223,6 +246,7 @@ depends-member:
 - ["s28CustomDebugStringConvertibleP", "description"]
 - !private ["s28CustomDebugStringConvertibleP", "dropFirst"]
 - !private ["s28CustomDebugStringConvertibleP", "flatMap"]
+- !private ["s28CustomDebugStringConvertibleP", "forEach"]
 - !private ["s28CustomDebugStringConvertibleP", "httpMethod"]
 - ["s28CustomDebugStringConvertibleP", "init"]
 - ["s28CustomDebugStringConvertibleP", "intValue"]
@@ -233,6 +257,7 @@ depends-member:
 - !private ["s28CustomDebugStringConvertibleP", "map"]
 - !private ["s28CustomDebugStringConvertibleP", "prefix"]
 - !private ["s28CustomDebugStringConvertibleP", "processInfo"]
+- !private ["s28CustomDebugStringConvertibleP", "removeAll"]
 - !private ["s28CustomDebugStringConvertibleP", "statusCode"]
 - ["s28CustomDebugStringConvertibleP", "stringValue"]
 - !private ["s28CustomDebugStringConvertibleP", "systemUptime"]
@@ -244,12 +269,14 @@ depends-member:
 - !private ["s17CustomReflectableP", "contains"]
 - !private ["s17CustomReflectableP", "dropFirst"]
 - !private ["s17CustomReflectableP", "flatMap"]
+- !private ["s17CustomReflectableP", "forEach"]
 - !private ["s17CustomReflectableP", "httpMethod"]
 - !private ["s17CustomReflectableP", "init"]
 - !private ["s17CustomReflectableP", "isEmpty"]
 - !private ["s17CustomReflectableP", "isoLatin1"]
 - !private ["s17CustomReflectableP", "map"]
 - !private ["s17CustomReflectableP", "prefix"]
+- !private ["s17CustomReflectableP", "removeAll"]
 - !private ["s17CustomReflectableP", "utf8"]
 - !private ["s23CustomStringConvertibleP", "$streamMutableState"]
 - !private ["s23CustomStringConvertibleP", "AFResult"]
@@ -268,6 +295,7 @@ depends-member:
 - ["s23CustomStringConvertibleP", "Self"]
 - !private ["s23CustomStringConvertibleP", "String"]
 - !private ["s23CustomStringConvertibleP", "StringResponseSerializer"]
+- !private ["s23CustomStringConvertibleP", "URLResponseSerializer"]
 - !private ["s23CustomStringConvertibleP", "UTF8"]
 - !private ["s23CustomStringConvertibleP", ""]
 - !private ["s23CustomStringConvertibleP", "append"]
@@ -288,6 +316,7 @@ depends-member:
 - !private ["s23CustomStringConvertibleP", "error"]
 - !private ["s23CustomStringConvertibleP", "eventMonitor"]
 - !private ["s23CustomStringConvertibleP", "fileURL"]
+- !private ["s23CustomStringConvertibleP", "forEach"]
 - !private ["s23CustomStringConvertibleP", "httpMethod"]
 - ["s23CustomStringConvertibleP", "init"]
 - ["s23CustomStringConvertibleP", "intValue"]
@@ -298,6 +327,7 @@ depends-member:
 - !private ["s23CustomStringConvertibleP", "metrics"]
 - !private ["s23CustomStringConvertibleP", "prefix"]
 - !private ["s23CustomStringConvertibleP", "processInfo"]
+- !private ["s23CustomStringConvertibleP", "removeAll"]
 - !private ["s23CustomStringConvertibleP", "request"]
 - !private ["s23CustomStringConvertibleP", "response"]
 - !private ["s23CustomStringConvertibleP", "responseSerializerDidComplete"]
@@ -309,6 +339,7 @@ depends-member:
 - !private ["s23CustomStringConvertibleP", "systemUptime"]
 - !private ["s23CustomStringConvertibleP", "textEncodingName"]
 - !private ["s23CustomStringConvertibleP", "underlyingQueue"]
+- !private ["s23CustomStringConvertibleP", "updateAndCompleteIfPossible"]
 - !private ["s23CustomStringConvertibleP", "utf8"]
 - !private ["10Foundation4DataV", "dropFirst"]
 - !private ["10Foundation4DataV", "init"]
@@ -325,9 +356,11 @@ depends-member:
 - ["9Alamofire16DataPreprocessorP", "preprocess"]
 - !private ["10Foundation12DataProtocolP", "append"]
 - !private ["10Foundation12DataProtocolP", "dropFirst"]
+- !private ["10Foundation12DataProtocolP", "forEach"]
 - !private ["10Foundation12DataProtocolP", "init"]
 - !private ["10Foundation12DataProtocolP", "isEmpty"]
 - !private ["10Foundation12DataProtocolP", "prefix"]
+- !private ["10Foundation12DataProtocolP", "removeAll"]
 - ["9Alamofire11DataRequestC", "AFDataResponse"]
 - !private ["9Alamofire11DataRequestC", "AFResult"]
 - ["9Alamofire11DataRequestC", "Data"]
@@ -454,6 +487,8 @@ depends-member:
 - ["9Alamofire17DataStreamRequestC", "responseStreamDecodable"]
 - ["9Alamofire17DataStreamRequestC", "responseStreamString"]
 - !private ["9Alamofire17DataStreamRequestC", "serializationQueue"]
+- !private ["9Alamofire17DataStreamRequestC", "underlyingQueue"]
+- !private ["9Alamofire17DataStreamRequestC", "updateAndCompleteIfPossible"]
 - !private ["9Alamofire20DataStreamSerializerP", "AFError"]
 - ["9Alamofire20DataStreamSerializerP", "Data"]
 - !private ["9Alamofire20DataStreamSerializerP", "JSONDecoder"]
@@ -477,11 +512,13 @@ depends-member:
 - ["Se", "emptyValue"]
 - ["Se", "encode"]
 - !private ["Se", "flatMap"]
+- !private ["Se", "forEach"]
 - ["Se", "init"]
 - !private ["Se", "isEmpty"]
 - !private ["Se", "isoLatin1"]
 - !private ["Se", "map"]
 - !private ["Se", "prefix"]
+- !private ["Se", "removeAll"]
 - !private ["Se", "utf8"]
 - !private ["Se", "value"]
 - !private ["9Alamofire27DecodableResponseSerializerC", "AFError"]
@@ -553,6 +590,7 @@ depends-member:
 - ["9Alamofire15DownloadRequestC", "String"]
 - !private ["9Alamofire15DownloadRequestC", "StringResponseSerializer"]
 - ["9Alamofire15DownloadRequestC", "URL"]
+- !private ["9Alamofire15DownloadRequestC", "URLResponseSerializer"]
 - ["9Alamofire15DownloadRequestC", "Void"]
 - !private ["9Alamofire15DownloadRequestC", "appendResponseSerializer"]
 - !private ["9Alamofire15DownloadRequestC", "delegate"]
@@ -567,6 +605,7 @@ depends-member:
 - ["9Alamofire15DownloadRequestC", "responseJSON"]
 - !private ["9Alamofire15DownloadRequestC", "responseSerializerDidComplete"]
 - ["9Alamofire15DownloadRequestC", "responseString"]
+- ["9Alamofire15DownloadRequestC", "responseURL"]
 - !private ["9Alamofire15DownloadRequestC", "resumeData"]
 - !private ["9Alamofire15DownloadRequestC", "underlyingQueue"]
 - !private ["9Alamofire16DownloadResponseV", "init"]
@@ -632,11 +671,13 @@ depends-member:
 - ["SE", "emptyValue"]
 - ["SE", "encode"]
 - !private ["SE", "flatMap"]
+- !private ["SE", "forEach"]
 - ["SE", "init"]
 - !private ["SE", "isEmpty"]
 - !private ["SE", "isoLatin1"]
 - !private ["SE", "map"]
 - !private ["SE", "prefix"]
+- !private ["SE", "removeAll"]
 - !private ["SE", "utf8"]
 - !private ["SE", "value"]
 - !private ["s7EncoderP", "container"]
@@ -659,6 +700,7 @@ depends-member:
 - ["SQ", "Self"]
 - !private ["SQ", "String"]
 - !private ["SQ", "StringResponseSerializer"]
+- !private ["SQ", "URLResponseSerializer"]
 - !private ["SQ", "UTF8"]
 - !private ["SQ", "allowFragments"]
 - !private ["SQ", "append"]
@@ -678,6 +720,7 @@ depends-member:
 - !private ["SQ", "failure"]
 - !private ["SQ", "fileURL"]
 - !private ["SQ", "flatMap"]
+- !private ["SQ", "forEach"]
 - !private ["SQ", "head"]
 - !private ["SQ", "httpMethod"]
 - !private ["SQ", "init"]
@@ -691,6 +734,7 @@ depends-member:
 - !private ["SQ", "metrics"]
 - !private ["SQ", "prefix"]
 - !private ["SQ", "processInfo"]
+- !private ["SQ", "removeAll"]
 - !private ["SQ", "request"]
 - !private ["SQ", "response"]
 - !private ["SQ", "responseSerializerDidComplete"]
@@ -702,6 +746,7 @@ depends-member:
 - !private ["SQ", "systemUptime"]
 - !private ["SQ", "textEncodingName"]
 - !private ["SQ", "underlyingQueue"]
+- !private ["SQ", "updateAndCompleteIfPossible"]
 - !private ["SQ", "utf8"]
 - !private ["s5ErrorP", "asAFError"]
 - !private ["s5ErrorP", "responseSerializationFailed"]
@@ -710,6 +755,9 @@ depends-member:
 - !private ["s25ExpressibleByArrayLiteralP", "allowFragments"]
 - !private ["s25ExpressibleByArrayLiteralP", "append"]
 - !private ["s25ExpressibleByArrayLiteralP", "contains"]
+- !private ["s25ExpressibleByArrayLiteralP", "forEach"]
+- !private ["s25ExpressibleByArrayLiteralP", "isEmpty"]
+- !private ["s25ExpressibleByArrayLiteralP", "removeAll"]
 - ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "Encoding"]
 - !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
 - !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "utf8"]
@@ -752,6 +800,7 @@ depends-member:
 - ["SH", "Self"]
 - !private ["SH", "String"]
 - !private ["SH", "StringResponseSerializer"]
+- !private ["SH", "URLResponseSerializer"]
 - !private ["SH", "UTF8"]
 - !private ["SH", "append"]
 - !private ["SH", "appendResponseSerializer"]
@@ -770,6 +819,7 @@ depends-member:
 - !private ["SH", "failure"]
 - !private ["SH", "fileURL"]
 - !private ["SH", "flatMap"]
+- !private ["SH", "forEach"]
 - !private ["SH", "head"]
 - !private ["SH", "httpMethod"]
 - !private ["SH", "init"]
@@ -783,6 +833,7 @@ depends-member:
 - !private ["SH", "metrics"]
 - !private ["SH", "prefix"]
 - !private ["SH", "processInfo"]
+- !private ["SH", "removeAll"]
 - !private ["SH", "request"]
 - !private ["SH", "response"]
 - !private ["SH", "responseSerializerDidComplete"]
@@ -794,6 +845,7 @@ depends-member:
 - !private ["SH", "systemUptime"]
 - !private ["SH", "textEncodingName"]
 - !private ["SH", "underlyingQueue"]
+- !private ["SH", "updateAndCompleteIfPossible"]
 - !private ["SH", "utf8"]
 - ["10Foundation11JSONDecoderC", "decode"]
 - ["10Foundation11JSONDecoderC", "deinit"]
@@ -835,14 +887,18 @@ depends-member:
 - !private ["s10MirrorPathP", "utf8"]
 - !private ["SM", "append"]
 - !private ["SM", "dropFirst"]
+- !private ["SM", "forEach"]
 - !private ["SM", "init"]
 - !private ["SM", "isEmpty"]
 - !private ["SM", "prefix"]
+- !private ["SM", "removeAll"]
 - !private ["10Foundation19MutableDataProtocolP", "append"]
 - !private ["10Foundation19MutableDataProtocolP", "dropFirst"]
+- !private ["10Foundation19MutableDataProtocolP", "forEach"]
 - !private ["10Foundation19MutableDataProtocolP", "init"]
 - !private ["10Foundation19MutableDataProtocolP", "isEmpty"]
 - !private ["10Foundation19MutableDataProtocolP", "prefix"]
+- !private ["10Foundation19MutableDataProtocolP", "removeAll"]
 - !private ["So8NSCodingP", "init"]
 - !private ["So8NSCodingP", "statusCode"]
 - !private ["So8NSCodingP", "textEncodingName"]
@@ -904,15 +960,19 @@ depends-member:
 - !private ["9Alamofire9ProtectedC", "write"]
 - !private ["Sk", "append"]
 - !private ["Sk", "dropFirst"]
+- !private ["Sk", "forEach"]
 - !private ["Sk", "init"]
 - !private ["Sk", "isEmpty"]
 - !private ["Sk", "prefix"]
+- !private ["Sk", "removeAll"]
 - ["Sm", "Encoding"]
 - !private ["Sm", "append"]
 - !private ["Sm", "dropFirst"]
+- !private ["Sm", "forEach"]
 - !private ["Sm", "init"]
 - !private ["Sm", "isEmpty"]
 - !private ["Sm", "prefix"]
+- !private ["Sm", "removeAll"]
 - !private ["Sm", "utf8"]
 - !private ["SY", "allowFragments"]
 - !private ["SY", "head"]
@@ -957,6 +1017,7 @@ depends-member:
 - ["9Alamofire7RequestC", "String"]
 - !private ["9Alamofire7RequestC", "StringResponseSerializer"]
 - ["9Alamofire7RequestC", "URL"]
+- !private ["9Alamofire7RequestC", "URLResponseSerializer"]
 - !private ["9Alamofire7RequestC", "UTF8"]
 - ["9Alamofire7RequestC", "Void"]
 - !private ["9Alamofire7RequestC", "appendResponseSerializer"]
@@ -980,9 +1041,11 @@ depends-member:
 - ["9Alamofire7RequestC", "responseStreamDecodable"]
 - ["9Alamofire7RequestC", "responseStreamString"]
 - ["9Alamofire7RequestC", "responseString"]
+- ["9Alamofire7RequestC", "responseURL"]
 - !private ["9Alamofire7RequestC", "resumeData"]
 - !private ["9Alamofire7RequestC", "serializationQueue"]
 - !private ["9Alamofire7RequestC", "underlyingQueue"]
+- ["9Alamofire7RequestC", "updateAndCompleteIfPossible"]
 - !private ["9Alamofire15RequestDelegateP", "retryRequest"]
 - !private ["9Alamofire15RequestDelegateP", "retryResult"]
 - !private ["9Alamofire7AFErrorO34ResponseSerializationFailureReasonO", "customSerializationFailed"]
@@ -1045,14 +1108,18 @@ depends-member:
 - !private ["ST", "append"]
 - !private ["ST", "contains"]
 - !private ["ST", "dropFirst"]
+- !private ["ST", "forEach"]
 - !private ["ST", "init"]
 - !private ["ST", "isEmpty"]
 - !private ["ST", "prefix"]
+- !private ["ST", "removeAll"]
 - !private ["ST", "utf8"]
 - !private ["Sh", "contains"]
 - !private ["s10SetAlgebraP", "allowFragments"]
 - !private ["s10SetAlgebraP", "contains"]
 - !private ["9Alamofire17DataStreamRequestC0C0V", "init"]
+- !private ["9Alamofire17DataStreamRequestC0C12MutableStateV", "enqueuedCompletionEvents"]
+- !private ["9Alamofire17DataStreamRequestC0C12MutableStateV", "numberOfExecutingStreams"]
 - !private ["9Alamofire17DataStreamRequestC0C12MutableStateV", "streams"]
 - ["SS", "Encoding"]
 - !private ["SS", "init"]
@@ -1112,11 +1179,27 @@ depends-member:
 - !private ["9Alamofire21URLRequestConvertibleP", "httpMethod"]
 - !private ["So13NSURLResponseC", "statusCode"]
 - !private ["So13NSURLResponseC", "textEncodingName"]
+- !private ["9Alamofire21URLResponseSerializerV", "AFError"]
+- ["9Alamofire21URLResponseSerializerV", "Error"]
+- ["9Alamofire21URLResponseSerializerV", "HTTPURLResponse"]
+- ["9Alamofire21URLResponseSerializerV", "SerializedObject"]
+- ["9Alamofire21URLResponseSerializerV", "URL"]
+- ["9Alamofire21URLResponseSerializerV", "URLRequest"]
+- ["9Alamofire21URLResponseSerializerV", "_Default_SerializedObject"]
+- ["9Alamofire21URLResponseSerializerV", "deinit"]
+- ["9Alamofire21URLResponseSerializerV", "init"]
+- ["9Alamofire21URLResponseSerializerV", "serializeDownload"]
 - !private ["s14_ArrayProtocolP", "append"]
+- !private ["s14_ArrayProtocolP", "forEach"]
+- !private ["s14_ArrayProtocolP", "isEmpty"]
+- !private ["s14_ArrayProtocolP", "removeAll"]
 - ["s30_CustomPlaygroundQuickLookableP", "Encoding"]
 - !private ["s30_CustomPlaygroundQuickLookableP", "init"]
 - !private ["s30_CustomPlaygroundQuickLookableP", "utf8"]
 - !private ["s24_DestructorSafeContainerP", "append"]
+- !private ["s24_DestructorSafeContainerP", "forEach"]
+- !private ["s24_DestructorSafeContainerP", "isEmpty"]
+- !private ["s24_DestructorSafeContainerP", "removeAll"]
 - ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "Encoding"]
 - !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
 - !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "utf8"]
@@ -1128,10 +1211,16 @@ depends-member:
 - !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "utf8"]
 - ["s19_HasContiguousBytesP", "Encoding"]
 - !private ["s19_HasContiguousBytesP", "append"]
+- !private ["s19_HasContiguousBytesP", "forEach"]
 - !private ["s19_HasContiguousBytesP", "init"]
+- !private ["s19_HasContiguousBytesP", "isEmpty"]
+- !private ["s19_HasContiguousBytesP", "removeAll"]
 - !private ["s19_HasContiguousBytesP", "utf8"]
 - !private ["s35_HasCustomAnyHashableRepresentationP", "append"]
 - !private ["s35_HasCustomAnyHashableRepresentationP", "contains"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "forEach"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "isEmpty"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "removeAll"]
 - !private ["s35_HasCustomAnyHashableRepresentationP", "utf8"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "ReadingOptions"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "async"]
@@ -1159,12 +1248,14 @@ depends-member:
 - !private ["s21_ObjectiveCBridgeableP", "contains"]
 - !private ["s21_ObjectiveCBridgeableP", "dropFirst"]
 - !private ["s21_ObjectiveCBridgeableP", "flatMap"]
+- !private ["s21_ObjectiveCBridgeableP", "forEach"]
 - !private ["s21_ObjectiveCBridgeableP", "httpMethod"]
 - !private ["s21_ObjectiveCBridgeableP", "init"]
 - !private ["s21_ObjectiveCBridgeableP", "isEmpty"]
 - !private ["s21_ObjectiveCBridgeableP", "isoLatin1"]
 - !private ["s21_ObjectiveCBridgeableP", "map"]
 - !private ["s21_ObjectiveCBridgeableP", "prefix"]
+- !private ["s21_ObjectiveCBridgeableP", "removeAll"]
 - !private ["s21_ObjectiveCBridgeableP", "utf8"]
 depends-nominal:
 - "9Alamofire7AFErrorO"
@@ -1274,6 +1365,7 @@ depends-nominal:
 - !private "10Foundation10URLRequestV"
 - !private "9Alamofire21URLRequestConvertibleP"
 - !private "So13NSURLResponseC"
+- "9Alamofire21URLResponseSerializerV"
 - !private "s14_ArrayProtocolP"
 - "s30_CustomPlaygroundQuickLookableP"
 - !private "s24_DestructorSafeContainerP"
@@ -1301,7 +1393,7 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Users/haruna/Documents/iOSdev/yelpy/Pods/Target Support Files/Alamofire/Alamofire-umbrella.h"
-- "/Users/haruna/Documents/iOSdev/yelpy/Build/Intermediates/Pods.build/Debug-iphonesimulator/Alamofire.build/unextended-module.modulemap"
+- "/Users/haruna/Documents/iOSdev/yelpy/Build/Intermediates/Pods.build/Debug-iphonesimulator/Alamofire.build/module.modulemap"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/usr/include/objc/ObjectiveC.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
@@ -1315,4 +1407,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
-interface-hash: "3f5badc409c5797ab6f9c9ef30810e40"
+interface-hash: "844c44a289d52afd987a403cf3f40a2e"

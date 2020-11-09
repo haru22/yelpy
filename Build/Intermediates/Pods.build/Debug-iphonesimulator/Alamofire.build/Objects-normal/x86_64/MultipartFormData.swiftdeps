@@ -3,15 +3,15 @@ provides-top-level:
 - "MultipartFormData"
 provides-nominal:
 - "9Alamofire17MultipartFormDataC"
-- "9Alamofire17MultipartFormDataC18EncodingCharactersV"
-- "9Alamofire17MultipartFormDataC17BoundaryGeneratorV"
-- "9Alamofire17MultipartFormDataC17BoundaryGeneratorV0E4TypeO"
+- "9Alamofire17MultipartFormDataC18EncodingCharactersO"
+- "9Alamofire17MultipartFormDataC17BoundaryGeneratorO"
+- "9Alamofire17MultipartFormDataC17BoundaryGeneratorO0E4TypeO"
 - "9Alamofire17MultipartFormDataC8BodyPartC"
 provides-member:
 - ["9Alamofire17MultipartFormDataC", ""]
-- ["9Alamofire17MultipartFormDataC18EncodingCharactersV", ""]
-- ["9Alamofire17MultipartFormDataC17BoundaryGeneratorV", ""]
-- ["9Alamofire17MultipartFormDataC17BoundaryGeneratorV0E4TypeO", ""]
+- ["9Alamofire17MultipartFormDataC18EncodingCharactersO", ""]
+- ["9Alamofire17MultipartFormDataC17BoundaryGeneratorO", ""]
+- ["9Alamofire17MultipartFormDataC17BoundaryGeneratorO0E4TypeO", ""]
 - ["9Alamofire17MultipartFormDataC8BodyPartC", ""]
 provides-dynamic-lookup:
 - "$__lazy_storage_$_contentType"
@@ -136,23 +136,22 @@ depends-member:
 - ["9Alamofire17MultipartFormDataC8BodyPartC", "hasInitialBoundary"]
 - ["9Alamofire17MultipartFormDataC8BodyPartC", "headers"]
 - ["9Alamofire17MultipartFormDataC8BodyPartC", "init"]
-- ["9Alamofire17MultipartFormDataC17BoundaryGeneratorV", "BoundaryType"]
-- ["9Alamofire17MultipartFormDataC17BoundaryGeneratorV", "Data"]
-- !private ["9Alamofire17MultipartFormDataC17BoundaryGeneratorV", "EncodingCharacters"]
-- ["9Alamofire17MultipartFormDataC17BoundaryGeneratorV", "String"]
-- !private ["9Alamofire17MultipartFormDataC17BoundaryGeneratorV", "UInt32"]
-- ["9Alamofire17MultipartFormDataC17BoundaryGeneratorV", "boundaryData"]
-- ["9Alamofire17MultipartFormDataC17BoundaryGeneratorV", "init"]
-- ["9Alamofire17MultipartFormDataC17BoundaryGeneratorV", "randomBoundary"]
-- ["9Alamofire17MultipartFormDataC17BoundaryGeneratorV0E4TypeO", "=="]
-- ["9Alamofire17MultipartFormDataC17BoundaryGeneratorV0E4TypeO", "__derived_enum_equals"]
-- ["9Alamofire17MultipartFormDataC17BoundaryGeneratorV0E4TypeO", "_rawHashValue"]
-- ["9Alamofire17MultipartFormDataC17BoundaryGeneratorV0E4TypeO", "deinit"]
-- ["9Alamofire17MultipartFormDataC17BoundaryGeneratorV0E4TypeO", "encapsulated"]
-- ["9Alamofire17MultipartFormDataC17BoundaryGeneratorV0E4TypeO", "final"]
-- ["9Alamofire17MultipartFormDataC17BoundaryGeneratorV0E4TypeO", "hash"]
-- ["9Alamofire17MultipartFormDataC17BoundaryGeneratorV0E4TypeO", "hashValue"]
-- ["9Alamofire17MultipartFormDataC17BoundaryGeneratorV0E4TypeO", "initial"]
+- ["9Alamofire17MultipartFormDataC17BoundaryGeneratorO", "BoundaryType"]
+- ["9Alamofire17MultipartFormDataC17BoundaryGeneratorO", "Data"]
+- !private ["9Alamofire17MultipartFormDataC17BoundaryGeneratorO", "EncodingCharacters"]
+- ["9Alamofire17MultipartFormDataC17BoundaryGeneratorO", "String"]
+- !private ["9Alamofire17MultipartFormDataC17BoundaryGeneratorO", "UInt32"]
+- ["9Alamofire17MultipartFormDataC17BoundaryGeneratorO", "boundaryData"]
+- ["9Alamofire17MultipartFormDataC17BoundaryGeneratorO", "randomBoundary"]
+- ["9Alamofire17MultipartFormDataC17BoundaryGeneratorO0E4TypeO", "=="]
+- ["9Alamofire17MultipartFormDataC17BoundaryGeneratorO0E4TypeO", "__derived_enum_equals"]
+- ["9Alamofire17MultipartFormDataC17BoundaryGeneratorO0E4TypeO", "_rawHashValue"]
+- ["9Alamofire17MultipartFormDataC17BoundaryGeneratorO0E4TypeO", "deinit"]
+- ["9Alamofire17MultipartFormDataC17BoundaryGeneratorO0E4TypeO", "encapsulated"]
+- ["9Alamofire17MultipartFormDataC17BoundaryGeneratorO0E4TypeO", "final"]
+- ["9Alamofire17MultipartFormDataC17BoundaryGeneratorO0E4TypeO", "hash"]
+- ["9Alamofire17MultipartFormDataC17BoundaryGeneratorO0E4TypeO", "hashValue"]
+- ["9Alamofire17MultipartFormDataC17BoundaryGeneratorO0E4TypeO", "initial"]
 - !private ["s7CVarArgP", "append"]
 - !private ["s7CVarArgP", "attributesOfItem"]
 - !private ["s7CVarArgP", "close"]
@@ -347,8 +346,7 @@ depends-member:
 - !private ["SE", "size"]
 - !private ["SE", "subscript"]
 - !private ["SE", "utf8"]
-- ["9Alamofire17MultipartFormDataC18EncodingCharactersV", "crlf"]
-- ["9Alamofire17MultipartFormDataC18EncodingCharactersV", "init"]
+- ["9Alamofire17MultipartFormDataC18EncodingCharactersO", "crlf"]
 - ["SQ", "=="]
 - ["SQ", ""]
 - ["SQ", "_rawHashValue"]
@@ -872,8 +870,8 @@ depends-nominal:
 - !private "SK"
 - !private "Sz"
 - "9Alamofire17MultipartFormDataC8BodyPartC"
-- "9Alamofire17MultipartFormDataC17BoundaryGeneratorV"
-- "9Alamofire17MultipartFormDataC17BoundaryGeneratorV0E4TypeO"
+- "9Alamofire17MultipartFormDataC17BoundaryGeneratorO"
+- "9Alamofire17MultipartFormDataC17BoundaryGeneratorO0E4TypeO"
 - !private "s7CVarArgP"
 - !private "Sl"
 - !private "SL"
@@ -887,7 +885,7 @@ depends-nominal:
 - "s26DefaultStringInterpolationV"
 - !private "SD"
 - !private "SE"
-- "9Alamofire17MultipartFormDataC18EncodingCharactersV"
+- "9Alamofire17MultipartFormDataC18EncodingCharactersO"
 - "SQ"
 - "s5ErrorP"
 - !private "s25ExpressibleByArrayLiteralP"
@@ -981,7 +979,7 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Users/haruna/Documents/iOSdev/yelpy/Pods/Target Support Files/Alamofire/Alamofire-umbrella.h"
-- "/Users/haruna/Documents/iOSdev/yelpy/Build/Intermediates/Pods.build/Debug-iphonesimulator/Alamofire.build/unextended-module.modulemap"
+- "/Users/haruna/Documents/iOSdev/yelpy/Build/Intermediates/Pods.build/Debug-iphonesimulator/Alamofire.build/module.modulemap"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/usr/include/objc/ObjectiveC.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
@@ -995,4 +993,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
-interface-hash: "a2ae487095015d8d7a401fc33c9200b4"
+interface-hash: "8f3bca25f121f3e9f2fe36c9a94a0ee5"

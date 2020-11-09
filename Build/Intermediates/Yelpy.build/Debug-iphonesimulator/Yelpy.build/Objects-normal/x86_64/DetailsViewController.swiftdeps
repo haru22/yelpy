@@ -20,6 +20,13 @@ depends-top-level:
 depends-member:
 - !private ["9Alamofire0A8ExtendedP", "af"]
 - !private ["9Alamofire0A9ExtensionV", "setImage"]
+- ["12SkeletonView17AssociatedObjectsP", ""]
+- !private ["12SkeletonView17AssociatedObjectsP", "af"]
+- !private ["12SkeletonView17AssociatedObjectsP", "r"]
+- !private ["12SkeletonView17AssociatedObjectsP", "restaurantImage"]
+- !private ["12SkeletonView17AssociatedObjectsP", "restaurantName"]
+- !private ["12SkeletonView17AssociatedObjectsP", "text"]
+- !private ["12SkeletonView17AssociatedObjectsP", "viewDidLoad"]
 - !private ["So15CALayerDelegateP", "af"]
 - !private ["So15CALayerDelegateP", "text"]
 - ["s7CVarArgP", ""]
@@ -29,6 +36,7 @@ depends-member:
 - !private ["s7CVarArgP", "restaurantName"]
 - !private ["s7CVarArgP", "text"]
 - !private ["s7CVarArgP", "viewDidLoad"]
+- !private ["12SkeletonView21ContainsMultilineTextP", "text"]
 - ["s28CustomDebugStringConvertibleP", ""]
 - !private ["s28CustomDebugStringConvertibleP", "af"]
 - !private ["s28CustomDebugStringConvertibleP", "imageURL"]
@@ -88,6 +96,8 @@ depends-member:
 - !private ["SH", "restaurantName"]
 - !private ["SH", "text"]
 - !private ["SH", "viewDidLoad"]
+- !private ["12SkeletonView15IterableElementP", "af"]
+- !private ["12SkeletonView15IterableElementP", "text"]
 - ["So8NSCodingP", ""]
 - !private ["So8NSCodingP", "af"]
 - !private ["So8NSCodingP", "r"]
@@ -121,6 +131,8 @@ depends-member:
 - !private ["Sq", "imageURL"]
 - !private ["Sq", "name"]
 - !private ["Sq", "text"]
+- !private ["12SkeletonView11RecoverableP", "af"]
+- !private ["12SkeletonView11RecoverableP", "text"]
 - !private ["5Yelpy10RestaurantC", "imageURL"]
 - !private ["5Yelpy10RestaurantC", "name"]
 - !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "af"]
@@ -237,8 +249,10 @@ depends-member:
 depends-nominal:
 - !private "9Alamofire0A8ExtendedP"
 - !private "9Alamofire0A9ExtensionV"
+- "12SkeletonView17AssociatedObjectsP"
 - !private "So15CALayerDelegateP"
 - "s7CVarArgP"
+- !private "12SkeletonView21ContainsMultilineTextP"
 - "s28CustomDebugStringConvertibleP"
 - !private "s17CustomReflectableP"
 - "s23CustomStringConvertibleP"
@@ -248,11 +262,13 @@ depends-nominal:
 - "SQ"
 - !private "s23ExpressibleByNilLiteralP"
 - "SH"
+- !private "12SkeletonView15IterableElementP"
 - "So8NSCodingP"
 - "So26NSExtensionRequestHandlingP"
 - "So8NSObjectC"
 - "So8NSObjectP"
 - !private "Sq"
+- !private "12SkeletonView11RecoverableP"
 - !private "5Yelpy10RestaurantC"
 - !private "So48UIAccessibilityContentSizeCategoryImageAdjustingP"
 - !private "So29UIAccessibilityIdentificationP"
@@ -295,14 +311,21 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64.swiftmodule"
 - "/Users/haruna/Documents/iOSdev/yelpy/Build/Products/Debug-iphonesimulator/AlamofireImage/AlamofireImage.framework/Modules/AlamofireImage.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/haruna/Documents/iOSdev/yelpy/Build/Products/Debug-iphonesimulator/lottie-ios/Lottie.framework/Modules/Lottie.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Users/haruna/Documents/iOSdev/yelpy/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/Alamofire.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/haruna/Documents/iOSdev/yelpy/Build/Products/Debug-iphonesimulator/SkeletonView/SkeletonView.framework/Modules/SkeletonView.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Users/haruna/Documents/iOSdev/yelpy/Build/Products/Debug-iphonesimulator/AlamofireImage/AlamofireImage.framework/Headers/AlamofireImage-umbrella.h"
 - "/Users/haruna/Documents/iOSdev/yelpy/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-umbrella.h"
+- "/Users/haruna/Documents/iOSdev/yelpy/Build/Products/Debug-iphonesimulator/lottie-ios/Lottie.framework/Headers/lottie-ios-umbrella.h"
+- "/Users/haruna/Documents/iOSdev/yelpy/Build/Products/Debug-iphonesimulator/SkeletonView/SkeletonView.framework/Headers/SkeletonView-umbrella.h"
 - "/Users/haruna/Documents/iOSdev/yelpy/Build/Products/Debug-iphonesimulator/AlamofireImage/AlamofireImage.framework/Headers/AlamofireImage-Swift.h"
-- "/Users/haruna/Documents/iOSdev/yelpy/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/Users/haruna/Documents/iOSdev/yelpy/Build/Products/Debug-iphonesimulator/lottie-ios/Lottie.framework/Headers/Lottie-Swift.h"
+- "/Users/haruna/Documents/iOSdev/yelpy/Build/Products/Debug-iphonesimulator/SkeletonView/SkeletonView.framework/Headers/SkeletonView-Swift.h"
 - "/Users/haruna/Documents/iOSdev/yelpy/Build/Products/Debug-iphonesimulator/AlamofireImage/AlamofireImage.framework/Modules/module.modulemap"
+- "/Users/haruna/Documents/iOSdev/yelpy/Build/Products/Debug-iphonesimulator/lottie-ios/Lottie.framework/Modules/module.modulemap"
 - "/Users/haruna/Documents/iOSdev/yelpy/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/module.modulemap"
+- "/Users/haruna/Documents/iOSdev/yelpy/Build/Products/Debug-iphonesimulator/SkeletonView/SkeletonView.framework/Modules/module.modulemap"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/usr/include/objc/ObjectiveC.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"

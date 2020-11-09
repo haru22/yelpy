@@ -4,60 +4,45 @@
 <dict>
 	<key>files</key>
 	<dict>
-		<key>Headers/Alamofire-Swift.h</key>
-		<data>
-		FxW77tazZ2a2PytDcgVp8cEQQ+M=
-		</data>
 		<key>Headers/Alamofire-umbrella.h</key>
 		<data>
 		mHfdAFXADntqiLfvjq4XWpdZQHk=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		RdLhY5uNoIiIEhMS0kKqq97ELEA=
+		hjxDnKHNy7kJ812HDytp3KFoPm8=
 		</data>
 		<key>Modules/Alamofire.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		Nv9ZHuBT1fn8+LZUwQnCQUSXEJs=
+		D0wSC1cDB8d+OnTjRlT9JJoq9js=
 		</data>
 		<key>Modules/Alamofire.swiftmodule/Project/x86_64.swiftsourceinfo</key>
 		<data>
-		Nv9ZHuBT1fn8+LZUwQnCQUSXEJs=
+		D0wSC1cDB8d+OnTjRlT9JJoq9js=
 		</data>
 		<key>Modules/Alamofire.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		XdxrW2bvQngwD6IkN9Yuac2wadY=
+		rlGl5KzOjG1SIkNyseUS8JdxkAk=
 		</data>
 		<key>Modules/Alamofire.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		W1rv8/CHactg8uYtlWa/+pDAl88=
+		ddG+RLsRwDuxtzG1aDasp+Z3CrQ=
 		</data>
 		<key>Modules/Alamofire.swiftmodule/x86_64.swiftdoc</key>
 		<data>
-		XdxrW2bvQngwD6IkN9Yuac2wadY=
+		rlGl5KzOjG1SIkNyseUS8JdxkAk=
 		</data>
 		<key>Modules/Alamofire.swiftmodule/x86_64.swiftmodule</key>
 		<data>
-		W1rv8/CHactg8uYtlWa/+pDAl88=
+		ddG+RLsRwDuxtzG1aDasp+Z3CrQ=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
-		9Ums++nXhQLKaEcNhfzalH9ejhY=
+		a6oWjyLsyJtSWEZoMMaa5BjvQVU=
 		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
-		<key>Headers/Alamofire-Swift.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			FxW77tazZ2a2PytDcgVp8cEQQ+M=
-			</data>
-			<key>hash2</key>
-			<data>
-			dXvfldKh2y0AAzv6U2Ay5knBIbVZrXAc65YVFXsWLsw=
-			</data>
-		</dict>
 		<key>Headers/Alamofire-umbrella.h</key>
 		<dict>
 			<key>hash</key>
@@ -73,77 +58,77 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Nv9ZHuBT1fn8+LZUwQnCQUSXEJs=
+			D0wSC1cDB8d+OnTjRlT9JJoq9js=
 			</data>
 			<key>hash2</key>
 			<data>
-			gC5Px0kKA3G1QorHITUAxqROjeTNy3nt0au9ug9jXRY=
+			j/IbeVkkZw3nKEYwfR0SqX3GfbTz1SBlrzqNfoPjhRE=
 			</data>
 		</dict>
 		<key>Modules/Alamofire.swiftmodule/Project/x86_64.swiftsourceinfo</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Nv9ZHuBT1fn8+LZUwQnCQUSXEJs=
+			D0wSC1cDB8d+OnTjRlT9JJoq9js=
 			</data>
 			<key>hash2</key>
 			<data>
-			gC5Px0kKA3G1QorHITUAxqROjeTNy3nt0au9ug9jXRY=
+			j/IbeVkkZw3nKEYwfR0SqX3GfbTz1SBlrzqNfoPjhRE=
 			</data>
 		</dict>
 		<key>Modules/Alamofire.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			XdxrW2bvQngwD6IkN9Yuac2wadY=
+			rlGl5KzOjG1SIkNyseUS8JdxkAk=
 			</data>
 			<key>hash2</key>
 			<data>
-			iW8hVX3e2dUvgvzgefARG8Jw8r/WpVlqRqAh9lmHj78=
+			gfB9LL/EAy7dqr+dhdk6QW/NFvrEa4Du1JFj+lWE7HY=
 			</data>
 		</dict>
 		<key>Modules/Alamofire.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			W1rv8/CHactg8uYtlWa/+pDAl88=
+			ddG+RLsRwDuxtzG1aDasp+Z3CrQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			nkvDwd+0/R8czpSAMNVyLMAoxzjWcdNNANs7A+ORchE=
+			g2b4g1/1ePhZCys4lWM/iuxsR2gdv+VwdIdxiAr9WMg=
 			</data>
 		</dict>
 		<key>Modules/Alamofire.swiftmodule/x86_64.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			XdxrW2bvQngwD6IkN9Yuac2wadY=
+			rlGl5KzOjG1SIkNyseUS8JdxkAk=
 			</data>
 			<key>hash2</key>
 			<data>
-			iW8hVX3e2dUvgvzgefARG8Jw8r/WpVlqRqAh9lmHj78=
+			gfB9LL/EAy7dqr+dhdk6QW/NFvrEa4Du1JFj+lWE7HY=
 			</data>
 		</dict>
 		<key>Modules/Alamofire.swiftmodule/x86_64.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			W1rv8/CHactg8uYtlWa/+pDAl88=
+			ddG+RLsRwDuxtzG1aDasp+Z3CrQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			nkvDwd+0/R8czpSAMNVyLMAoxzjWcdNNANs7A+ORchE=
+			g2b4g1/1ePhZCys4lWM/iuxsR2gdv+VwdIdxiAr9WMg=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			9Ums++nXhQLKaEcNhfzalH9ejhY=
+			a6oWjyLsyJtSWEZoMMaa5BjvQVU=
 			</data>
 			<key>hash2</key>
 			<data>
-			zcU8bVhOaokCl1lFQeFJLNJeJBCnQdBq/SWwylWOuSk=
+			HEwCERMsg60HYq8g22v9StGXbOfLyUSsId9CSSOfsFI=
 			</data>
 		</dict>
 	</dict>

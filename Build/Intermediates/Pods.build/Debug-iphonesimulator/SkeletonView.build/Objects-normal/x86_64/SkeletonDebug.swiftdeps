@@ -1,0 +1,599 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "SkeletonEnvironmentKey"
+- "printSkeletonHierarchy"
+- "skeletonLog"
+provides-nominal:
+- "12SkeletonView0A14EnvironmentKeyO"
+provides-member:
+- ["12SkeletonView0A14EnvironmentKeyO", ""]
+- ["SD", ""]
+- ["So6UIViewC", ""]
+- ["SD", "subscript"]
+- ["So6UIViewC", "skeletonDescription"]
+- ["So6UIViewC", "skeletonHierarchy"]
+provides-dynamic-lookup:
+- "skeletonDescription"
+- "skeletonHierarchy"
+depends-top-level:
+- !private "!"
+- !private "!="
+- !private "+"
+- !private "+="
+- "=="
+- "CastingPrecedence"
+- "Dictionary"
+- "FloatLiteralType"
+- "Int"
+- "IntegerLiteralType"
+- !private "ProcessInfo"
+- "SkeletonEnvironmentKey"
+- "String"
+- "StringLiteralType"
+- "TernaryPrecedence"
+- "UIView"
+- !private "UnicodeScalarType"
+- !private "Unmanaged"
+- !private "_findStringSwitchCase"
+- !private "print"
+- "printSkeletonHierarchy"
+- "skeletonLog"
+- !private "type"
+- !private "~="
+depends-member:
+- !private ["s18AdditiveArithmeticP", "whitespaces"]
+- !private ["Sa", "count"]
+- !private ["Sa", "forEach"]
+- !private ["Sa", "isEmpty"]
+- !private ["12SkeletonView17AssociatedObjectsP", "Unmanaged"]
+- !private ["12SkeletonView17AssociatedObjectsP", "environment"]
+- !private ["12SkeletonView17AssociatedObjectsP", "isSkeletonable"]
+- !private ["12SkeletonView17AssociatedObjectsP", "processInfo"]
+- !private ["12SkeletonView17AssociatedObjectsP", "skeletonDescription"]
+- !private ["12SkeletonView17AssociatedObjectsP", "skeletonHierarchy"]
+- !private ["12SkeletonView17AssociatedObjectsP", "subviewsSkeletonables"]
+- !private ["12SkeletonView17AssociatedObjectsP", "subviewsToSkeleton"]
+- !private ["12SkeletonView17AssociatedObjectsP", "type"]
+- !private ["SK", "count"]
+- !private ["SK", "debugMode"]
+- !private ["SK", "forEach"]
+- !private ["SK", "isEmpty"]
+- !private ["Sz", "whitespaces"]
+- !private ["So15CALayerDelegateP", "Unmanaged"]
+- !private ["So15CALayerDelegateP", "isSkeletonable"]
+- !private ["So15CALayerDelegateP", "skeletonDescription"]
+- !private ["So15CALayerDelegateP", "skeletonHierarchy"]
+- !private ["So15CALayerDelegateP", "subviewsSkeletonables"]
+- !private ["So15CALayerDelegateP", "subviewsToSkeleton"]
+- !private ["So15CALayerDelegateP", "type"]
+- !private ["s7CVarArgP", "Unmanaged"]
+- !private ["s7CVarArgP", "count"]
+- !private ["s7CVarArgP", "debugMode"]
+- !private ["s7CVarArgP", "environment"]
+- !private ["s7CVarArgP", "forEach"]
+- !private ["s7CVarArgP", "isEmpty"]
+- !private ["s7CVarArgP", "isSkeletonable"]
+- !private ["s7CVarArgP", "processInfo"]
+- !private ["s7CVarArgP", "skeletonDescription"]
+- !private ["s7CVarArgP", "skeletonHierarchy"]
+- !private ["s7CVarArgP", "subscript"]
+- !private ["s7CVarArgP", "subviewsSkeletonables"]
+- !private ["s7CVarArgP", "subviewsToSkeleton"]
+- !private ["s7CVarArgP", "type"]
+- !private ["s7CVarArgP", "whitespaces"]
+- !private ["Sl", "count"]
+- !private ["Sl", "debugMode"]
+- !private ["Sl", "forEach"]
+- !private ["Sl", "isEmpty"]
+- !private ["Sl", "subscript"]
+- !private ["SL", "debugMode"]
+- !private ["SL", "whitespaces"]
+- !private ["10Foundation15ContiguousBytesP", "count"]
+- !private ["10Foundation15ContiguousBytesP", "forEach"]
+- !private ["10Foundation15ContiguousBytesP", "isEmpty"]
+- !private ["s28CustomDebugStringConvertibleP", "Unmanaged"]
+- !private ["s28CustomDebugStringConvertibleP", "count"]
+- !private ["s28CustomDebugStringConvertibleP", "debugMode"]
+- !private ["s28CustomDebugStringConvertibleP", "environment"]
+- !private ["s28CustomDebugStringConvertibleP", "forEach"]
+- !private ["s28CustomDebugStringConvertibleP", "isEmpty"]
+- !private ["s28CustomDebugStringConvertibleP", "isSkeletonable"]
+- !private ["s28CustomDebugStringConvertibleP", "processInfo"]
+- !private ["s28CustomDebugStringConvertibleP", "skeletonDescription"]
+- !private ["s28CustomDebugStringConvertibleP", "skeletonHierarchy"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "subviewsSkeletonables"]
+- !private ["s28CustomDebugStringConvertibleP", "subviewsToSkeleton"]
+- !private ["s28CustomDebugStringConvertibleP", "type"]
+- !private ["s17CustomReflectableP", "count"]
+- !private ["s17CustomReflectableP", "debugMode"]
+- !private ["s17CustomReflectableP", "forEach"]
+- !private ["s17CustomReflectableP", "isEmpty"]
+- !private ["s17CustomReflectableP", "subscript"]
+- !private ["s17CustomReflectableP", "whitespaces"]
+- !private ["s23CustomStringConvertibleP", "Unmanaged"]
+- !private ["s23CustomStringConvertibleP", "appendInterpolation"]
+- !private ["s23CustomStringConvertibleP", "appendLiteral"]
+- !private ["s23CustomStringConvertibleP", "count"]
+- !private ["s23CustomStringConvertibleP", "debugMode"]
+- !private ["s23CustomStringConvertibleP", "environment"]
+- !private ["s23CustomStringConvertibleP", "forEach"]
+- !private ["s23CustomStringConvertibleP", "isEmpty"]
+- !private ["s23CustomStringConvertibleP", "isSkeletonable"]
+- !private ["s23CustomStringConvertibleP", "processInfo"]
+- !private ["s23CustomStringConvertibleP", "skeletonDescription"]
+- !private ["s23CustomStringConvertibleP", "skeletonHierarchy"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "subviewsSkeletonables"]
+- !private ["s23CustomStringConvertibleP", "subviewsToSkeleton"]
+- !private ["s23CustomStringConvertibleP", "type"]
+- !private ["s23CustomStringConvertibleP", "whitespaces"]
+- !private ["10Foundation12DataProtocolP", "count"]
+- !private ["10Foundation12DataProtocolP", "forEach"]
+- !private ["10Foundation12DataProtocolP", "isEmpty"]
+- !private ["Se", "count"]
+- !private ["Se", "debugMode"]
+- !private ["Se", "forEach"]
+- !private ["Se", "isEmpty"]
+- !private ["Se", "subscript"]
+- !private ["Se", "whitespaces"]
+- !private ["s26DefaultStringInterpolationV", "appendInterpolation"]
+- !private ["s26DefaultStringInterpolationV", "appendLiteral"]
+- ["SD", "SkeletonEnvironmentKey"]
+- ["SD", "subscript"]
+- !private ["SE", "count"]
+- !private ["SE", "debugMode"]
+- !private ["SE", "forEach"]
+- !private ["SE", "isEmpty"]
+- !private ["SE", "subscript"]
+- !private ["SE", "whitespaces"]
+- ["SQ", "=="]
+- ["SQ", "RawValue"]
+- !private ["SQ", "Unmanaged"]
+- ["SQ", ""]
+- ["SQ", "_Default_RawValue"]
+- !private ["SQ", "_findStringSwitchCase"]
+- ["SQ", "_rawHashValue"]
+- !private ["SQ", "count"]
+- !private ["SQ", "debugMode"]
+- !private ["SQ", "environment"]
+- !private ["SQ", "forEach"]
+- ["SQ", "hash"]
+- ["SQ", "hashValue"]
+- ["SQ", "init"]
+- !private ["SQ", "isEmpty"]
+- !private ["SQ", "isSkeletonable"]
+- !private ["SQ", "processInfo"]
+- ["SQ", "rawValue"]
+- !private ["SQ", "skeletonDescription"]
+- !private ["SQ", "skeletonHierarchy"]
+- !private ["SQ", "subscript"]
+- !private ["SQ", "subviewsSkeletonables"]
+- !private ["SQ", "subviewsToSkeleton"]
+- !private ["SQ", "type"]
+- !private ["SQ", "whitespaces"]
+- !private ["s25ExpressibleByArrayLiteralP", "count"]
+- !private ["s25ExpressibleByArrayLiteralP", "forEach"]
+- !private ["s25ExpressibleByArrayLiteralP", "isEmpty"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "subscript"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "debugMode"]
+- !private ["s27ExpressibleByIntegerLiteralP", "whitespaces"]
+- !private ["s32ExpressibleByStringInterpolationP", "debugMode"]
+- !private ["s26ExpressibleByStringLiteralP", "debugMode"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "debugMode"]
+- !private ["s17FixedWidthIntegerP", "whitespaces"]
+- ["SH", "=="]
+- ["SH", "RawValue"]
+- !private ["SH", "Unmanaged"]
+- ["SH", ""]
+- ["SH", "_Default_RawValue"]
+- !private ["SH", "_findStringSwitchCase"]
+- ["SH", "_rawHashValue"]
+- !private ["SH", "count"]
+- !private ["SH", "debugMode"]
+- !private ["SH", "environment"]
+- !private ["SH", "forEach"]
+- ["SH", "hash"]
+- ["SH", "hashValue"]
+- ["SH", "init"]
+- !private ["SH", "isEmpty"]
+- !private ["SH", "isSkeletonable"]
+- !private ["SH", "processInfo"]
+- ["SH", "rawValue"]
+- !private ["SH", "skeletonDescription"]
+- !private ["SH", "skeletonHierarchy"]
+- !private ["SH", "subscript"]
+- !private ["SH", "subviewsSkeletonables"]
+- !private ["SH", "subviewsToSkeleton"]
+- !private ["SH", "type"]
+- !private ["SH", "whitespaces"]
+- !private ["SD5IndexV", "debugMode"]
+- !private ["Si", "whitespaces"]
+- !private ["12SkeletonView15IterableElementP", "Unmanaged"]
+- !private ["12SkeletonView15IterableElementP", "isSkeletonable"]
+- !private ["12SkeletonView15IterableElementP", "skeletonDescription"]
+- !private ["12SkeletonView15IterableElementP", "skeletonHierarchy"]
+- !private ["12SkeletonView15IterableElementP", "subviewsSkeletonables"]
+- !private ["12SkeletonView15IterableElementP", "subviewsToSkeleton"]
+- !private ["12SkeletonView15IterableElementP", "type"]
+- !private ["s25LosslessStringConvertibleP", "debugMode"]
+- !private ["s25LosslessStringConvertibleP", "whitespaces"]
+- !private ["s10MirrorPathP", "debugMode"]
+- !private ["s10MirrorPathP", "whitespaces"]
+- !private ["SM", "count"]
+- !private ["SM", "forEach"]
+- !private ["SM", "isEmpty"]
+- !private ["10Foundation19MutableDataProtocolP", "count"]
+- !private ["10Foundation19MutableDataProtocolP", "forEach"]
+- !private ["10Foundation19MutableDataProtocolP", "isEmpty"]
+- !private ["So8NSCodingP", "Unmanaged"]
+- !private ["So8NSCodingP", "isSkeletonable"]
+- !private ["So8NSCodingP", "skeletonDescription"]
+- !private ["So8NSCodingP", "skeletonHierarchy"]
+- !private ["So8NSCodingP", "subviewsSkeletonables"]
+- !private ["So8NSCodingP", "subviewsToSkeleton"]
+- !private ["So8NSCodingP", "type"]
+- ["So8NSObjectC", "Int"]
+- ["So8NSObjectC", "String"]
+- !private ["So8NSObjectC", "Unmanaged"]
+- !private ["So8NSObjectC", "environment"]
+- !private ["So8NSObjectC", "isSkeletonable"]
+- !private ["So8NSObjectC", "processInfo"]
+- ["So8NSObjectC", "skeletonDescription"]
+- ["So8NSObjectC", "skeletonHierarchy"]
+- !private ["So8NSObjectC", "subviewsSkeletonables"]
+- !private ["So8NSObjectC", "subviewsToSkeleton"]
+- !private ["So8NSObjectC", "type"]
+- !private ["So8NSObjectP", "Unmanaged"]
+- !private ["So8NSObjectP", "environment"]
+- !private ["So8NSObjectP", "isSkeletonable"]
+- !private ["So8NSObjectP", "processInfo"]
+- !private ["So8NSObjectP", "skeletonDescription"]
+- !private ["So8NSObjectP", "skeletonHierarchy"]
+- !private ["So8NSObjectP", "subviewsSkeletonables"]
+- !private ["So8NSObjectP", "subviewsToSkeleton"]
+- !private ["So8NSObjectP", "type"]
+- !private ["Sj", "whitespaces"]
+- !private ["So13NSProcessInfoC", "environment"]
+- !private ["So13NSProcessInfoC", "processInfo"]
+- !private ["Sk", "count"]
+- !private ["Sk", "debugMode"]
+- !private ["Sk", "forEach"]
+- !private ["Sk", "isEmpty"]
+- !private ["Sn", "debugMode"]
+- !private ["SX", "debugMode"]
+- !private ["Sm", "count"]
+- !private ["Sm", "debugMode"]
+- !private ["Sm", "forEach"]
+- !private ["Sm", "isEmpty"]
+- ["SY", "=="]
+- ["SY", "RawValue"]
+- ["SY", ""]
+- ["SY", "_Default_RawValue"]
+- !private ["SY", "_findStringSwitchCase"]
+- ["SY", "_rawHashValue"]
+- !private ["SY", "debugMode"]
+- ["SY", "hash"]
+- ["SY", "hashValue"]
+- ["SY", "init"]
+- ["SY", "rawValue"]
+- !private ["12SkeletonView11RecoverableP", "Unmanaged"]
+- !private ["12SkeletonView11RecoverableP", "isSkeletonable"]
+- !private ["12SkeletonView11RecoverableP", "skeletonDescription"]
+- !private ["12SkeletonView11RecoverableP", "skeletonHierarchy"]
+- !private ["12SkeletonView11RecoverableP", "subviewsSkeletonables"]
+- !private ["12SkeletonView11RecoverableP", "subviewsToSkeleton"]
+- !private ["12SkeletonView11RecoverableP", "type"]
+- !private ["12SkeletonView9RecursiveP", "count"]
+- !private ["12SkeletonView9RecursiveP", "forEach"]
+- !private ["12SkeletonView9RecursiveP", "isEmpty"]
+- !private ["s10SIMDScalarP", "whitespaces"]
+- !private ["ST", "count"]
+- !private ["ST", "debugMode"]
+- !private ["ST", "forEach"]
+- !private ["ST", "isEmpty"]
+- !private ["ST", "subscript"]
+- !private ["SZ", "whitespaces"]
+- !private ["s13SignedNumericP", "whitespaces"]
+- ["12SkeletonView0A14EnvironmentKeyO", "=="]
+- ["12SkeletonView0A14EnvironmentKeyO", "RawValue"]
+- ["12SkeletonView0A14EnvironmentKeyO", "_Default_RawValue"]
+- !private ["12SkeletonView0A14EnvironmentKeyO", "_findStringSwitchCase"]
+- ["12SkeletonView0A14EnvironmentKeyO", "_rawHashValue"]
+- ["12SkeletonView0A14EnvironmentKeyO", "debugMode"]
+- ["12SkeletonView0A14EnvironmentKeyO", "deinit"]
+- ["12SkeletonView0A14EnvironmentKeyO", "hash"]
+- ["12SkeletonView0A14EnvironmentKeyO", "hashValue"]
+- ["12SkeletonView0A14EnvironmentKeyO", "init"]
+- ["12SkeletonView0A14EnvironmentKeyO", "rawValue"]
+- !private ["Sx", "whitespaces"]
+- !private ["SS", "debugMode"]
+- !private ["s27StringInterpolationProtocolP", "appendInterpolation"]
+- !private ["s27StringInterpolationProtocolP", "appendLiteral"]
+- !private ["Sy", "debugMode"]
+- !private ["s16TextOutputStreamP", "appendInterpolation"]
+- !private ["s16TextOutputStreamP", "appendLiteral"]
+- !private ["s16TextOutputStreamP", "debugMode"]
+- !private ["s20TextOutputStreamableP", "debugMode"]
+- !private ["So29UIAccessibilityIdentificationP", "Unmanaged"]
+- !private ["So29UIAccessibilityIdentificationP", "isSkeletonable"]
+- !private ["So29UIAccessibilityIdentificationP", "skeletonDescription"]
+- !private ["So29UIAccessibilityIdentificationP", "skeletonHierarchy"]
+- !private ["So29UIAccessibilityIdentificationP", "subviewsSkeletonables"]
+- !private ["So29UIAccessibilityIdentificationP", "subviewsToSkeleton"]
+- !private ["So29UIAccessibilityIdentificationP", "type"]
+- !private ["So12UIAppearanceP", "Unmanaged"]
+- !private ["So12UIAppearanceP", "isSkeletonable"]
+- !private ["So12UIAppearanceP", "skeletonDescription"]
+- !private ["So12UIAppearanceP", "skeletonHierarchy"]
+- !private ["So12UIAppearanceP", "subviewsSkeletonables"]
+- !private ["So12UIAppearanceP", "subviewsToSkeleton"]
+- !private ["So12UIAppearanceP", "type"]
+- !private ["So21UIAppearanceContainerP", "Unmanaged"]
+- !private ["So21UIAppearanceContainerP", "isSkeletonable"]
+- !private ["So21UIAppearanceContainerP", "skeletonDescription"]
+- !private ["So21UIAppearanceContainerP", "skeletonHierarchy"]
+- !private ["So21UIAppearanceContainerP", "subviewsSkeletonables"]
+- !private ["So21UIAppearanceContainerP", "subviewsToSkeleton"]
+- !private ["So21UIAppearanceContainerP", "type"]
+- !private ["So17UICoordinateSpaceP", "Unmanaged"]
+- !private ["So17UICoordinateSpaceP", "isSkeletonable"]
+- !private ["So17UICoordinateSpaceP", "skeletonDescription"]
+- !private ["So17UICoordinateSpaceP", "skeletonHierarchy"]
+- !private ["So17UICoordinateSpaceP", "subviewsSkeletonables"]
+- !private ["So17UICoordinateSpaceP", "subviewsToSkeleton"]
+- !private ["So17UICoordinateSpaceP", "type"]
+- !private ["So13UIDynamicItemP", "Unmanaged"]
+- !private ["So13UIDynamicItemP", "isSkeletonable"]
+- !private ["So13UIDynamicItemP", "skeletonDescription"]
+- !private ["So13UIDynamicItemP", "skeletonHierarchy"]
+- !private ["So13UIDynamicItemP", "subviewsSkeletonables"]
+- !private ["So13UIDynamicItemP", "subviewsToSkeleton"]
+- !private ["So13UIDynamicItemP", "type"]
+- !private ["So18UIFocusEnvironmentP", "Unmanaged"]
+- !private ["So18UIFocusEnvironmentP", "isSkeletonable"]
+- !private ["So18UIFocusEnvironmentP", "skeletonDescription"]
+- !private ["So18UIFocusEnvironmentP", "skeletonHierarchy"]
+- !private ["So18UIFocusEnvironmentP", "subviewsSkeletonables"]
+- !private ["So18UIFocusEnvironmentP", "subviewsToSkeleton"]
+- !private ["So18UIFocusEnvironmentP", "type"]
+- !private ["So11UIFocusItemP", "Unmanaged"]
+- !private ["So11UIFocusItemP", "isSkeletonable"]
+- !private ["So11UIFocusItemP", "skeletonDescription"]
+- !private ["So11UIFocusItemP", "skeletonHierarchy"]
+- !private ["So11UIFocusItemP", "subviewsSkeletonables"]
+- !private ["So11UIFocusItemP", "subviewsToSkeleton"]
+- !private ["So11UIFocusItemP", "type"]
+- !private ["So20UIFocusItemContainerP", "Unmanaged"]
+- !private ["So20UIFocusItemContainerP", "isSkeletonable"]
+- !private ["So20UIFocusItemContainerP", "skeletonDescription"]
+- !private ["So20UIFocusItemContainerP", "skeletonHierarchy"]
+- !private ["So20UIFocusItemContainerP", "subviewsSkeletonables"]
+- !private ["So20UIFocusItemContainerP", "subviewsToSkeleton"]
+- !private ["So20UIFocusItemContainerP", "type"]
+- !private ["So24UILargeContentViewerItemP", "Unmanaged"]
+- !private ["So24UILargeContentViewerItemP", "isSkeletonable"]
+- !private ["So24UILargeContentViewerItemP", "skeletonDescription"]
+- !private ["So24UILargeContentViewerItemP", "skeletonHierarchy"]
+- !private ["So24UILargeContentViewerItemP", "subviewsSkeletonables"]
+- !private ["So24UILargeContentViewerItemP", "subviewsToSkeleton"]
+- !private ["So24UILargeContentViewerItemP", "type"]
+- !private ["So30UIPasteConfigurationSupportingP", "Unmanaged"]
+- !private ["So30UIPasteConfigurationSupportingP", "isSkeletonable"]
+- !private ["So30UIPasteConfigurationSupportingP", "skeletonDescription"]
+- !private ["So30UIPasteConfigurationSupportingP", "skeletonHierarchy"]
+- !private ["So30UIPasteConfigurationSupportingP", "subviewsSkeletonables"]
+- !private ["So30UIPasteConfigurationSupportingP", "subviewsToSkeleton"]
+- !private ["So30UIPasteConfigurationSupportingP", "type"]
+- ["So11UIResponderC", "Int"]
+- ["So11UIResponderC", "String"]
+- !private ["So11UIResponderC", "Unmanaged"]
+- !private ["So11UIResponderC", "isSkeletonable"]
+- ["So11UIResponderC", "skeletonDescription"]
+- ["So11UIResponderC", "skeletonHierarchy"]
+- !private ["So11UIResponderC", "subviewsSkeletonables"]
+- !private ["So11UIResponderC", "subviewsToSkeleton"]
+- !private ["So11UIResponderC", "type"]
+- !private ["So30UIResponderStandardEditActionsP", "Unmanaged"]
+- !private ["So30UIResponderStandardEditActionsP", "isSkeletonable"]
+- !private ["So30UIResponderStandardEditActionsP", "skeletonDescription"]
+- !private ["So30UIResponderStandardEditActionsP", "skeletonHierarchy"]
+- !private ["So30UIResponderStandardEditActionsP", "subviewsSkeletonables"]
+- !private ["So30UIResponderStandardEditActionsP", "subviewsToSkeleton"]
+- !private ["So30UIResponderStandardEditActionsP", "type"]
+- !private ["So18UITraitEnvironmentP", "Unmanaged"]
+- !private ["So18UITraitEnvironmentP", "isSkeletonable"]
+- !private ["So18UITraitEnvironmentP", "skeletonDescription"]
+- !private ["So18UITraitEnvironmentP", "skeletonHierarchy"]
+- !private ["So18UITraitEnvironmentP", "subviewsSkeletonables"]
+- !private ["So18UITraitEnvironmentP", "subviewsToSkeleton"]
+- !private ["So18UITraitEnvironmentP", "type"]
+- !private ["So23UIUserActivityRestoringP", "Unmanaged"]
+- !private ["So23UIUserActivityRestoringP", "isSkeletonable"]
+- !private ["So23UIUserActivityRestoringP", "skeletonDescription"]
+- !private ["So23UIUserActivityRestoringP", "skeletonHierarchy"]
+- !private ["So23UIUserActivityRestoringP", "subviewsSkeletonables"]
+- !private ["So23UIUserActivityRestoringP", "subviewsToSkeleton"]
+- !private ["So23UIUserActivityRestoringP", "type"]
+- ["So6UIViewC", "Int"]
+- ["So6UIViewC", "String"]
+- !private ["So6UIViewC", "Unmanaged"]
+- !private ["So6UIViewC", "isSkeletonable"]
+- ["So6UIViewC", "skeletonDescription"]
+- ["So6UIViewC", "skeletonHierarchy"]
+- !private ["So6UIViewC", "subviewsSkeletonables"]
+- !private ["So6UIViewC", "subviewsToSkeleton"]
+- !private ["So6UIViewC", "type"]
+- !private ["s9UnmanagedV", "passUnretained"]
+- !private ["s9UnmanagedV", "toOpaque"]
+- !private ["s14_ArrayProtocolP", "count"]
+- !private ["s14_ArrayProtocolP", "forEach"]
+- !private ["s14_ArrayProtocolP", "isEmpty"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "debugMode"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "whitespaces"]
+- !private ["s24_DestructorSafeContainerP", "count"]
+- !private ["s24_DestructorSafeContainerP", "forEach"]
+- !private ["s24_DestructorSafeContainerP", "isEmpty"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "debugMode"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "whitespaces"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "debugMode"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "debugMode"]
+- !private ["s19_HasContiguousBytesP", "count"]
+- !private ["s19_HasContiguousBytesP", "debugMode"]
+- !private ["s19_HasContiguousBytesP", "forEach"]
+- !private ["s19_HasContiguousBytesP", "isEmpty"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "count"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "forEach"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "isEmpty"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "subscript"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "whitespaces"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Unmanaged"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "environment"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "isSkeletonable"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "processInfo"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "skeletonDescription"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "skeletonHierarchy"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "subviewsSkeletonables"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "subviewsToSkeleton"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "type"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "Unmanaged"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "environment"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "isSkeletonable"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "processInfo"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "skeletonDescription"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "skeletonHierarchy"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "subviewsSkeletonables"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "subviewsToSkeleton"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "type"]
+- !private ["s21_ObjectiveCBridgeableP", "count"]
+- !private ["s21_ObjectiveCBridgeableP", "debugMode"]
+- !private ["s21_ObjectiveCBridgeableP", "forEach"]
+- !private ["s21_ObjectiveCBridgeableP", "isEmpty"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+- !private ["s21_ObjectiveCBridgeableP", "whitespaces"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "Unmanaged"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "isSkeletonable"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "skeletonDescription"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "skeletonHierarchy"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "subviewsSkeletonables"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "subviewsToSkeleton"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "type"]
+depends-nominal:
+- !private "s18AdditiveArithmeticP"
+- !private "Sa"
+- !private "12SkeletonView17AssociatedObjectsP"
+- !private "SK"
+- !private "Sz"
+- !private "So15CALayerDelegateP"
+- !private "s7CVarArgP"
+- !private "Sl"
+- !private "SL"
+- !private "10Foundation15ContiguousBytesP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "10Foundation12DataProtocolP"
+- !private "Se"
+- !private "s26DefaultStringInterpolationV"
+- "SD"
+- !private "SE"
+- "SQ"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s30ExpressibleByDictionaryLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- !private "s32ExpressibleByStringInterpolationP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "s17FixedWidthIntegerP"
+- "SH"
+- !private "SD5IndexV"
+- !private "Si"
+- !private "12SkeletonView15IterableElementP"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- !private "SM"
+- !private "10Foundation19MutableDataProtocolP"
+- !private "So8NSCodingP"
+- "So8NSObjectC"
+- !private "So8NSObjectP"
+- !private "Sj"
+- !private "So13NSProcessInfoC"
+- !private "Sk"
+- !private "Sn"
+- !private "SX"
+- !private "Sm"
+- "SY"
+- !private "12SkeletonView11RecoverableP"
+- !private "12SkeletonView9RecursiveP"
+- !private "s10SIMDScalarP"
+- !private "ST"
+- !private "SZ"
+- !private "s13SignedNumericP"
+- "12SkeletonView0A14EnvironmentKeyO"
+- !private "Sx"
+- !private "SS"
+- !private "s27StringInterpolationProtocolP"
+- !private "Sy"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "So29UIAccessibilityIdentificationP"
+- !private "So12UIAppearanceP"
+- !private "So21UIAppearanceContainerP"
+- !private "So17UICoordinateSpaceP"
+- !private "So13UIDynamicItemP"
+- !private "So18UIFocusEnvironmentP"
+- !private "So11UIFocusItemP"
+- !private "So20UIFocusItemContainerP"
+- !private "So24UILargeContentViewerItemP"
+- !private "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- !private "So30UIResponderStandardEditActionsP"
+- !private "So18UITraitEnvironmentP"
+- !private "So23UIUserActivityRestoringP"
+- "So6UIViewC"
+- !private "s9UnmanagedV"
+- !private "s14_ArrayProtocolP"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s19_HasContiguousBytesP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s38__DefaultCustomPlaygroundQuickLookableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/haruna/Documents/iOSdev/yelpy/Pods/Target Support Files/SkeletonView/SkeletonView-umbrella.h"
+- "/Users/haruna/Documents/iOSdev/yelpy/Build/Intermediates/Pods.build/Debug-iphonesimulator/SkeletonView.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "5898270c67026e3784b44454d5d26754"

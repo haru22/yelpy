@@ -1,0 +1,172 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "SkeletonTableViewDataSource"
+- "SkeletonTableViewDelegate"
+provides-nominal:
+- "12SkeletonView0a5TableB10DataSourceP"
+- "12SkeletonView0a5TableB8DelegateP"
+provides-member:
+- ["12SkeletonView0a5TableB10DataSourceP", ""]
+- ["12SkeletonView0a5TableB8DelegateP", ""]
+- ["12SkeletonView0a5TableB10DataSourceP", "collectionSkeletonView"]
+- ["12SkeletonView0a5TableB10DataSourceP", "numSections"]
+- ["12SkeletonView0a5TableB10DataSourceP", "collectionSkeletonView"]
+- ["12SkeletonView0a5TableB8DelegateP", "collectionSkeletonView"]
+- ["12SkeletonView0a5TableB8DelegateP", "collectionSkeletonView"]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "FloatLiteralType"
+- "IndexPath"
+- "Int"
+- !private "IntegerLiteralType"
+- "ReusableCellIdentifier"
+- "ReusableHeaderFooterIdentifier"
+- "SkeletonTableViewDataSource"
+- "SkeletonTableViewDelegate"
+- "UITableView"
+- "UITableViewDataSource"
+- "UITableViewDelegate"
+depends-member:
+- !private ["12SkeletonView17AssociatedObjectsP", "estimatedNumberOfRows"]
+- !private ["So15CALayerDelegateP", "estimatedNumberOfRows"]
+- !private ["s7CVarArgP", "estimatedNumberOfRows"]
+- !private ["12SkeletonView010CollectionA0P", "estimatedNumberOfRows"]
+- !private ["s28CustomDebugStringConvertibleP", "estimatedNumberOfRows"]
+- !private ["s23CustomStringConvertibleP", "estimatedNumberOfRows"]
+- !private ["SQ", "estimatedNumberOfRows"]
+- !private ["SH", "estimatedNumberOfRows"]
+- !private ["12SkeletonView15IterableElementP", "estimatedNumberOfRows"]
+- !private ["So8NSCodingP", "estimatedNumberOfRows"]
+- !private ["So8NSObjectC", "estimatedNumberOfRows"]
+- ["So8NSObjectP", "IndexPath"]
+- ["So8NSObjectP", "Int"]
+- ["So8NSObjectP", "ReusableCellIdentifier"]
+- ["So8NSObjectP", "ReusableHeaderFooterIdentifier"]
+- ["So8NSObjectP", "UITableView"]
+- ["So8NSObjectP", "collectionSkeletonView"]
+- !private ["So8NSObjectP", "estimatedNumberOfRows"]
+- ["So8NSObjectP", "numSections"]
+- !private ["12SkeletonView11RecoverableP", "estimatedNumberOfRows"]
+- ["12SkeletonView0a5TableB10DataSourceP", "IndexPath"]
+- ["12SkeletonView0a5TableB10DataSourceP", "Int"]
+- ["12SkeletonView0a5TableB10DataSourceP", "ReusableCellIdentifier"]
+- ["12SkeletonView0a5TableB10DataSourceP", "UITableView"]
+- ["12SkeletonView0a5TableB10DataSourceP", "collectionSkeletonView"]
+- ["12SkeletonView0a5TableB10DataSourceP", "numSections"]
+- ["12SkeletonView0a5TableB8DelegateP", "Int"]
+- ["12SkeletonView0a5TableB8DelegateP", "ReusableHeaderFooterIdentifier"]
+- ["12SkeletonView0a5TableB8DelegateP", "UITableView"]
+- ["12SkeletonView0a5TableB8DelegateP", "collectionSkeletonView"]
+- !private ["So29UIAccessibilityIdentificationP", "estimatedNumberOfRows"]
+- !private ["So12UIAppearanceP", "estimatedNumberOfRows"]
+- !private ["So21UIAppearanceContainerP", "estimatedNumberOfRows"]
+- !private ["So17UICoordinateSpaceP", "estimatedNumberOfRows"]
+- !private ["So23UIDataSourceTranslatingP", "estimatedNumberOfRows"]
+- !private ["So13UIDynamicItemP", "estimatedNumberOfRows"]
+- !private ["So18UIFocusEnvironmentP", "estimatedNumberOfRows"]
+- !private ["So11UIFocusItemP", "estimatedNumberOfRows"]
+- !private ["So20UIFocusItemContainerP", "estimatedNumberOfRows"]
+- !private ["So30UIFocusItemScrollableContainerP", "estimatedNumberOfRows"]
+- !private ["So24UILargeContentViewerItemP", "estimatedNumberOfRows"]
+- !private ["So30UIPasteConfigurationSupportingP", "estimatedNumberOfRows"]
+- !private ["So11UIResponderC", "estimatedNumberOfRows"]
+- !private ["So30UIResponderStandardEditActionsP", "estimatedNumberOfRows"]
+- !private ["So12UIScrollViewC", "estimatedNumberOfRows"]
+- ["So20UIScrollViewDelegateP", "Int"]
+- ["So20UIScrollViewDelegateP", "ReusableHeaderFooterIdentifier"]
+- ["So20UIScrollViewDelegateP", "UITableView"]
+- ["So20UIScrollViewDelegateP", "collectionSkeletonView"]
+- !private ["So35UISpringLoadedInteractionSupportingP", "estimatedNumberOfRows"]
+- !private ["So11UITableViewC", "deinit"]
+- !private ["So11UITableViewC", "estimatedNumberOfRows"]
+- ["So21UITableViewDataSourceP", "IndexPath"]
+- ["So21UITableViewDataSourceP", "Int"]
+- ["So21UITableViewDataSourceP", "ReusableCellIdentifier"]
+- ["So21UITableViewDataSourceP", "UITableView"]
+- ["So21UITableViewDataSourceP", ""]
+- ["So21UITableViewDataSourceP", "collectionSkeletonView"]
+- ["So21UITableViewDataSourceP", "numSections"]
+- ["So19UITableViewDelegateP", "Int"]
+- ["So19UITableViewDelegateP", "ReusableHeaderFooterIdentifier"]
+- ["So19UITableViewDelegateP", "UITableView"]
+- ["So19UITableViewDelegateP", ""]
+- ["So19UITableViewDelegateP", "collectionSkeletonView"]
+- !private ["So18UITraitEnvironmentP", "estimatedNumberOfRows"]
+- !private ["So23UIUserActivityRestoringP", "estimatedNumberOfRows"]
+- !private ["So6UIViewC", "estimatedNumberOfRows"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "estimatedNumberOfRows"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "estimatedNumberOfRows"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "estimatedNumberOfRows"]
+depends-nominal:
+- !private "12SkeletonView17AssociatedObjectsP"
+- !private "So15CALayerDelegateP"
+- !private "s7CVarArgP"
+- !private "12SkeletonView010CollectionA0P"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s23CustomStringConvertibleP"
+- !private "SQ"
+- !private "SH"
+- !private "12SkeletonView15IterableElementP"
+- !private "So8NSCodingP"
+- !private "So8NSObjectC"
+- "So8NSObjectP"
+- !private "12SkeletonView11RecoverableP"
+- "12SkeletonView0a5TableB10DataSourceP"
+- "12SkeletonView0a5TableB8DelegateP"
+- !private "So29UIAccessibilityIdentificationP"
+- !private "So12UIAppearanceP"
+- !private "So21UIAppearanceContainerP"
+- !private "So17UICoordinateSpaceP"
+- !private "So23UIDataSourceTranslatingP"
+- !private "So13UIDynamicItemP"
+- !private "So18UIFocusEnvironmentP"
+- !private "So11UIFocusItemP"
+- !private "So20UIFocusItemContainerP"
+- !private "So30UIFocusItemScrollableContainerP"
+- !private "So24UILargeContentViewerItemP"
+- !private "So30UIPasteConfigurationSupportingP"
+- !private "So11UIResponderC"
+- !private "So30UIResponderStandardEditActionsP"
+- !private "So12UIScrollViewC"
+- "So20UIScrollViewDelegateP"
+- !private "So35UISpringLoadedInteractionSupportingP"
+- !private "So11UITableViewC"
+- "So21UITableViewDataSourceP"
+- "So19UITableViewDelegateP"
+- !private "So18UITraitEnvironmentP"
+- !private "So23UIUserActivityRestoringP"
+- !private "So6UIViewC"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- !private "s38__DefaultCustomPlaygroundQuickLookableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/haruna/Documents/iOSdev/yelpy/Pods/Target Support Files/SkeletonView/SkeletonView-umbrella.h"
+- "/Users/haruna/Documents/iOSdev/yelpy/Build/Intermediates/Pods.build/Debug-iphonesimulator/SkeletonView.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "3aaeaf5032414eeef4e6a917041b4539"
