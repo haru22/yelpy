@@ -1,0 +1,431 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+provides-member:
+- ["So6UIViewC", ""]
+- ["So6UIViewC", "isSkeletonable"]
+- ["So6UIViewC", "isHiddenWhenSkeletonIsActive"]
+- ["So6UIViewC", "skeletonCornerRadius"]
+- ["So6UIViewC", "isSkeletonActive"]
+provides-dynamic-lookup:
+- "hiddenWhenSkeletonIsActive"
+- "isHiddenWhenSkeletonIsActive"
+- "isSkeletonActive"
+- "isSkeletonable"
+- "skeletonCornerRadius"
+- "skeletonable"
+- "skeletonableCornerRadius"
+depends-top-level:
+- !private "=="
+- !private "??"
+- "AssignmentPrecedence"
+- "Bool"
+- !private "BooleanLiteralType"
+- "CastingPrecedence"
+- "Float"
+- !private "FloatLiteralType"
+- "UIView"
+- !private "ViewAssociatedKeys"
+- !private "||"
+depends-member:
+- !private ["Sa", "contains"]
+- !private ["12SkeletonView17AssociatedObjectsP", "ViewAssociatedKeys"]
+- !private ["12SkeletonView17AssociatedObjectsP", "ao_get"]
+- !private ["12SkeletonView17AssociatedObjectsP", "ao_set"]
+- !private ["12SkeletonView17AssociatedObjectsP", "hiddenWhenSkeletonIsActive"]
+- !private ["12SkeletonView17AssociatedObjectsP", "isSkeletonActive"]
+- !private ["12SkeletonView17AssociatedObjectsP", "skeletonable"]
+- !private ["12SkeletonView17AssociatedObjectsP", "skeletonableCornerRadius"]
+- !private ["12SkeletonView17AssociatedObjectsP", "status"]
+- !private ["12SkeletonView17AssociatedObjectsP", "subviewsSkeletonables"]
+- !private ["SK", "contains"]
+- !private ["So15CALayerDelegateP", "ViewAssociatedKeys"]
+- !private ["So15CALayerDelegateP", "ao_get"]
+- !private ["So15CALayerDelegateP", "ao_set"]
+- !private ["So15CALayerDelegateP", "hiddenWhenSkeletonIsActive"]
+- !private ["So15CALayerDelegateP", "isSkeletonActive"]
+- !private ["So15CALayerDelegateP", "skeletonable"]
+- !private ["So15CALayerDelegateP", "skeletonableCornerRadius"]
+- !private ["So15CALayerDelegateP", "status"]
+- !private ["So15CALayerDelegateP", "subviewsSkeletonables"]
+- !private ["s7CVarArgP", "ViewAssociatedKeys"]
+- !private ["s7CVarArgP", "ao_get"]
+- !private ["s7CVarArgP", "ao_set"]
+- !private ["s7CVarArgP", "contains"]
+- !private ["s7CVarArgP", "hiddenWhenSkeletonIsActive"]
+- !private ["s7CVarArgP", "isSkeletonActive"]
+- !private ["s7CVarArgP", "skeletonable"]
+- !private ["s7CVarArgP", "skeletonableCornerRadius"]
+- !private ["s7CVarArgP", "status"]
+- !private ["s7CVarArgP", "subviewsSkeletonables"]
+- !private ["Sl", "contains"]
+- !private ["10Foundation15ContiguousBytesP", "contains"]
+- !private ["s28CustomDebugStringConvertibleP", "ViewAssociatedKeys"]
+- !private ["s28CustomDebugStringConvertibleP", "ao_get"]
+- !private ["s28CustomDebugStringConvertibleP", "ao_set"]
+- !private ["s28CustomDebugStringConvertibleP", "contains"]
+- !private ["s28CustomDebugStringConvertibleP", "hiddenWhenSkeletonIsActive"]
+- !private ["s28CustomDebugStringConvertibleP", "isSkeletonActive"]
+- !private ["s28CustomDebugStringConvertibleP", "skeletonable"]
+- !private ["s28CustomDebugStringConvertibleP", "skeletonableCornerRadius"]
+- !private ["s28CustomDebugStringConvertibleP", "status"]
+- !private ["s28CustomDebugStringConvertibleP", "subviewsSkeletonables"]
+- !private ["s17CustomReflectableP", "contains"]
+- !private ["s23CustomStringConvertibleP", "ViewAssociatedKeys"]
+- !private ["s23CustomStringConvertibleP", "ao_get"]
+- !private ["s23CustomStringConvertibleP", "ao_set"]
+- !private ["s23CustomStringConvertibleP", "contains"]
+- !private ["s23CustomStringConvertibleP", "hiddenWhenSkeletonIsActive"]
+- !private ["s23CustomStringConvertibleP", "isSkeletonActive"]
+- !private ["s23CustomStringConvertibleP", "skeletonable"]
+- !private ["s23CustomStringConvertibleP", "skeletonableCornerRadius"]
+- !private ["s23CustomStringConvertibleP", "status"]
+- !private ["s23CustomStringConvertibleP", "subviewsSkeletonables"]
+- !private ["10Foundation12DataProtocolP", "contains"]
+- !private ["Se", "contains"]
+- !private ["SE", "contains"]
+- !private ["SQ", "ViewAssociatedKeys"]
+- !private ["SQ", "ao_get"]
+- !private ["SQ", "ao_set"]
+- !private ["SQ", "contains"]
+- !private ["SQ", "hiddenWhenSkeletonIsActive"]
+- !private ["SQ", "isSkeletonActive"]
+- !private ["SQ", "on"]
+- !private ["SQ", "skeletonable"]
+- !private ["SQ", "skeletonableCornerRadius"]
+- !private ["SQ", "status"]
+- !private ["SQ", "subviewsSkeletonables"]
+- !private ["s25ExpressibleByArrayLiteralP", "contains"]
+- !private ["SH", "ViewAssociatedKeys"]
+- !private ["SH", "ao_get"]
+- !private ["SH", "ao_set"]
+- !private ["SH", "contains"]
+- !private ["SH", "hiddenWhenSkeletonIsActive"]
+- !private ["SH", "isSkeletonActive"]
+- !private ["SH", "on"]
+- !private ["SH", "skeletonable"]
+- !private ["SH", "skeletonableCornerRadius"]
+- !private ["SH", "status"]
+- !private ["SH", "subviewsSkeletonables"]
+- !private ["12SkeletonView15IterableElementP", "ViewAssociatedKeys"]
+- !private ["12SkeletonView15IterableElementP", "ao_get"]
+- !private ["12SkeletonView15IterableElementP", "ao_set"]
+- !private ["12SkeletonView15IterableElementP", "hiddenWhenSkeletonIsActive"]
+- !private ["12SkeletonView15IterableElementP", "isSkeletonActive"]
+- !private ["12SkeletonView15IterableElementP", "skeletonable"]
+- !private ["12SkeletonView15IterableElementP", "skeletonableCornerRadius"]
+- !private ["12SkeletonView15IterableElementP", "status"]
+- !private ["12SkeletonView15IterableElementP", "subviewsSkeletonables"]
+- !private ["SM", "contains"]
+- !private ["10Foundation19MutableDataProtocolP", "contains"]
+- !private ["So8NSCodingP", "ViewAssociatedKeys"]
+- !private ["So8NSCodingP", "ao_get"]
+- !private ["So8NSCodingP", "ao_set"]
+- !private ["So8NSCodingP", "hiddenWhenSkeletonIsActive"]
+- !private ["So8NSCodingP", "isSkeletonActive"]
+- !private ["So8NSCodingP", "skeletonable"]
+- !private ["So8NSCodingP", "skeletonableCornerRadius"]
+- !private ["So8NSCodingP", "status"]
+- !private ["So8NSCodingP", "subviewsSkeletonables"]
+- ["So8NSObjectC", "Bool"]
+- ["So8NSObjectC", "Float"]
+- !private ["So8NSObjectC", "ViewAssociatedKeys"]
+- !private ["So8NSObjectC", "ao_get"]
+- !private ["So8NSObjectC", "ao_set"]
+- ["So8NSObjectC", "hiddenWhenSkeletonIsActive"]
+- ["So8NSObjectC", "isHiddenWhenSkeletonIsActive"]
+- ["So8NSObjectC", "isSkeletonActive"]
+- ["So8NSObjectC", "isSkeletonable"]
+- ["So8NSObjectC", "skeletonCornerRadius"]
+- ["So8NSObjectC", "skeletonable"]
+- ["So8NSObjectC", "skeletonableCornerRadius"]
+- !private ["So8NSObjectC", "status"]
+- !private ["So8NSObjectC", "subviewsSkeletonables"]
+- !private ["So8NSObjectP", "ViewAssociatedKeys"]
+- !private ["So8NSObjectP", "ao_get"]
+- !private ["So8NSObjectP", "ao_set"]
+- !private ["So8NSObjectP", "hiddenWhenSkeletonIsActive"]
+- !private ["So8NSObjectP", "isSkeletonActive"]
+- !private ["So8NSObjectP", "skeletonable"]
+- !private ["So8NSObjectP", "skeletonableCornerRadius"]
+- !private ["So8NSObjectP", "status"]
+- !private ["So8NSObjectP", "subviewsSkeletonables"]
+- !private ["Sk", "contains"]
+- !private ["Sm", "contains"]
+- !private ["12SkeletonView11RecoverableP", "ViewAssociatedKeys"]
+- !private ["12SkeletonView11RecoverableP", "ao_get"]
+- !private ["12SkeletonView11RecoverableP", "ao_set"]
+- !private ["12SkeletonView11RecoverableP", "hiddenWhenSkeletonIsActive"]
+- !private ["12SkeletonView11RecoverableP", "isSkeletonActive"]
+- !private ["12SkeletonView11RecoverableP", "skeletonable"]
+- !private ["12SkeletonView11RecoverableP", "skeletonableCornerRadius"]
+- !private ["12SkeletonView11RecoverableP", "status"]
+- !private ["12SkeletonView11RecoverableP", "subviewsSkeletonables"]
+- !private ["12SkeletonView9RecursiveP", "contains"]
+- !private ["ST", "contains"]
+- !private ["So6UIViewC12SkeletonViewE6StatusO", "deinit"]
+- !private ["So6UIViewC12SkeletonViewE6StatusO", "on"]
+- !private ["So29UIAccessibilityIdentificationP", "ViewAssociatedKeys"]
+- !private ["So29UIAccessibilityIdentificationP", "ao_get"]
+- !private ["So29UIAccessibilityIdentificationP", "ao_set"]
+- !private ["So29UIAccessibilityIdentificationP", "hiddenWhenSkeletonIsActive"]
+- !private ["So29UIAccessibilityIdentificationP", "isSkeletonActive"]
+- !private ["So29UIAccessibilityIdentificationP", "skeletonable"]
+- !private ["So29UIAccessibilityIdentificationP", "skeletonableCornerRadius"]
+- !private ["So29UIAccessibilityIdentificationP", "status"]
+- !private ["So29UIAccessibilityIdentificationP", "subviewsSkeletonables"]
+- !private ["So12UIAppearanceP", "ViewAssociatedKeys"]
+- !private ["So12UIAppearanceP", "ao_get"]
+- !private ["So12UIAppearanceP", "ao_set"]
+- !private ["So12UIAppearanceP", "hiddenWhenSkeletonIsActive"]
+- !private ["So12UIAppearanceP", "isSkeletonActive"]
+- !private ["So12UIAppearanceP", "skeletonable"]
+- !private ["So12UIAppearanceP", "skeletonableCornerRadius"]
+- !private ["So12UIAppearanceP", "status"]
+- !private ["So12UIAppearanceP", "subviewsSkeletonables"]
+- !private ["So21UIAppearanceContainerP", "ViewAssociatedKeys"]
+- !private ["So21UIAppearanceContainerP", "ao_get"]
+- !private ["So21UIAppearanceContainerP", "ao_set"]
+- !private ["So21UIAppearanceContainerP", "hiddenWhenSkeletonIsActive"]
+- !private ["So21UIAppearanceContainerP", "isSkeletonActive"]
+- !private ["So21UIAppearanceContainerP", "skeletonable"]
+- !private ["So21UIAppearanceContainerP", "skeletonableCornerRadius"]
+- !private ["So21UIAppearanceContainerP", "status"]
+- !private ["So21UIAppearanceContainerP", "subviewsSkeletonables"]
+- !private ["So17UICoordinateSpaceP", "ViewAssociatedKeys"]
+- !private ["So17UICoordinateSpaceP", "ao_get"]
+- !private ["So17UICoordinateSpaceP", "ao_set"]
+- !private ["So17UICoordinateSpaceP", "hiddenWhenSkeletonIsActive"]
+- !private ["So17UICoordinateSpaceP", "isSkeletonActive"]
+- !private ["So17UICoordinateSpaceP", "skeletonable"]
+- !private ["So17UICoordinateSpaceP", "skeletonableCornerRadius"]
+- !private ["So17UICoordinateSpaceP", "status"]
+- !private ["So17UICoordinateSpaceP", "subviewsSkeletonables"]
+- !private ["So13UIDynamicItemP", "ViewAssociatedKeys"]
+- !private ["So13UIDynamicItemP", "ao_get"]
+- !private ["So13UIDynamicItemP", "ao_set"]
+- !private ["So13UIDynamicItemP", "hiddenWhenSkeletonIsActive"]
+- !private ["So13UIDynamicItemP", "isSkeletonActive"]
+- !private ["So13UIDynamicItemP", "skeletonable"]
+- !private ["So13UIDynamicItemP", "skeletonableCornerRadius"]
+- !private ["So13UIDynamicItemP", "status"]
+- !private ["So13UIDynamicItemP", "subviewsSkeletonables"]
+- !private ["So18UIFocusEnvironmentP", "ViewAssociatedKeys"]
+- !private ["So18UIFocusEnvironmentP", "ao_get"]
+- !private ["So18UIFocusEnvironmentP", "ao_set"]
+- !private ["So18UIFocusEnvironmentP", "hiddenWhenSkeletonIsActive"]
+- !private ["So18UIFocusEnvironmentP", "isSkeletonActive"]
+- !private ["So18UIFocusEnvironmentP", "skeletonable"]
+- !private ["So18UIFocusEnvironmentP", "skeletonableCornerRadius"]
+- !private ["So18UIFocusEnvironmentP", "status"]
+- !private ["So18UIFocusEnvironmentP", "subviewsSkeletonables"]
+- !private ["So11UIFocusItemP", "ViewAssociatedKeys"]
+- !private ["So11UIFocusItemP", "ao_get"]
+- !private ["So11UIFocusItemP", "ao_set"]
+- !private ["So11UIFocusItemP", "hiddenWhenSkeletonIsActive"]
+- !private ["So11UIFocusItemP", "isSkeletonActive"]
+- !private ["So11UIFocusItemP", "skeletonable"]
+- !private ["So11UIFocusItemP", "skeletonableCornerRadius"]
+- !private ["So11UIFocusItemP", "status"]
+- !private ["So11UIFocusItemP", "subviewsSkeletonables"]
+- !private ["So20UIFocusItemContainerP", "ViewAssociatedKeys"]
+- !private ["So20UIFocusItemContainerP", "ao_get"]
+- !private ["So20UIFocusItemContainerP", "ao_set"]
+- !private ["So20UIFocusItemContainerP", "hiddenWhenSkeletonIsActive"]
+- !private ["So20UIFocusItemContainerP", "isSkeletonActive"]
+- !private ["So20UIFocusItemContainerP", "skeletonable"]
+- !private ["So20UIFocusItemContainerP", "skeletonableCornerRadius"]
+- !private ["So20UIFocusItemContainerP", "status"]
+- !private ["So20UIFocusItemContainerP", "subviewsSkeletonables"]
+- !private ["So24UILargeContentViewerItemP", "ViewAssociatedKeys"]
+- !private ["So24UILargeContentViewerItemP", "ao_get"]
+- !private ["So24UILargeContentViewerItemP", "ao_set"]
+- !private ["So24UILargeContentViewerItemP", "hiddenWhenSkeletonIsActive"]
+- !private ["So24UILargeContentViewerItemP", "isSkeletonActive"]
+- !private ["So24UILargeContentViewerItemP", "skeletonable"]
+- !private ["So24UILargeContentViewerItemP", "skeletonableCornerRadius"]
+- !private ["So24UILargeContentViewerItemP", "status"]
+- !private ["So24UILargeContentViewerItemP", "subviewsSkeletonables"]
+- !private ["So30UIPasteConfigurationSupportingP", "ViewAssociatedKeys"]
+- !private ["So30UIPasteConfigurationSupportingP", "ao_get"]
+- !private ["So30UIPasteConfigurationSupportingP", "ao_set"]
+- !private ["So30UIPasteConfigurationSupportingP", "hiddenWhenSkeletonIsActive"]
+- !private ["So30UIPasteConfigurationSupportingP", "isSkeletonActive"]
+- !private ["So30UIPasteConfigurationSupportingP", "skeletonable"]
+- !private ["So30UIPasteConfigurationSupportingP", "skeletonableCornerRadius"]
+- !private ["So30UIPasteConfigurationSupportingP", "status"]
+- !private ["So30UIPasteConfigurationSupportingP", "subviewsSkeletonables"]
+- ["So11UIResponderC", "Bool"]
+- ["So11UIResponderC", "Float"]
+- !private ["So11UIResponderC", "ViewAssociatedKeys"]
+- !private ["So11UIResponderC", "ao_get"]
+- !private ["So11UIResponderC", "ao_set"]
+- ["So11UIResponderC", "hiddenWhenSkeletonIsActive"]
+- ["So11UIResponderC", "isHiddenWhenSkeletonIsActive"]
+- ["So11UIResponderC", "isSkeletonActive"]
+- ["So11UIResponderC", "isSkeletonable"]
+- ["So11UIResponderC", "skeletonCornerRadius"]
+- ["So11UIResponderC", "skeletonable"]
+- ["So11UIResponderC", "skeletonableCornerRadius"]
+- !private ["So11UIResponderC", "status"]
+- !private ["So11UIResponderC", "subviewsSkeletonables"]
+- !private ["So30UIResponderStandardEditActionsP", "ViewAssociatedKeys"]
+- !private ["So30UIResponderStandardEditActionsP", "ao_get"]
+- !private ["So30UIResponderStandardEditActionsP", "ao_set"]
+- !private ["So30UIResponderStandardEditActionsP", "hiddenWhenSkeletonIsActive"]
+- !private ["So30UIResponderStandardEditActionsP", "isSkeletonActive"]
+- !private ["So30UIResponderStandardEditActionsP", "skeletonable"]
+- !private ["So30UIResponderStandardEditActionsP", "skeletonableCornerRadius"]
+- !private ["So30UIResponderStandardEditActionsP", "status"]
+- !private ["So30UIResponderStandardEditActionsP", "subviewsSkeletonables"]
+- !private ["So18UITraitEnvironmentP", "ViewAssociatedKeys"]
+- !private ["So18UITraitEnvironmentP", "ao_get"]
+- !private ["So18UITraitEnvironmentP", "ao_set"]
+- !private ["So18UITraitEnvironmentP", "hiddenWhenSkeletonIsActive"]
+- !private ["So18UITraitEnvironmentP", "isSkeletonActive"]
+- !private ["So18UITraitEnvironmentP", "skeletonable"]
+- !private ["So18UITraitEnvironmentP", "skeletonableCornerRadius"]
+- !private ["So18UITraitEnvironmentP", "status"]
+- !private ["So18UITraitEnvironmentP", "subviewsSkeletonables"]
+- !private ["So23UIUserActivityRestoringP", "ViewAssociatedKeys"]
+- !private ["So23UIUserActivityRestoringP", "ao_get"]
+- !private ["So23UIUserActivityRestoringP", "ao_set"]
+- !private ["So23UIUserActivityRestoringP", "hiddenWhenSkeletonIsActive"]
+- !private ["So23UIUserActivityRestoringP", "isSkeletonActive"]
+- !private ["So23UIUserActivityRestoringP", "skeletonable"]
+- !private ["So23UIUserActivityRestoringP", "skeletonableCornerRadius"]
+- !private ["So23UIUserActivityRestoringP", "status"]
+- !private ["So23UIUserActivityRestoringP", "subviewsSkeletonables"]
+- ["So6UIViewC", "Bool"]
+- ["So6UIViewC", "Float"]
+- !private ["So6UIViewC", "ViewAssociatedKeys"]
+- !private ["So6UIViewC", "ao_get"]
+- !private ["So6UIViewC", "ao_set"]
+- !private ["So6UIViewC", "hiddenWhenSkeletonIsActive"]
+- ["So6UIViewC", "isHiddenWhenSkeletonIsActive"]
+- ["So6UIViewC", "isSkeletonActive"]
+- ["So6UIViewC", "isSkeletonable"]
+- ["So6UIViewC", "skeletonCornerRadius"]
+- !private ["So6UIViewC", "skeletonable"]
+- !private ["So6UIViewC", "skeletonableCornerRadius"]
+- !private ["So6UIViewC", "status"]
+- !private ["So6UIViewC", "subviewsSkeletonables"]
+- !private ["12SkeletonView0B14AssociatedKeysO", "hiddenWhenSkeletonIsActive"]
+- !private ["12SkeletonView0B14AssociatedKeysO", "skeletonCornerRadius"]
+- !private ["12SkeletonView0B14AssociatedKeysO", "skeletonable"]
+- !private ["s14_ArrayProtocolP", "contains"]
+- !private ["s24_DestructorSafeContainerP", "contains"]
+- !private ["s19_HasContiguousBytesP", "contains"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "contains"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "ViewAssociatedKeys"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "ao_get"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "ao_set"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "hiddenWhenSkeletonIsActive"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "isSkeletonActive"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "skeletonable"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "skeletonableCornerRadius"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "status"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "subviewsSkeletonables"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "ViewAssociatedKeys"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "ao_get"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "ao_set"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "hiddenWhenSkeletonIsActive"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "isSkeletonActive"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "skeletonable"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "skeletonableCornerRadius"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "status"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "subviewsSkeletonables"]
+- !private ["s21_ObjectiveCBridgeableP", "contains"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "ViewAssociatedKeys"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "ao_get"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "ao_set"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "hiddenWhenSkeletonIsActive"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "isSkeletonActive"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "skeletonable"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "skeletonableCornerRadius"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "status"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "subviewsSkeletonables"]
+depends-nominal:
+- !private "Sa"
+- !private "12SkeletonView17AssociatedObjectsP"
+- !private "SK"
+- !private "So15CALayerDelegateP"
+- !private "s7CVarArgP"
+- !private "Sl"
+- !private "10Foundation15ContiguousBytesP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "10Foundation12DataProtocolP"
+- !private "Se"
+- !private "SE"
+- !private "SQ"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "SH"
+- !private "12SkeletonView15IterableElementP"
+- !private "SM"
+- !private "10Foundation19MutableDataProtocolP"
+- !private "So8NSCodingP"
+- "So8NSObjectC"
+- !private "So8NSObjectP"
+- !private "Sk"
+- !private "Sm"
+- !private "12SkeletonView11RecoverableP"
+- !private "12SkeletonView9RecursiveP"
+- !private "ST"
+- !private "So6UIViewC12SkeletonViewE6StatusO"
+- !private "So29UIAccessibilityIdentificationP"
+- !private "So12UIAppearanceP"
+- !private "So21UIAppearanceContainerP"
+- !private "So17UICoordinateSpaceP"
+- !private "So13UIDynamicItemP"
+- !private "So18UIFocusEnvironmentP"
+- !private "So11UIFocusItemP"
+- !private "So20UIFocusItemContainerP"
+- !private "So24UILargeContentViewerItemP"
+- !private "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- !private "So30UIResponderStandardEditActionsP"
+- !private "So18UITraitEnvironmentP"
+- !private "So23UIUserActivityRestoringP"
+- "So6UIViewC"
+- !private "12SkeletonView0B14AssociatedKeysO"
+- !private "s14_ArrayProtocolP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s19_HasContiguousBytesP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s38__DefaultCustomPlaygroundQuickLookableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/haruna/Documents/iOSdev/yelpy/Pods/Target Support Files/SkeletonView/SkeletonView-umbrella.h"
+- "/Users/haruna/Documents/iOSdev/yelpy/Build/Intermediates/Pods.build/Debug-iphonesimulator/SkeletonView.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "d62fc5cfeddcddd9d8dbbacccc22d161"

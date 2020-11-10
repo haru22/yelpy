@@ -186,7 +186,6 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #if __has_warning("-Watimport-in-framework-header")
 #pragma clang diagnostic ignored "-Watimport-in-framework-header"
 #endif
-@import CoreGraphics;
 @import Foundation;
 @import UIKit;
 #endif
@@ -248,28 +247,36 @@ SWIFT_CLASS("_TtC5Yelpy14RestaurantCell")
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
 @end
 
+@class UISearchBar;
 @class UITableView;
-@class UIStoryboardSegue;
 
 SWIFT_CLASS("_TtC5Yelpy25RestaurantsViewController")
 @interface RestaurantsViewController : UIViewController
+@property (nonatomic, weak) IBOutlet UISearchBar * _Null_unspecified searchBar;
 @property (nonatomic, weak) IBOutlet UITableView * _Null_unspecified tableView;
 - (void)viewDidLoad;
-- (CGFloat)tableView:(UITableView * _Nonnull)tableView estimatedHeightForRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
-- (void)prepareForSegue:(UIStoryboardSegue * _Nonnull)segue sender:(id _Nullable)sender;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
 @end
 
 
-@interface RestaurantsViewController (SWIFT_EXTENSION(Yelpy)) <UITableViewDataSource, UITableViewDelegate>
-- (NSInteger)tableView:(UITableView * _Nonnull)tableView numberOfRowsInSection:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
-- (UITableViewCell * _Nonnull)tableView:(UITableView * _Nonnull)tableView cellForRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
+@interface RestaurantsViewController (SWIFT_EXTENSION(Yelpy))
+- (void)stopAnimation;
 @end
 
 
-@interface RestaurantsViewController (SWIFT_EXTENSION(Yelpy))
-- (void)stopAnimation;
+@interface RestaurantsViewController (SWIFT_EXTENSION(Yelpy)) <UISearchBarDelegate>
+- (void)searchBar:(UISearchBar * _Nonnull)searchBar textDidChange:(NSString * _Nonnull)searchText;
+- (void)searchBarTextDidBeginEditing:(UISearchBar * _Nonnull)searchBar;
+- (void)searchBarCancelButtonClicked:(UISearchBar * _Nonnull)searchBar;
+@end
+
+@class UIStoryboardSegue;
+
+@interface RestaurantsViewController (SWIFT_EXTENSION(Yelpy)) <UITableViewDataSource, UITableViewDelegate>
+- (NSInteger)tableView:(UITableView * _Nonnull)tableView numberOfRowsInSection:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
+- (UITableViewCell * _Nonnull)tableView:(UITableView * _Nonnull)tableView cellForRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
+- (void)prepareForSegue:(UIStoryboardSegue * _Nonnull)segue sender:(id _Nullable)sender;
 @end
 
 @class UIWindow;
