@@ -111,7 +111,7 @@ extension RestaurantsViewController: SkeletonTableViewDataSource {
        
         animationView.stop()
         view.hideSkeleton()
-        view.subviews.last?.removeFromSuperview()
+        animationView.removeFromSuperview()
         view.hideSkeleton()
         refresh = false
     }
