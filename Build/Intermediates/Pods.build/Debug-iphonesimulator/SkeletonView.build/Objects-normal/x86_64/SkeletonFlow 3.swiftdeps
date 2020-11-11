@@ -1,0 +1,311 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "SkeletonFlowDelegate"
+- "SkeletonFlowHandler"
+provides-nominal:
+- "12SkeletonView0A12FlowDelegateP"
+- "12SkeletonView0A11FlowHandlerC"
+provides-member:
+- ["12SkeletonView0A12FlowDelegateP", ""]
+- ["12SkeletonView0A11FlowHandlerC", ""]
+- ["So18NSNotificationNamea", ""]
+- ["So18NSNotificationNamea", "willBeginShowingSkeletons"]
+- ["So18NSNotificationNamea", "didShowSkeletons"]
+- ["So18NSNotificationNamea", "willBeginUpdatingSkeletons"]
+- ["So18NSNotificationNamea", "didUpdateSkeletons"]
+- ["So18NSNotificationNamea", "willBeginHidingSkeletons"]
+- ["So18NSNotificationNamea", "didHideSkeletons"]
+provides-dynamic-lookup:
+- "didHideSkeletons"
+- "didLayoutSkeletonsIfNeeded"
+- "didShowSkeletons"
+- "didUpdateSkeletons"
+- "willBeginHidingSkeletons"
+- "willBeginLayingSkeletonsIfNeeded"
+- "willBeginShowingSkeletons"
+- "willBeginUpdatingSkeletons"
+depends-top-level:
+- "AnyObject"
+- "AssignmentPrecedence"
+- "Notification"
+- !private "NotificationCenter"
+- "SkeletonFlowDelegate"
+- "SkeletonFlowHandler"
+- "StringLiteralType"
+- "UIView"
+- !private "printSkeletonHierarchy"
+depends-member:
+- !private ["12SkeletonView17AssociatedObjectsP", "addAppNotificationsObservers"]
+- !private ["12SkeletonView17AssociatedObjectsP", "default"]
+- !private ["12SkeletonView17AssociatedObjectsP", "flowDelegate"]
+- !private ["12SkeletonView17AssociatedObjectsP", "post"]
+- !private ["12SkeletonView17AssociatedObjectsP", "removeAppNoticationsObserver"]
+- !private ["So15CALayerDelegateP", "addAppNotificationsObservers"]
+- !private ["So15CALayerDelegateP", "flowDelegate"]
+- !private ["So15CALayerDelegateP", "removeAppNoticationsObserver"]
+- !private ["s7CVarArgP", "addAppNotificationsObservers"]
+- !private ["s7CVarArgP", "default"]
+- !private ["s7CVarArgP", "flowDelegate"]
+- !private ["s7CVarArgP", "post"]
+- !private ["s7CVarArgP", "removeAppNoticationsObserver"]
+- ["s28CustomDebugStringConvertibleP", "Name"]
+- !private ["s28CustomDebugStringConvertibleP", "addAppNotificationsObservers"]
+- !private ["s28CustomDebugStringConvertibleP", "default"]
+- !private ["s28CustomDebugStringConvertibleP", "flowDelegate"]
+- !private ["s28CustomDebugStringConvertibleP", "post"]
+- !private ["s28CustomDebugStringConvertibleP", "removeAppNoticationsObserver"]
+- ["s17CustomReflectableP", "Name"]
+- ["s23CustomStringConvertibleP", "Name"]
+- !private ["s23CustomStringConvertibleP", "addAppNotificationsObservers"]
+- !private ["s23CustomStringConvertibleP", "default"]
+- !private ["s23CustomStringConvertibleP", "flowDelegate"]
+- !private ["s23CustomStringConvertibleP", "post"]
+- !private ["s23CustomStringConvertibleP", "removeAppNoticationsObserver"]
+- ["SQ", "Name"]
+- ["SQ", "Notification"]
+- !private ["SQ", "addAppNotificationsObservers"]
+- !private ["SQ", "default"]
+- !private ["SQ", "didHideSkeletons"]
+- !private ["SQ", "didShowSkeletons"]
+- !private ["SQ", "didUpdateSkeletons"]
+- !private ["SQ", "flowDelegate"]
+- ["SQ", "init"]
+- !private ["SQ", "post"]
+- !private ["SQ", "removeAppNoticationsObserver"]
+- !private ["SQ", "willBeginHidingSkeletons"]
+- !private ["SQ", "willBeginShowingSkeletons"]
+- !private ["SQ", "willBeginUpdatingSkeletons"]
+- ["SH", "Name"]
+- ["SH", "Notification"]
+- !private ["SH", "addAppNotificationsObservers"]
+- !private ["SH", "default"]
+- !private ["SH", "didHideSkeletons"]
+- !private ["SH", "didShowSkeletons"]
+- !private ["SH", "didUpdateSkeletons"]
+- !private ["SH", "flowDelegate"]
+- ["SH", "init"]
+- !private ["SH", "post"]
+- !private ["SH", "removeAppNoticationsObserver"]
+- !private ["SH", "willBeginHidingSkeletons"]
+- !private ["SH", "willBeginShowingSkeletons"]
+- !private ["SH", "willBeginUpdatingSkeletons"]
+- !private ["12SkeletonView15IterableElementP", "addAppNotificationsObservers"]
+- !private ["12SkeletonView15IterableElementP", "flowDelegate"]
+- !private ["12SkeletonView15IterableElementP", "removeAppNoticationsObserver"]
+- !private ["So8NSCodingP", "addAppNotificationsObservers"]
+- !private ["So8NSCodingP", "flowDelegate"]
+- !private ["So8NSCodingP", "removeAppNoticationsObserver"]
+- !private ["So8NSObjectC", "addAppNotificationsObservers"]
+- !private ["So8NSObjectC", "default"]
+- !private ["So8NSObjectC", "flowDelegate"]
+- !private ["So8NSObjectC", "post"]
+- !private ["So8NSObjectC", "removeAppNoticationsObserver"]
+- !private ["So8NSObjectP", "addAppNotificationsObservers"]
+- !private ["So8NSObjectP", "default"]
+- !private ["So8NSObjectP", "flowDelegate"]
+- !private ["So8NSObjectP", "post"]
+- !private ["So8NSObjectP", "removeAppNoticationsObserver"]
+- ["So18NSNotificationNamea", "Notification"]
+- ["So18NSNotificationNamea", "didHideSkeletons"]
+- ["So18NSNotificationNamea", "didShowSkeletons"]
+- ["So18NSNotificationNamea", "didUpdateSkeletons"]
+- ["So18NSNotificationNamea", "init"]
+- ["So18NSNotificationNamea", "willBeginHidingSkeletons"]
+- ["So18NSNotificationNamea", "willBeginShowingSkeletons"]
+- ["So18NSNotificationNamea", "willBeginUpdatingSkeletons"]
+- ["10Foundation12NotificationV", "Name"]
+- !private ["So20NSNotificationCenterC", "default"]
+- !private ["So20NSNotificationCenterC", "post"]
+- ["SY", "Notification"]
+- !private ["SY", "didHideSkeletons"]
+- !private ["SY", "didShowSkeletons"]
+- !private ["SY", "didUpdateSkeletons"]
+- ["SY", "init"]
+- !private ["SY", "willBeginHidingSkeletons"]
+- !private ["SY", "willBeginShowingSkeletons"]
+- !private ["SY", "willBeginUpdatingSkeletons"]
+- !private ["12SkeletonView11RecoverableP", "addAppNotificationsObservers"]
+- !private ["12SkeletonView11RecoverableP", "flowDelegate"]
+- !private ["12SkeletonView11RecoverableP", "removeAppNoticationsObserver"]
+- ["10Foundation20ReferenceConvertibleP", "Name"]
+- !private ["12SkeletonView0A12FlowDelegateP", "NotificationCenter"]
+- ["12SkeletonView0A12FlowDelegateP", "UIView"]
+- ["12SkeletonView0A12FlowDelegateP", ""]
+- ["12SkeletonView0A12FlowDelegateP", "didHideSkeletons"]
+- ["12SkeletonView0A12FlowDelegateP", "didLayoutSkeletonsIfNeeded"]
+- ["12SkeletonView0A12FlowDelegateP", "didShowSkeletons"]
+- ["12SkeletonView0A12FlowDelegateP", "didUpdateSkeletons"]
+- !private ["12SkeletonView0A12FlowDelegateP", "printSkeletonHierarchy"]
+- ["12SkeletonView0A12FlowDelegateP", "willBeginHidingSkeletons"]
+- ["12SkeletonView0A12FlowDelegateP", "willBeginLayingSkeletonsIfNeeded"]
+- ["12SkeletonView0A12FlowDelegateP", "willBeginShowingSkeletons"]
+- ["12SkeletonView0A12FlowDelegateP", "willBeginUpdatingSkeletons"]
+- !private ["12SkeletonView0A11FlowHandlerC", "NotificationCenter"]
+- ["12SkeletonView0A11FlowHandlerC", "UIView"]
+- ["12SkeletonView0A11FlowHandlerC", "deinit"]
+- ["12SkeletonView0A11FlowHandlerC", "didHideSkeletons"]
+- ["12SkeletonView0A11FlowHandlerC", "didLayoutSkeletonsIfNeeded"]
+- ["12SkeletonView0A11FlowHandlerC", "didShowSkeletons"]
+- ["12SkeletonView0A11FlowHandlerC", "didUpdateSkeletons"]
+- ["12SkeletonView0A11FlowHandlerC", "init"]
+- !private ["12SkeletonView0A11FlowHandlerC", "printSkeletonHierarchy"]
+- ["12SkeletonView0A11FlowHandlerC", "willBeginHidingSkeletons"]
+- ["12SkeletonView0A11FlowHandlerC", "willBeginLayingSkeletonsIfNeeded"]
+- ["12SkeletonView0A11FlowHandlerC", "willBeginShowingSkeletons"]
+- ["12SkeletonView0A11FlowHandlerC", "willBeginUpdatingSkeletons"]
+- !private ["So29UIAccessibilityIdentificationP", "addAppNotificationsObservers"]
+- !private ["So29UIAccessibilityIdentificationP", "flowDelegate"]
+- !private ["So29UIAccessibilityIdentificationP", "removeAppNoticationsObserver"]
+- !private ["So12UIAppearanceP", "addAppNotificationsObservers"]
+- !private ["So12UIAppearanceP", "flowDelegate"]
+- !private ["So12UIAppearanceP", "removeAppNoticationsObserver"]
+- !private ["So21UIAppearanceContainerP", "addAppNotificationsObservers"]
+- !private ["So21UIAppearanceContainerP", "flowDelegate"]
+- !private ["So21UIAppearanceContainerP", "removeAppNoticationsObserver"]
+- !private ["So17UICoordinateSpaceP", "addAppNotificationsObservers"]
+- !private ["So17UICoordinateSpaceP", "flowDelegate"]
+- !private ["So17UICoordinateSpaceP", "removeAppNoticationsObserver"]
+- !private ["So13UIDynamicItemP", "addAppNotificationsObservers"]
+- !private ["So13UIDynamicItemP", "flowDelegate"]
+- !private ["So13UIDynamicItemP", "removeAppNoticationsObserver"]
+- !private ["So18UIFocusEnvironmentP", "addAppNotificationsObservers"]
+- !private ["So18UIFocusEnvironmentP", "flowDelegate"]
+- !private ["So18UIFocusEnvironmentP", "removeAppNoticationsObserver"]
+- !private ["So11UIFocusItemP", "addAppNotificationsObservers"]
+- !private ["So11UIFocusItemP", "flowDelegate"]
+- !private ["So11UIFocusItemP", "removeAppNoticationsObserver"]
+- !private ["So20UIFocusItemContainerP", "addAppNotificationsObservers"]
+- !private ["So20UIFocusItemContainerP", "flowDelegate"]
+- !private ["So20UIFocusItemContainerP", "removeAppNoticationsObserver"]
+- !private ["So24UILargeContentViewerItemP", "addAppNotificationsObservers"]
+- !private ["So24UILargeContentViewerItemP", "flowDelegate"]
+- !private ["So24UILargeContentViewerItemP", "removeAppNoticationsObserver"]
+- !private ["So30UIPasteConfigurationSupportingP", "addAppNotificationsObservers"]
+- !private ["So30UIPasteConfigurationSupportingP", "flowDelegate"]
+- !private ["So30UIPasteConfigurationSupportingP", "removeAppNoticationsObserver"]
+- !private ["So11UIResponderC", "addAppNotificationsObservers"]
+- !private ["So11UIResponderC", "flowDelegate"]
+- !private ["So11UIResponderC", "removeAppNoticationsObserver"]
+- !private ["So30UIResponderStandardEditActionsP", "addAppNotificationsObservers"]
+- !private ["So30UIResponderStandardEditActionsP", "flowDelegate"]
+- !private ["So30UIResponderStandardEditActionsP", "removeAppNoticationsObserver"]
+- !private ["So18UITraitEnvironmentP", "addAppNotificationsObservers"]
+- !private ["So18UITraitEnvironmentP", "flowDelegate"]
+- !private ["So18UITraitEnvironmentP", "removeAppNoticationsObserver"]
+- !private ["So23UIUserActivityRestoringP", "addAppNotificationsObservers"]
+- !private ["So23UIUserActivityRestoringP", "flowDelegate"]
+- !private ["So23UIUserActivityRestoringP", "removeAppNoticationsObserver"]
+- !private ["So6UIViewC", "addAppNotificationsObservers"]
+- !private ["So6UIViewC", "flowDelegate"]
+- !private ["So6UIViewC", "removeAppNoticationsObserver"]
+- ["s35_HasCustomAnyHashableRepresentationP", "Notification"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "didHideSkeletons"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "didShowSkeletons"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "didUpdateSkeletons"]
+- ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "willBeginHidingSkeletons"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "willBeginShowingSkeletons"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "willBeginUpdatingSkeletons"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "addAppNotificationsObservers"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "default"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "flowDelegate"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "post"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "removeAppNoticationsObserver"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "addAppNotificationsObservers"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "default"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "flowDelegate"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "post"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "removeAppNoticationsObserver"]
+- ["s21_ObjectiveCBridgeableP", "Name"]
+- ["s21_ObjectiveCBridgeableP", "Notification"]
+- !private ["s21_ObjectiveCBridgeableP", "didHideSkeletons"]
+- !private ["s21_ObjectiveCBridgeableP", "didShowSkeletons"]
+- !private ["s21_ObjectiveCBridgeableP", "didUpdateSkeletons"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "willBeginHidingSkeletons"]
+- !private ["s21_ObjectiveCBridgeableP", "willBeginShowingSkeletons"]
+- !private ["s21_ObjectiveCBridgeableP", "willBeginUpdatingSkeletons"]
+- ["s20_SwiftNewtypeWrapperP", "Notification"]
+- !private ["s20_SwiftNewtypeWrapperP", "didHideSkeletons"]
+- !private ["s20_SwiftNewtypeWrapperP", "didShowSkeletons"]
+- !private ["s20_SwiftNewtypeWrapperP", "didUpdateSkeletons"]
+- ["s20_SwiftNewtypeWrapperP", "init"]
+- !private ["s20_SwiftNewtypeWrapperP", "willBeginHidingSkeletons"]
+- !private ["s20_SwiftNewtypeWrapperP", "willBeginShowingSkeletons"]
+- !private ["s20_SwiftNewtypeWrapperP", "willBeginUpdatingSkeletons"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "addAppNotificationsObservers"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "flowDelegate"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "removeAppNoticationsObserver"]
+depends-nominal:
+- !private "12SkeletonView17AssociatedObjectsP"
+- !private "So15CALayerDelegateP"
+- !private "s7CVarArgP"
+- "s28CustomDebugStringConvertibleP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "SQ"
+- "SH"
+- !private "12SkeletonView15IterableElementP"
+- !private "So8NSCodingP"
+- !private "So8NSObjectC"
+- !private "So8NSObjectP"
+- "So18NSNotificationNamea"
+- "10Foundation12NotificationV"
+- !private "So20NSNotificationCenterC"
+- "SY"
+- !private "12SkeletonView11RecoverableP"
+- "10Foundation20ReferenceConvertibleP"
+- "12SkeletonView0A12FlowDelegateP"
+- "12SkeletonView0A11FlowHandlerC"
+- !private "So29UIAccessibilityIdentificationP"
+- !private "So12UIAppearanceP"
+- !private "So21UIAppearanceContainerP"
+- !private "So17UICoordinateSpaceP"
+- !private "So13UIDynamicItemP"
+- !private "So18UIFocusEnvironmentP"
+- !private "So11UIFocusItemP"
+- !private "So20UIFocusItemContainerP"
+- !private "So24UILargeContentViewerItemP"
+- !private "So30UIPasteConfigurationSupportingP"
+- !private "So11UIResponderC"
+- !private "So30UIResponderStandardEditActionsP"
+- !private "So18UITraitEnvironmentP"
+- !private "So23UIUserActivityRestoringP"
+- !private "So6UIViewC"
+- "s35_HasCustomAnyHashableRepresentationP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- "s21_ObjectiveCBridgeableP"
+- "s20_SwiftNewtypeWrapperP"
+- !private "s38__DefaultCustomPlaygroundQuickLookableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/haruna/Documents/iOSdev/yelpy/Pods/Target Support Files/SkeletonView/SkeletonView-umbrella.h"
+- "/Users/haruna/Documents/iOSdev/yelpy/Build/Intermediates/Pods.build/Debug-iphonesimulator/SkeletonView.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "1388e9c7eb481443d026bc3784a22577"

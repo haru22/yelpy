@@ -260,6 +260,12 @@ SWIFT_CLASS("_TtC5Yelpy25RestaurantsViewController")
 @end
 
 
+@interface RestaurantsViewController (SWIFT_EXTENSION(Yelpy)) <UITableViewDataSource, UITableViewDelegate>
+- (NSInteger)tableView:(UITableView * _Nonnull)tableView numberOfRowsInSection:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
+- (UITableViewCell * _Nonnull)tableView:(UITableView * _Nonnull)tableView cellForRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
+@end
+
+
 @interface RestaurantsViewController (SWIFT_EXTENSION(Yelpy))
 - (void)stopAnimation;
 @end
@@ -269,14 +275,6 @@ SWIFT_CLASS("_TtC5Yelpy25RestaurantsViewController")
 - (void)searchBar:(UISearchBar * _Nonnull)searchBar textDidChange:(NSString * _Nonnull)searchText;
 - (void)searchBarTextDidBeginEditing:(UISearchBar * _Nonnull)searchBar;
 - (void)searchBarCancelButtonClicked:(UISearchBar * _Nonnull)searchBar;
-@end
-
-@class UIStoryboardSegue;
-
-@interface RestaurantsViewController (SWIFT_EXTENSION(Yelpy)) <UITableViewDataSource, UITableViewDelegate>
-- (NSInteger)tableView:(UITableView * _Nonnull)tableView numberOfRowsInSection:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
-- (UITableViewCell * _Nonnull)tableView:(UITableView * _Nonnull)tableView cellForRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
-- (void)prepareForSegue:(UIStoryboardSegue * _Nonnull)segue sender:(id _Nullable)sender;
 @end
 
 @class UIWindow;

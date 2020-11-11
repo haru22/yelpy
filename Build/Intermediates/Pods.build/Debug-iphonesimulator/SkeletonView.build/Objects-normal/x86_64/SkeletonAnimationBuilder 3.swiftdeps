@@ -1,0 +1,409 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "GradientAnimationPoint"
+- "GradientDirection"
+- "SkeletonAnimationBuilder"
+provides-nominal:
+- "12SkeletonView17GradientDirectionO"
+- "12SkeletonView0A16AnimationBuilderC"
+provides-member:
+- ["12SkeletonView17GradientDirectionO", ""]
+- ["12SkeletonView0A16AnimationBuilderC", ""]
+provides-dynamic-lookup:
+- "makeSlidingAnimation"
+depends-top-level:
+- "=="
+- !private "AssignmentPrecedence"
+- "Bool"
+- "BooleanLiteralType"
+- !private "CAAnimationGroup"
+- !private "CABasicAnimation"
+- !private "CAGradientLayer"
+- !private "CAMediaTimingFunction"
+- !private "CAMediaTimingFunctionName"
+- "CFTimeInterval"
+- "CGPoint"
+- "FloatLiteralType"
+- "GradientAnimationPoint"
+- "GradientDirection"
+- !private "IntegerLiteralType"
+- "SkeletonAnimationBuilder"
+- "SkeletonLayerAnimation"
+- "StringLiteralType"
+depends-member:
+- !private ["s18AdditiveArithmeticP", "infinity"]
+- !private ["12SkeletonView17AssociatedObjectsP", "animations"]
+- !private ["12SkeletonView17AssociatedObjectsP", "autoreverses"]
+- !private ["12SkeletonView17AssociatedObjectsP", "duration"]
+- !private ["12SkeletonView17AssociatedObjectsP", "endPoint"]
+- !private ["12SkeletonView17AssociatedObjectsP", "fromValue"]
+- !private ["12SkeletonView17AssociatedObjectsP", "init"]
+- !private ["12SkeletonView17AssociatedObjectsP", "isRemovedOnCompletion"]
+- !private ["12SkeletonView17AssociatedObjectsP", "repeatCount"]
+- !private ["12SkeletonView17AssociatedObjectsP", "startPoint"]
+- !private ["12SkeletonView17AssociatedObjectsP", "timingFunction"]
+- !private ["12SkeletonView17AssociatedObjectsP", "toValue"]
+- !private ["SB", "infinity"]
+- !private ["So8CAActionP", "animations"]
+- !private ["So8CAActionP", "autoreverses"]
+- !private ["So8CAActionP", "duration"]
+- !private ["So8CAActionP", "fromValue"]
+- !private ["So8CAActionP", "init"]
+- !private ["So8CAActionP", "isRemovedOnCompletion"]
+- !private ["So8CAActionP", "repeatCount"]
+- !private ["So8CAActionP", "timingFunction"]
+- !private ["So8CAActionP", "toValue"]
+- !private ["So11CAAnimationC", "animations"]
+- !private ["So11CAAnimationC", "autoreverses"]
+- !private ["So11CAAnimationC", "duration"]
+- !private ["So11CAAnimationC", "fromValue"]
+- !private ["So11CAAnimationC", "init"]
+- !private ["So11CAAnimationC", "isRemovedOnCompletion"]
+- !private ["So11CAAnimationC", "repeatCount"]
+- !private ["So11CAAnimationC", "timingFunction"]
+- !private ["So11CAAnimationC", "toValue"]
+- !private ["So16CAAnimationGroupC", "animations"]
+- !private ["So16CAAnimationGroupC", "autoreverses"]
+- !private ["So16CAAnimationGroupC", "duration"]
+- !private ["So16CAAnimationGroupC", "init"]
+- !private ["So16CAAnimationGroupC", "isRemovedOnCompletion"]
+- !private ["So16CAAnimationGroupC", "repeatCount"]
+- !private ["So16CAAnimationGroupC", "timingFunction"]
+- !private ["So16CABasicAnimationC", "fromValue"]
+- !private ["So16CABasicAnimationC", "init"]
+- !private ["So16CABasicAnimationC", "toValue"]
+- !private ["So15CAGradientLayerC", "endPoint"]
+- !private ["So15CAGradientLayerC", "startPoint"]
+- !private ["So7CALayerC", "endPoint"]
+- !private ["So7CALayerC", "startPoint"]
+- !private ["So13CAMediaTimingP", "animations"]
+- !private ["So13CAMediaTimingP", "autoreverses"]
+- !private ["So13CAMediaTimingP", "duration"]
+- !private ["So13CAMediaTimingP", "endPoint"]
+- !private ["So13CAMediaTimingP", "fromValue"]
+- !private ["So13CAMediaTimingP", "init"]
+- !private ["So13CAMediaTimingP", "isRemovedOnCompletion"]
+- !private ["So13CAMediaTimingP", "repeatCount"]
+- !private ["So13CAMediaTimingP", "startPoint"]
+- !private ["So13CAMediaTimingP", "timingFunction"]
+- !private ["So13CAMediaTimingP", "toValue"]
+- !private ["So21CAMediaTimingFunctionC", "init"]
+- !private ["So25CAMediaTimingFunctionNamea", "easeIn"]
+- !private ["So19CAPropertyAnimationC", "fromValue"]
+- !private ["So19CAPropertyAnimationC", "init"]
+- !private ["So19CAPropertyAnimationC", "toValue"]
+- !private ["So7CGPointV", "init"]
+- !private ["s7CVarArgP", "animations"]
+- !private ["s7CVarArgP", "autoreverses"]
+- !private ["s7CVarArgP", "duration"]
+- !private ["s7CVarArgP", "endPoint"]
+- !private ["s7CVarArgP", "fromValue"]
+- !private ["s7CVarArgP", "infinity"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "isRemovedOnCompletion"]
+- !private ["s7CVarArgP", "repeatCount"]
+- !private ["s7CVarArgP", "startPoint"]
+- !private ["s7CVarArgP", "timingFunction"]
+- !private ["s7CVarArgP", "toValue"]
+- !private ["SL", "infinity"]
+- !private ["s28CustomDebugStringConvertibleP", "animations"]
+- !private ["s28CustomDebugStringConvertibleP", "autoreverses"]
+- !private ["s28CustomDebugStringConvertibleP", "duration"]
+- !private ["s28CustomDebugStringConvertibleP", "endPoint"]
+- !private ["s28CustomDebugStringConvertibleP", "fromValue"]
+- !private ["s28CustomDebugStringConvertibleP", "infinity"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "isRemovedOnCompletion"]
+- !private ["s28CustomDebugStringConvertibleP", "repeatCount"]
+- !private ["s28CustomDebugStringConvertibleP", "startPoint"]
+- !private ["s28CustomDebugStringConvertibleP", "timingFunction"]
+- !private ["s28CustomDebugStringConvertibleP", "toValue"]
+- !private ["s17CustomReflectableP", "infinity"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s23CustomStringConvertibleP", "animations"]
+- !private ["s23CustomStringConvertibleP", "autoreverses"]
+- !private ["s23CustomStringConvertibleP", "duration"]
+- !private ["s23CustomStringConvertibleP", "endPoint"]
+- !private ["s23CustomStringConvertibleP", "fromValue"]
+- !private ["s23CustomStringConvertibleP", "infinity"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "isRemovedOnCompletion"]
+- !private ["s23CustomStringConvertibleP", "repeatCount"]
+- !private ["s23CustomStringConvertibleP", "startPoint"]
+- !private ["s23CustomStringConvertibleP", "timingFunction"]
+- !private ["s23CustomStringConvertibleP", "toValue"]
+- !private ["Se", "infinity"]
+- !private ["Se", "init"]
+- !private ["SE", "infinity"]
+- !private ["SE", "init"]
+- ["SQ", "=="]
+- !private ["SQ", "CGPoint"]
+- !private ["SQ", "SkeletonAnimationBuilder"]
+- ["SQ", ""]
+- ["SQ", "_rawHashValue"]
+- !private ["SQ", "animations"]
+- !private ["SQ", "autoreverses"]
+- ["SQ", "bottomRightTopLeft"]
+- ["SQ", "bottomTop"]
+- !private ["SQ", "duration"]
+- !private ["SQ", "easeIn"]
+- !private ["SQ", "endPoint"]
+- !private ["SQ", "fromValue"]
+- ["SQ", "hash"]
+- ["SQ", "hashValue"]
+- !private ["SQ", "infinity"]
+- !private ["SQ", "init"]
+- !private ["SQ", "isRemovedOnCompletion"]
+- ["SQ", "leftRight"]
+- !private ["SQ", "repeatCount"]
+- ["SQ", "rightLeft"]
+- !private ["SQ", "startPoint"]
+- !private ["SQ", "timingFunction"]
+- !private ["SQ", "toValue"]
+- ["SQ", "topBottom"]
+- ["SQ", "topLeftBottomRight"]
+- !private ["s25ExpressibleByFloatLiteralP", "infinity"]
+- !private ["s27ExpressibleByIntegerLiteralP", "infinity"]
+- !private ["Sf", "infinity"]
+- !private ["SF", "infinity"]
+- ["12SkeletonView17GradientDirectionO", "=="]
+- ["12SkeletonView17GradientDirectionO", "Bool"]
+- ["12SkeletonView17GradientDirectionO", "CFTimeInterval"]
+- !private ["12SkeletonView17GradientDirectionO", "CGPoint"]
+- ["12SkeletonView17GradientDirectionO", "GradientAnimationPoint"]
+- !private ["12SkeletonView17GradientDirectionO", "SkeletonAnimationBuilder"]
+- ["12SkeletonView17GradientDirectionO", "SkeletonLayerAnimation"]
+- ["12SkeletonView17GradientDirectionO", "__derived_enum_equals"]
+- ["12SkeletonView17GradientDirectionO", "_rawHashValue"]
+- ["12SkeletonView17GradientDirectionO", "bottomRightTopLeft"]
+- ["12SkeletonView17GradientDirectionO", "bottomTop"]
+- ["12SkeletonView17GradientDirectionO", "deinit"]
+- ["12SkeletonView17GradientDirectionO", "endPoint"]
+- ["12SkeletonView17GradientDirectionO", "hash"]
+- ["12SkeletonView17GradientDirectionO", "hashValue"]
+- ["12SkeletonView17GradientDirectionO", "leftRight"]
+- ["12SkeletonView17GradientDirectionO", "rightLeft"]
+- ["12SkeletonView17GradientDirectionO", "slidingAnimation"]
+- ["12SkeletonView17GradientDirectionO", "startPoint"]
+- ["12SkeletonView17GradientDirectionO", "topBottom"]
+- ["12SkeletonView17GradientDirectionO", "topLeftBottomRight"]
+- ["SH", "=="]
+- !private ["SH", "CGPoint"]
+- !private ["SH", "SkeletonAnimationBuilder"]
+- ["SH", ""]
+- ["SH", "_rawHashValue"]
+- !private ["SH", "animations"]
+- !private ["SH", "autoreverses"]
+- ["SH", "bottomRightTopLeft"]
+- ["SH", "bottomTop"]
+- !private ["SH", "duration"]
+- !private ["SH", "easeIn"]
+- !private ["SH", "endPoint"]
+- !private ["SH", "fromValue"]
+- ["SH", "hash"]
+- ["SH", "hashValue"]
+- !private ["SH", "infinity"]
+- !private ["SH", "init"]
+- !private ["SH", "isRemovedOnCompletion"]
+- ["SH", "leftRight"]
+- !private ["SH", "repeatCount"]
+- ["SH", "rightLeft"]
+- !private ["SH", "startPoint"]
+- !private ["SH", "timingFunction"]
+- !private ["SH", "toValue"]
+- ["SH", "topBottom"]
+- ["SH", "topLeftBottomRight"]
+- !private ["s6HasherV", "combine"]
+- !private ["12SkeletonView15IterableElementP", "endPoint"]
+- !private ["12SkeletonView15IterableElementP", "startPoint"]
+- !private ["s25LosslessStringConvertibleP", "infinity"]
+- !private ["So8NSCodingP", "animations"]
+- !private ["So8NSCodingP", "autoreverses"]
+- !private ["So8NSCodingP", "duration"]
+- !private ["So8NSCodingP", "endPoint"]
+- !private ["So8NSCodingP", "fromValue"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "isRemovedOnCompletion"]
+- !private ["So8NSCodingP", "repeatCount"]
+- !private ["So8NSCodingP", "startPoint"]
+- !private ["So8NSCodingP", "timingFunction"]
+- !private ["So8NSCodingP", "toValue"]
+- !private ["So9NSCopyingP", "animations"]
+- !private ["So9NSCopyingP", "autoreverses"]
+- !private ["So9NSCopyingP", "duration"]
+- !private ["So9NSCopyingP", "fromValue"]
+- !private ["So9NSCopyingP", "init"]
+- !private ["So9NSCopyingP", "isRemovedOnCompletion"]
+- !private ["So9NSCopyingP", "repeatCount"]
+- !private ["So9NSCopyingP", "timingFunction"]
+- !private ["So9NSCopyingP", "toValue"]
+- !private ["So8NSObjectC", "animations"]
+- !private ["So8NSObjectC", "autoreverses"]
+- !private ["So8NSObjectC", "duration"]
+- !private ["So8NSObjectC", "endPoint"]
+- !private ["So8NSObjectC", "fromValue"]
+- !private ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "isRemovedOnCompletion"]
+- !private ["So8NSObjectC", "repeatCount"]
+- !private ["So8NSObjectC", "startPoint"]
+- !private ["So8NSObjectC", "timingFunction"]
+- !private ["So8NSObjectC", "toValue"]
+- !private ["So8NSObjectP", "animations"]
+- !private ["So8NSObjectP", "autoreverses"]
+- !private ["So8NSObjectP", "duration"]
+- !private ["So8NSObjectP", "endPoint"]
+- !private ["So8NSObjectP", "fromValue"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "isRemovedOnCompletion"]
+- !private ["So8NSObjectP", "repeatCount"]
+- !private ["So8NSObjectP", "startPoint"]
+- !private ["So8NSObjectP", "timingFunction"]
+- !private ["So8NSObjectP", "toValue"]
+- !private ["So14NSSecureCodingP", "animations"]
+- !private ["So14NSSecureCodingP", "autoreverses"]
+- !private ["So14NSSecureCodingP", "duration"]
+- !private ["So14NSSecureCodingP", "endPoint"]
+- !private ["So14NSSecureCodingP", "fromValue"]
+- !private ["So14NSSecureCodingP", "init"]
+- !private ["So14NSSecureCodingP", "isRemovedOnCompletion"]
+- !private ["So14NSSecureCodingP", "repeatCount"]
+- !private ["So14NSSecureCodingP", "startPoint"]
+- !private ["So14NSSecureCodingP", "timingFunction"]
+- !private ["So14NSSecureCodingP", "toValue"]
+- !private ["Sj", "infinity"]
+- !private ["SY", "easeIn"]
+- !private ["s10SIMDScalarP", "infinity"]
+- !private ["s13SignedNumericP", "infinity"]
+- ["12SkeletonView0A16AnimationBuilderC", "Bool"]
+- !private ["12SkeletonView0A16AnimationBuilderC", "CAAnimationGroup"]
+- !private ["12SkeletonView0A16AnimationBuilderC", "CABasicAnimation"]
+- !private ["12SkeletonView0A16AnimationBuilderC", "CAGradientLayer"]
+- !private ["12SkeletonView0A16AnimationBuilderC", "CAMediaTimingFunction"]
+- !private ["12SkeletonView0A16AnimationBuilderC", "CAMediaTimingFunctionName"]
+- ["12SkeletonView0A16AnimationBuilderC", "CFTimeInterval"]
+- ["12SkeletonView0A16AnimationBuilderC", "GradientDirection"]
+- ["12SkeletonView0A16AnimationBuilderC", "SkeletonLayerAnimation"]
+- ["12SkeletonView0A16AnimationBuilderC", "deinit"]
+- ["12SkeletonView0A16AnimationBuilderC", "init"]
+- ["12SkeletonView0A16AnimationBuilderC", "makeSlidingAnimation"]
+- !private ["Sx", "infinity"]
+- !private ["s20TextOutputStreamableP", "infinity"]
+- !private ["s15_CVarArgAlignedP", "infinity"]
+- !private ["s22_CVarArgPassedAsDoubleP", "infinity"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "infinity"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "init"]
+- !private ["s33_ExpressibleByBuiltinFloatLiteralP", "infinity"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "infinity"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "easeIn"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "infinity"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "animations"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "autoreverses"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "duration"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "endPoint"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "fromValue"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "isRemovedOnCompletion"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "repeatCount"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "startPoint"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "timingFunction"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "toValue"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "animations"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "autoreverses"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "duration"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "endPoint"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "fromValue"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "init"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "isRemovedOnCompletion"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "repeatCount"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "startPoint"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "timingFunction"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "toValue"]
+- !private ["s21_ObjectiveCBridgeableP", "easeIn"]
+- !private ["s21_ObjectiveCBridgeableP", "infinity"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s20_SwiftNewtypeWrapperP", "easeIn"]
+depends-nominal:
+- !private "s18AdditiveArithmeticP"
+- !private "12SkeletonView17AssociatedObjectsP"
+- !private "SB"
+- !private "So8CAActionP"
+- !private "So11CAAnimationC"
+- !private "So16CAAnimationGroupC"
+- !private "So16CABasicAnimationC"
+- !private "So15CAGradientLayerC"
+- !private "So7CALayerC"
+- !private "So13CAMediaTimingP"
+- !private "So21CAMediaTimingFunctionC"
+- !private "So25CAMediaTimingFunctionNamea"
+- !private "So19CAPropertyAnimationC"
+- !private "So7CGPointV"
+- !private "s7CVarArgP"
+- !private "SL"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "Se"
+- !private "SE"
+- "SQ"
+- !private "s25ExpressibleByFloatLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- !private "Sf"
+- !private "SF"
+- "12SkeletonView17GradientDirectionO"
+- "SH"
+- !private "s6HasherV"
+- !private "12SkeletonView15IterableElementP"
+- !private "s25LosslessStringConvertibleP"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So8NSObjectC"
+- !private "So8NSObjectP"
+- !private "So14NSSecureCodingP"
+- !private "Sj"
+- !private "SY"
+- !private "s10SIMDScalarP"
+- !private "s13SignedNumericP"
+- "12SkeletonView0A16AnimationBuilderC"
+- !private "Sx"
+- !private "s20TextOutputStreamableP"
+- !private "s15_CVarArgAlignedP"
+- !private "s22_CVarArgPassedAsDoubleP"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- !private "s33_ExpressibleByBuiltinFloatLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s20_SwiftNewtypeWrapperP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/haruna/Documents/iOSdev/yelpy/Pods/Target Support Files/SkeletonView/SkeletonView-umbrella.h"
+- "/Users/haruna/Documents/iOSdev/yelpy/Build/Intermediates/Pods.build/Debug-iphonesimulator/SkeletonView.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "283c243584d4726c47c5903dfcaf1488"

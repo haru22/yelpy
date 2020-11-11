@@ -1,0 +1,184 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+provides-member:
+- ["So6UIViewC", ""]
+- ["So6UIViewC", "addDummyDataSourceIfNeeded"]
+- ["So6UIViewC", "updateDummyDataSourceIfNeeded"]
+- ["So6UIViewC", "removeDummyDataSourceIfNeeded"]
+provides-dynamic-lookup:
+- "addDummyDataSourceIfNeeded"
+- "removeDummyDataSourceIfNeeded"
+- "updateDummyDataSourceIfNeeded"
+depends-top-level:
+- !private "!"
+- "AssignmentPrecedence"
+- "Bool"
+- "BooleanLiteralType"
+- "CastingPrecedence"
+- !private "CollectionSkeleton"
+- !private "ProcessInfo"
+- "UIView"
+depends-member:
+- !private ["12SkeletonView17AssociatedObjectsP", "ProcessInfo"]
+- !private ["12SkeletonView17AssociatedObjectsP", "isRunningXCTest"]
+- !private ["12SkeletonView17AssociatedObjectsP", "status"]
+- !private ["So15CALayerDelegateP", "ProcessInfo"]
+- !private ["So15CALayerDelegateP", "status"]
+- !private ["s7CVarArgP", "ProcessInfo"]
+- !private ["s7CVarArgP", "isRunningXCTest"]
+- !private ["s7CVarArgP", "status"]
+- !private ["12SkeletonView010CollectionA0P", "addDummyDataSource"]
+- !private ["12SkeletonView010CollectionA0P", "disableUserInteraction"]
+- !private ["12SkeletonView010CollectionA0P", "enableUserInteraction"]
+- !private ["12SkeletonView010CollectionA0P", "removeDummyDataSource"]
+- !private ["12SkeletonView010CollectionA0P", "updateDummyDataSource"]
+- !private ["s28CustomDebugStringConvertibleP", "ProcessInfo"]
+- !private ["s28CustomDebugStringConvertibleP", "isRunningXCTest"]
+- !private ["s28CustomDebugStringConvertibleP", "status"]
+- !private ["s23CustomStringConvertibleP", "ProcessInfo"]
+- !private ["s23CustomStringConvertibleP", "isRunningXCTest"]
+- !private ["s23CustomStringConvertibleP", "status"]
+- !private ["SQ", "ProcessInfo"]
+- !private ["SQ", "isRunningXCTest"]
+- !private ["SQ", "off"]
+- !private ["SQ", "on"]
+- !private ["SQ", "status"]
+- !private ["SH", "ProcessInfo"]
+- !private ["SH", "isRunningXCTest"]
+- !private ["SH", "off"]
+- !private ["SH", "on"]
+- !private ["SH", "status"]
+- !private ["12SkeletonView15IterableElementP", "ProcessInfo"]
+- !private ["12SkeletonView15IterableElementP", "status"]
+- !private ["So8NSCodingP", "ProcessInfo"]
+- !private ["So8NSCodingP", "status"]
+- ["So8NSObjectC", "Bool"]
+- !private ["So8NSObjectC", "CollectionSkeleton"]
+- !private ["So8NSObjectC", "ProcessInfo"]
+- ["So8NSObjectC", "addDummyDataSourceIfNeeded"]
+- !private ["So8NSObjectC", "isRunningXCTest"]
+- ["So8NSObjectC", "removeDummyDataSourceIfNeeded"]
+- !private ["So8NSObjectC", "status"]
+- ["So8NSObjectC", "updateDummyDataSourceIfNeeded"]
+- !private ["So8NSObjectP", "ProcessInfo"]
+- !private ["So8NSObjectP", "isRunningXCTest"]
+- !private ["So8NSObjectP", "status"]
+- !private ["So13NSProcessInfoC", "isRunningXCTest"]
+- !private ["12SkeletonView11RecoverableP", "ProcessInfo"]
+- !private ["12SkeletonView11RecoverableP", "status"]
+- !private ["So6UIViewC12SkeletonViewE6StatusO", "off"]
+- !private ["So6UIViewC12SkeletonViewE6StatusO", "on"]
+- !private ["So29UIAccessibilityIdentificationP", "ProcessInfo"]
+- !private ["So29UIAccessibilityIdentificationP", "status"]
+- !private ["So12UIAppearanceP", "ProcessInfo"]
+- !private ["So12UIAppearanceP", "status"]
+- !private ["So21UIAppearanceContainerP", "ProcessInfo"]
+- !private ["So21UIAppearanceContainerP", "status"]
+- !private ["So17UICoordinateSpaceP", "ProcessInfo"]
+- !private ["So17UICoordinateSpaceP", "status"]
+- !private ["So13UIDynamicItemP", "ProcessInfo"]
+- !private ["So13UIDynamicItemP", "status"]
+- !private ["So18UIFocusEnvironmentP", "ProcessInfo"]
+- !private ["So18UIFocusEnvironmentP", "status"]
+- !private ["So11UIFocusItemP", "ProcessInfo"]
+- !private ["So11UIFocusItemP", "status"]
+- !private ["So20UIFocusItemContainerP", "ProcessInfo"]
+- !private ["So20UIFocusItemContainerP", "status"]
+- !private ["So24UILargeContentViewerItemP", "ProcessInfo"]
+- !private ["So24UILargeContentViewerItemP", "status"]
+- !private ["So30UIPasteConfigurationSupportingP", "ProcessInfo"]
+- !private ["So30UIPasteConfigurationSupportingP", "status"]
+- ["So11UIResponderC", "Bool"]
+- !private ["So11UIResponderC", "CollectionSkeleton"]
+- !private ["So11UIResponderC", "ProcessInfo"]
+- ["So11UIResponderC", "addDummyDataSourceIfNeeded"]
+- ["So11UIResponderC", "removeDummyDataSourceIfNeeded"]
+- !private ["So11UIResponderC", "status"]
+- ["So11UIResponderC", "updateDummyDataSourceIfNeeded"]
+- !private ["So30UIResponderStandardEditActionsP", "ProcessInfo"]
+- !private ["So30UIResponderStandardEditActionsP", "status"]
+- !private ["So18UITraitEnvironmentP", "ProcessInfo"]
+- !private ["So18UITraitEnvironmentP", "status"]
+- !private ["So23UIUserActivityRestoringP", "ProcessInfo"]
+- !private ["So23UIUserActivityRestoringP", "status"]
+- ["So6UIViewC", "Bool"]
+- !private ["So6UIViewC", "CollectionSkeleton"]
+- !private ["So6UIViewC", "ProcessInfo"]
+- ["So6UIViewC", "addDummyDataSourceIfNeeded"]
+- ["So6UIViewC", "removeDummyDataSourceIfNeeded"]
+- !private ["So6UIViewC", "status"]
+- ["So6UIViewC", "updateDummyDataSourceIfNeeded"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "ProcessInfo"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "isRunningXCTest"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "status"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "ProcessInfo"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "isRunningXCTest"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "status"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "ProcessInfo"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "status"]
+depends-nominal:
+- !private "12SkeletonView17AssociatedObjectsP"
+- !private "So15CALayerDelegateP"
+- !private "s7CVarArgP"
+- !private "12SkeletonView010CollectionA0P"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s23CustomStringConvertibleP"
+- !private "SQ"
+- !private "SH"
+- !private "12SkeletonView15IterableElementP"
+- !private "So8NSCodingP"
+- "So8NSObjectC"
+- !private "So8NSObjectP"
+- !private "So13NSProcessInfoC"
+- !private "12SkeletonView11RecoverableP"
+- !private "So6UIViewC12SkeletonViewE6StatusO"
+- !private "So29UIAccessibilityIdentificationP"
+- !private "So12UIAppearanceP"
+- !private "So21UIAppearanceContainerP"
+- !private "So17UICoordinateSpaceP"
+- !private "So13UIDynamicItemP"
+- !private "So18UIFocusEnvironmentP"
+- !private "So11UIFocusItemP"
+- !private "So20UIFocusItemContainerP"
+- !private "So24UILargeContentViewerItemP"
+- !private "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- !private "So30UIResponderStandardEditActionsP"
+- !private "So18UITraitEnvironmentP"
+- !private "So23UIUserActivityRestoringP"
+- "So6UIViewC"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- !private "s38__DefaultCustomPlaygroundQuickLookableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/haruna/Documents/iOSdev/yelpy/Pods/Target Support Files/SkeletonView/SkeletonView-umbrella.h"
+- "/Users/haruna/Documents/iOSdev/yelpy/Build/Intermediates/Pods.build/Debug-iphonesimulator/SkeletonView.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "bc7f6e456dde29337ab45bdaa0a5b7ce"

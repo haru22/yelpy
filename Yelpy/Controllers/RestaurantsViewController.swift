@@ -23,6 +23,7 @@ class RestaurantsViewController: UIViewController{
     var animationView: AnimationView!
     var filteredResturants: [Restaurant] = []
     var refresh = true
+    var issMoreDataLoading = false // infinite scrolling
     
     // ––––– TODO: Add tableView datasource + delegate
     override func viewDidLoad() {
@@ -39,7 +40,9 @@ class RestaurantsViewController: UIViewController{
 
     }
     
-  
+//    func tableView(_ tableView: UITableView, willDisplay cell: UITableViewCell, forRowAt indexPath: IndexPath) {
+//        <#code#>
+//    }
     
     // (completionRestaurants) in = func (completionRestaurants) {}
     // ––––– TODO: Get data from API helper and retrieve restaurants
@@ -120,7 +123,7 @@ extension RestaurantsViewController: SkeletonTableViewDataSource {
 
 
 // ––––– TODO: Create tableView Extension and TableView Functionality
-extension RestaurantsViewController: UITableViewDelegate, UITableViewDataSource {
+extension RestaurantsViewController: UITableViewDelegate, UITableViewDataSource, UIScrollViewDelegate {
     
     
     // how many rows?
@@ -156,22 +159,55 @@ extension RestaurantsViewController: UITableViewDelegate, UITableViewDataSource 
 //            cell.hideSkeleton()
 //        }
         
-    }
+//    }
 
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+    func prepare(for segue: UIStoryboardSegue, sender: Any?) {
          let cell = sender as! UITableViewCell
          if let indexPath = tableView.indexPath(for: cell) {
              let r = filteredResturants[indexPath.row]
              let detailVC = segue.destination as! DetailsViewController
              detailVC.r = r
          }
-     }
+    }
      
+    func scrollViewDidScroll(_ scrollView: UIScrollView) {
+        if (!issMoreDataLoading) {
+            let scrollViewContentHeight = tableView.contentSize.height
+            let scrollOffsetThreshold = scrollViewContentHeight - tableView.bounds.size.height
+            if (scrollView.contentOffset.y > scrollOffsetThreshold && tableView.isDragging) {
+                issMoreDataLoading = true
+                loadMoreData()
+            }
 
+        }
+    }
+
+    func loadMoreData() {
+        // Coordinates for San Francisco
+        let lat = 37.773972
+        let long = -122.431297
+       
+       
+        let url = URL(string: "https://api.yelp.com/v3/transactions/delivery/search?latitude=\(lat)&longitude=\(long)")!
+        var request = URLRequest(url: url, cachePolicy: .reloadIgnoringLocalCacheData, timeoutInterval: 10)
+
+        let session = URLSession(configuration: .default, delegate: nil, delegateQueue: OperationQueue.main)
+        let task : URLSessionDataTask = session.dataTask(with: request) { (data, response, error) in
+            self.issMoreDataLoading = false
+            self.tableView.reloadData()
+        }
+ 
+        task.resume()
+        
+        
+    }
    
       
     
 
+    
+
+    }
     
 }
 
