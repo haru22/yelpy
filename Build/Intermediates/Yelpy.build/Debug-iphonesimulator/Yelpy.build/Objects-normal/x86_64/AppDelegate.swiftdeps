@@ -9,10 +9,13 @@ provides-dynamic-lookup:
 - "application"
 depends-top-level:
 - "AppDelegate"
+- !private "AssignmentPrecedence"
 - "Bool"
 - !private "BooleanLiteralType"
+- !private "Parse"
+- !private "ParseClientConfiguration"
 - "Set"
-- !private "StringLiteralType"
+- "StringLiteralType"
 - "UIApplication"
 - "UIApplicationDelegate"
 - "UIResponder"
@@ -21,6 +24,8 @@ depends-top-level:
 - "UISceneSession"
 depends-member:
 - ["5Yelpy11AppDelegateC", "Bool"]
+- !private ["5Yelpy11AppDelegateC", "Parse"]
+- !private ["5Yelpy11AppDelegateC", "ParseClientConfiguration"]
 - ["5Yelpy11AppDelegateC", "Set"]
 - ["5Yelpy11AppDelegateC", "UIApplication"]
 - ["5Yelpy11AppDelegateC", "UIScene"]
@@ -43,6 +48,8 @@ depends-member:
 - ["5Yelpy11AppDelegateC", "window"]
 - ["12SkeletonView17AssociatedObjectsP", "ConnectionOptions"]
 - ["12SkeletonView17AssociatedObjectsP", "LaunchOptionsKey"]
+- !private ["12SkeletonView17AssociatedObjectsP", "Parse"]
+- !private ["12SkeletonView17AssociatedObjectsP", "ParseClientConfiguration"]
 - !private ["12SkeletonView17AssociatedObjectsP", "UISceneConfiguration"]
 - ["12SkeletonView17AssociatedObjectsP", ""]
 - ["12SkeletonView17AssociatedObjectsP", "application"]
@@ -58,10 +65,13 @@ depends-member:
 - ["12SkeletonView17AssociatedObjectsP", "applicationWillResignActive"]
 - ["12SkeletonView17AssociatedObjectsP", "applicationWillTerminate"]
 - !private ["12SkeletonView17AssociatedObjectsP", "init"]
+- !private ["12SkeletonView17AssociatedObjectsP", "initialize"]
 - !private ["12SkeletonView17AssociatedObjectsP", "role"]
 - ["12SkeletonView17AssociatedObjectsP", "window"]
 - ["s7CVarArgP", "ConnectionOptions"]
 - ["s7CVarArgP", "LaunchOptionsKey"]
+- !private ["s7CVarArgP", "Parse"]
+- !private ["s7CVarArgP", "ParseClientConfiguration"]
 - !private ["s7CVarArgP", "UISceneConfiguration"]
 - ["s7CVarArgP", ""]
 - ["s7CVarArgP", "application"]
@@ -77,10 +87,13 @@ depends-member:
 - ["s7CVarArgP", "applicationWillResignActive"]
 - ["s7CVarArgP", "applicationWillTerminate"]
 - !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "initialize"]
 - !private ["s7CVarArgP", "role"]
 - ["s7CVarArgP", "window"]
 - ["s28CustomDebugStringConvertibleP", "ConnectionOptions"]
 - ["s28CustomDebugStringConvertibleP", "LaunchOptionsKey"]
+- !private ["s28CustomDebugStringConvertibleP", "Parse"]
+- !private ["s28CustomDebugStringConvertibleP", "ParseClientConfiguration"]
 - !private ["s28CustomDebugStringConvertibleP", "UISceneConfiguration"]
 - ["s28CustomDebugStringConvertibleP", ""]
 - ["s28CustomDebugStringConvertibleP", "application"]
@@ -96,10 +109,13 @@ depends-member:
 - ["s28CustomDebugStringConvertibleP", "applicationWillResignActive"]
 - ["s28CustomDebugStringConvertibleP", "applicationWillTerminate"]
 - !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "initialize"]
 - !private ["s28CustomDebugStringConvertibleP", "role"]
 - ["s28CustomDebugStringConvertibleP", "window"]
 - ["s23CustomStringConvertibleP", "ConnectionOptions"]
 - ["s23CustomStringConvertibleP", "LaunchOptionsKey"]
+- !private ["s23CustomStringConvertibleP", "Parse"]
+- !private ["s23CustomStringConvertibleP", "ParseClientConfiguration"]
 - !private ["s23CustomStringConvertibleP", "UISceneConfiguration"]
 - ["s23CustomStringConvertibleP", ""]
 - ["s23CustomStringConvertibleP", "application"]
@@ -115,10 +131,13 @@ depends-member:
 - ["s23CustomStringConvertibleP", "applicationWillResignActive"]
 - ["s23CustomStringConvertibleP", "applicationWillTerminate"]
 - !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "initialize"]
 - !private ["s23CustomStringConvertibleP", "role"]
 - ["s23CustomStringConvertibleP", "window"]
 - ["SQ", "ConnectionOptions"]
 - ["SQ", "LaunchOptionsKey"]
+- !private ["SQ", "Parse"]
+- !private ["SQ", "ParseClientConfiguration"]
 - !private ["SQ", "UISceneConfiguration"]
 - ["SQ", ""]
 - ["SQ", "application"]
@@ -134,10 +153,13 @@ depends-member:
 - ["SQ", "applicationWillResignActive"]
 - ["SQ", "applicationWillTerminate"]
 - !private ["SQ", "init"]
+- !private ["SQ", "initialize"]
 - !private ["SQ", "role"]
 - ["SQ", "window"]
 - ["SH", "ConnectionOptions"]
 - ["SH", "LaunchOptionsKey"]
+- !private ["SH", "Parse"]
+- !private ["SH", "ParseClientConfiguration"]
 - !private ["SH", "UISceneConfiguration"]
 - ["SH", ""]
 - ["SH", "application"]
@@ -153,6 +175,7 @@ depends-member:
 - ["SH", "applicationWillResignActive"]
 - ["SH", "applicationWillTerminate"]
 - !private ["SH", "init"]
+- !private ["SH", "initialize"]
 - !private ["SH", "role"]
 - ["SH", "window"]
 - !private ["So8NSCodingP", "init"]
@@ -161,6 +184,8 @@ depends-member:
 - ["So8NSObjectC", "Bool"]
 - ["So8NSObjectC", "ConnectionOptions"]
 - ["So8NSObjectC", "LaunchOptionsKey"]
+- !private ["So8NSObjectC", "Parse"]
+- !private ["So8NSObjectC", "ParseClientConfiguration"]
 - ["So8NSObjectC", "Set"]
 - ["So8NSObjectC", "UIApplication"]
 - ["So8NSObjectC", "UIScene"]
@@ -179,10 +204,13 @@ depends-member:
 - ["So8NSObjectC", "applicationWillResignActive"]
 - ["So8NSObjectC", "applicationWillTerminate"]
 - ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "initialize"]
 - !private ["So8NSObjectC", "role"]
 - ["So8NSObjectC", "window"]
 - ["So8NSObjectP", "ConnectionOptions"]
 - ["So8NSObjectP", "LaunchOptionsKey"]
+- !private ["So8NSObjectP", "Parse"]
+- !private ["So8NSObjectP", "ParseClientConfiguration"]
 - !private ["So8NSObjectP", "UISceneConfiguration"]
 - ["So8NSObjectP", ""]
 - ["So8NSObjectP", "application"]
@@ -190,6 +218,7 @@ depends-member:
 - ["So8NSObjectP", "applicationDidEnterBackground"]
 - ["So8NSObjectP", "applicationDidFinishLaunching"]
 - ["So8NSObjectP", "applicationDidReceiveMemoryWarning"]
+- !private ["So8NSObjectP", "applicationId"]
 - ["So8NSObjectP", "applicationProtectedDataDidBecomeAvailable"]
 - ["So8NSObjectP", "applicationProtectedDataWillBecomeUnavailable"]
 - ["So8NSObjectP", "applicationShouldRequestHealthAuthorization"]
@@ -197,12 +226,22 @@ depends-member:
 - ["So8NSObjectP", "applicationWillEnterForeground"]
 - ["So8NSObjectP", "applicationWillResignActive"]
 - ["So8NSObjectP", "applicationWillTerminate"]
+- !private ["So8NSObjectP", "clientKey"]
 - !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "initialize"]
 - !private ["So8NSObjectP", "role"]
+- !private ["So8NSObjectP", "server"]
 - ["So8NSObjectP", "window"]
 - !private ["So14NSSecureCodingP", "init"]
 - !private ["So14NSSecureCodingP", "role"]
+- !private ["So5ParseC", "initialize"]
+- !private ["So24ParseClientConfigurationC", "init"]
+- !private ["So31ParseMutableClientConfigurationP", "applicationId"]
+- !private ["So31ParseMutableClientConfigurationP", "clientKey"]
+- !private ["So31ParseMutableClientConfigurationP", "server"]
 - ["So13UIApplicationC", "LaunchOptionsKey"]
+- !private ["So21UIApplicationDelegateP", "Parse"]
+- !private ["So21UIApplicationDelegateP", "ParseClientConfiguration"]
 - !private ["So21UIApplicationDelegateP", "UISceneConfiguration"]
 - ["So21UIApplicationDelegateP", ""]
 - ["So21UIApplicationDelegateP", "application"]
@@ -220,6 +259,8 @@ depends-member:
 - ["So21UIApplicationDelegateP", "window"]
 - ["So30UIPasteConfigurationSupportingP", "ConnectionOptions"]
 - ["So30UIPasteConfigurationSupportingP", "LaunchOptionsKey"]
+- !private ["So30UIPasteConfigurationSupportingP", "Parse"]
+- !private ["So30UIPasteConfigurationSupportingP", "ParseClientConfiguration"]
 - !private ["So30UIPasteConfigurationSupportingP", "UISceneConfiguration"]
 - ["So30UIPasteConfigurationSupportingP", ""]
 - ["So30UIPasteConfigurationSupportingP", "application"]
@@ -238,6 +279,8 @@ depends-member:
 - ["So11UIResponderC", "Bool"]
 - ["So11UIResponderC", "ConnectionOptions"]
 - ["So11UIResponderC", "LaunchOptionsKey"]
+- !private ["So11UIResponderC", "Parse"]
+- !private ["So11UIResponderC", "ParseClientConfiguration"]
 - ["So11UIResponderC", "Set"]
 - ["So11UIResponderC", "UIApplication"]
 - ["So11UIResponderC", "UIScene"]
@@ -260,6 +303,8 @@ depends-member:
 - ["So11UIResponderC", "window"]
 - ["So30UIResponderStandardEditActionsP", "ConnectionOptions"]
 - ["So30UIResponderStandardEditActionsP", "LaunchOptionsKey"]
+- !private ["So30UIResponderStandardEditActionsP", "Parse"]
+- !private ["So30UIResponderStandardEditActionsP", "ParseClientConfiguration"]
 - !private ["So30UIResponderStandardEditActionsP", "UISceneConfiguration"]
 - ["So30UIResponderStandardEditActionsP", ""]
 - ["So30UIResponderStandardEditActionsP", "application"]
@@ -280,6 +325,8 @@ depends-member:
 - !private ["So14UISceneSessionC", "role"]
 - ["So23UIUserActivityRestoringP", "ConnectionOptions"]
 - ["So23UIUserActivityRestoringP", "LaunchOptionsKey"]
+- !private ["So23UIUserActivityRestoringP", "Parse"]
+- !private ["So23UIUserActivityRestoringP", "ParseClientConfiguration"]
 - !private ["So23UIUserActivityRestoringP", "UISceneConfiguration"]
 - ["So23UIUserActivityRestoringP", ""]
 - ["So23UIUserActivityRestoringP", "application"]
@@ -297,6 +344,8 @@ depends-member:
 - ["So23UIUserActivityRestoringP", "window"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "ConnectionOptions"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "LaunchOptionsKey"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Parse"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "ParseClientConfiguration"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "UISceneConfiguration"]
 - ["10Foundation27_KeyValueCodingAndObservingP", ""]
 - ["10Foundation27_KeyValueCodingAndObservingP", "application"]
@@ -312,10 +361,13 @@ depends-member:
 - ["10Foundation27_KeyValueCodingAndObservingP", "applicationWillResignActive"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "applicationWillTerminate"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "initialize"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "role"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "window"]
 - ["10Foundation37_KeyValueCodingAndObservingPublishingP", "ConnectionOptions"]
 - ["10Foundation37_KeyValueCodingAndObservingPublishingP", "LaunchOptionsKey"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "Parse"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "ParseClientConfiguration"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "UISceneConfiguration"]
 - ["10Foundation37_KeyValueCodingAndObservingPublishingP", ""]
 - ["10Foundation37_KeyValueCodingAndObservingPublishingP", "application"]
@@ -331,6 +383,7 @@ depends-member:
 - ["10Foundation37_KeyValueCodingAndObservingPublishingP", "applicationWillResignActive"]
 - ["10Foundation37_KeyValueCodingAndObservingPublishingP", "applicationWillTerminate"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "init"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "initialize"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "role"]
 - ["10Foundation37_KeyValueCodingAndObservingPublishingP", "window"]
 depends-nominal:
@@ -346,6 +399,9 @@ depends-nominal:
 - "So8NSObjectC"
 - "So8NSObjectP"
 - !private "So14NSSecureCodingP"
+- !private "So5ParseC"
+- !private "So24ParseClientConfigurationC"
+- !private "So31ParseMutableClientConfigurationP"
 - "So13UIApplicationC"
 - "So21UIApplicationDelegateP"
 - "So30UIPasteConfigurationSupportingP"
@@ -365,6 +421,7 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/x86_64.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreLocation.swiftmodule/x86_64.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64.swiftmodule"
@@ -376,16 +433,71 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Users/haruna/Documents/iOSdev/yelpy/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/Alamofire.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Users/haruna/Documents/iOSdev/yelpy/Build/Products/Debug-iphonesimulator/SkeletonView/SkeletonView.framework/Modules/SkeletonView.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/haruna/Documents/iOSdev/yelpy/Build/Products/Debug-iphonesimulator/Parse/Parse.framework/Headers/PFACL.h"
 - "/Users/haruna/Documents/iOSdev/yelpy/Build/Products/Debug-iphonesimulator/AlamofireImage/AlamofireImage.framework/Headers/AlamofireImage-umbrella.h"
 - "/Users/haruna/Documents/iOSdev/yelpy/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-umbrella.h"
+- "/Users/haruna/Documents/iOSdev/yelpy/Build/Products/Debug-iphonesimulator/Parse/Parse.framework/Headers/Parse-umbrella.h"
 - "/Users/haruna/Documents/iOSdev/yelpy/Build/Products/Debug-iphonesimulator/lottie-ios/Lottie.framework/Headers/lottie-ios-umbrella.h"
+- "/Users/haruna/Documents/iOSdev/yelpy/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/Bolts-umbrella.h"
 - "/Users/haruna/Documents/iOSdev/yelpy/Build/Products/Debug-iphonesimulator/SkeletonView/SkeletonView.framework/Headers/SkeletonView-umbrella.h"
+- "/Users/haruna/Documents/iOSdev/yelpy/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFGeneric.h"
+- "/Users/haruna/Documents/iOSdev/yelpy/Build/Products/Debug-iphonesimulator/Parse/Parse.framework/Headers/PFCloud+Deprecated.h"
+- "/Users/haruna/Documents/iOSdev/yelpy/Build/Products/Debug-iphonesimulator/Parse/Parse.framework/Headers/PFPush+Deprecated.h"
+- "/Users/haruna/Documents/iOSdev/yelpy/Build/Products/Debug-iphonesimulator/Parse/Parse.framework/Headers/PFUser+Deprecated.h"
+- "/Users/haruna/Documents/iOSdev/yelpy/Build/Products/Debug-iphonesimulator/Parse/Parse.framework/Headers/PFAnonymousUtils+Deprecated.h"
+- "/Users/haruna/Documents/iOSdev/yelpy/Build/Products/Debug-iphonesimulator/Parse/Parse.framework/Headers/PFObject+Deprecated.h"
+- "/Users/haruna/Documents/iOSdev/yelpy/Build/Products/Debug-iphonesimulator/Parse/Parse.framework/Headers/PFFileObject+Deprecated.h"
+- "/Users/haruna/Documents/iOSdev/yelpy/Build/Products/Debug-iphonesimulator/Parse/Parse.framework/Headers/PFQuery+Deprecated.h"
+- "/Users/haruna/Documents/iOSdev/yelpy/Build/Products/Debug-iphonesimulator/Parse/Parse.framework/Headers/PFCloud.h"
+- "/Users/haruna/Documents/iOSdev/yelpy/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFCancellationTokenSource.h"
+- "/Users/haruna/Documents/iOSdev/yelpy/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFTaskCompletionSource.h"
+- "/Users/haruna/Documents/iOSdev/yelpy/Build/Products/Debug-iphonesimulator/Parse/Parse.framework/Headers/PFRole.h"
+- "/Users/haruna/Documents/iOSdev/yelpy/Build/Products/Debug-iphonesimulator/Parse/Parse.framework/Headers/PFPurchase.h"
+- "/Users/haruna/Documents/iOSdev/yelpy/Build/Products/Debug-iphonesimulator/Parse/Parse.framework/Headers/Parse.h"
+- "/Users/haruna/Documents/iOSdev/yelpy/Build/Products/Debug-iphonesimulator/Parse/Parse.framework/Headers/PFUserAuthenticationDelegate.h"
+- "/Users/haruna/Documents/iOSdev/yelpy/Build/Products/Debug-iphonesimulator/Parse/Parse.framework/Headers/PFConfig.h"
+- "/Users/haruna/Documents/iOSdev/yelpy/Build/Products/Debug-iphonesimulator/Parse/Parse.framework/Headers/PFSubclassing.h"
+- "/Users/haruna/Documents/iOSdev/yelpy/Build/Products/Debug-iphonesimulator/Parse/Parse.framework/Headers/PFPush.h"
+- "/Users/haruna/Documents/iOSdev/yelpy/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFTask.h"
+- "/Users/haruna/Documents/iOSdev/yelpy/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFCancellationToken.h"
+- "/Users/haruna/Documents/iOSdev/yelpy/Build/Products/Debug-iphonesimulator/Parse/Parse.framework/Headers/PFPolygon.h"
+- "/Users/haruna/Documents/iOSdev/yelpy/Build/Products/Debug-iphonesimulator/Parse/Parse.framework/Headers/PFSession.h"
+- "/Users/haruna/Documents/iOSdev/yelpy/Build/Products/Debug-iphonesimulator/Parse/Parse.framework/Headers/PFRelation.h"
+- "/Users/haruna/Documents/iOSdev/yelpy/Build/Products/Debug-iphonesimulator/Parse/Parse.framework/Headers/PFInstallation.h"
+- "/Users/haruna/Documents/iOSdev/yelpy/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFCancellationTokenRegistration.h"
+- "/Users/haruna/Documents/iOSdev/yelpy/Build/Products/Debug-iphonesimulator/Parse/Parse.framework/Headers/ParseClientConfiguration.h"
+- "/Users/haruna/Documents/iOSdev/yelpy/Build/Products/Debug-iphonesimulator/Parse/Parse.framework/Headers/PFDecoder.h"
+- "/Users/haruna/Documents/iOSdev/yelpy/Build/Products/Debug-iphonesimulator/Parse/Parse.framework/Headers/PFEncoder.h"
+- "/Users/haruna/Documents/iOSdev/yelpy/Build/Products/Debug-iphonesimulator/Parse/Parse.framework/Headers/PFNetworkActivityIndicatorManager.h"
+- "/Users/haruna/Documents/iOSdev/yelpy/Build/Products/Debug-iphonesimulator/Parse/Parse.framework/Headers/PFFileUploadController.h"
+- "/Users/haruna/Documents/iOSdev/yelpy/Build/Products/Debug-iphonesimulator/Parse/Parse.framework/Headers/PFUser.h"
+- "/Users/haruna/Documents/iOSdev/yelpy/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFExecutor.h"
+- "/Users/haruna/Documents/iOSdev/yelpy/Build/Products/Debug-iphonesimulator/Parse/Parse.framework/Headers/PFAnalytics.h"
+- "/Users/haruna/Documents/iOSdev/yelpy/Build/Products/Debug-iphonesimulator/Parse/Parse.framework/Headers/PFAnonymousUtils.h"
+- "/Users/haruna/Documents/iOSdev/yelpy/Build/Products/Debug-iphonesimulator/Parse/Parse.framework/Headers/PFObject+Subclass.h"
+- "/Users/haruna/Documents/iOSdev/yelpy/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/Bolts.h"
+- "/Users/haruna/Documents/iOSdev/yelpy/Build/Products/Debug-iphonesimulator/Parse/Parse.framework/Headers/PFConstants.h"
+- "/Users/haruna/Documents/iOSdev/yelpy/Build/Products/Debug-iphonesimulator/Parse/Parse.framework/Headers/PFCloud+Synchronous.h"
+- "/Users/haruna/Documents/iOSdev/yelpy/Build/Products/Debug-iphonesimulator/Parse/Parse.framework/Headers/PFConfig+Synchronous.h"
+- "/Users/haruna/Documents/iOSdev/yelpy/Build/Products/Debug-iphonesimulator/Parse/Parse.framework/Headers/PFPush+Synchronous.h"
+- "/Users/haruna/Documents/iOSdev/yelpy/Build/Products/Debug-iphonesimulator/Parse/Parse.framework/Headers/PFUser+Synchronous.h"
+- "/Users/haruna/Documents/iOSdev/yelpy/Build/Products/Debug-iphonesimulator/Parse/Parse.framework/Headers/PFObject+Synchronous.h"
+- "/Users/haruna/Documents/iOSdev/yelpy/Build/Products/Debug-iphonesimulator/Parse/Parse.framework/Headers/PFFileObject+Synchronous.h"
+- "/Users/haruna/Documents/iOSdev/yelpy/Build/Products/Debug-iphonesimulator/Parse/Parse.framework/Headers/PFQuery+Synchronous.h"
+- "/Users/haruna/Documents/iOSdev/yelpy/Build/Products/Debug-iphonesimulator/Parse/Parse.framework/Headers/PFObject.h"
+- "/Users/haruna/Documents/iOSdev/yelpy/Build/Products/Debug-iphonesimulator/Parse/Parse.framework/Headers/PFFileObject.h"
+- "/Users/haruna/Documents/iOSdev/yelpy/Build/Products/Debug-iphonesimulator/Parse/Parse.framework/Headers/PFProduct.h"
 - "/Users/haruna/Documents/iOSdev/yelpy/Build/Products/Debug-iphonesimulator/AlamofireImage/AlamofireImage.framework/Headers/AlamofireImage-Swift.h"
 - "/Users/haruna/Documents/iOSdev/yelpy/Build/Products/Debug-iphonesimulator/lottie-ios/Lottie.framework/Headers/Lottie-Swift.h"
 - "/Users/haruna/Documents/iOSdev/yelpy/Build/Products/Debug-iphonesimulator/SkeletonView/SkeletonView.framework/Headers/SkeletonView-Swift.h"
+- "/Users/haruna/Documents/iOSdev/yelpy/Build/Products/Debug-iphonesimulator/Parse/Parse.framework/Headers/PFFileUploadResult.h"
+- "/Users/haruna/Documents/iOSdev/yelpy/Build/Products/Debug-iphonesimulator/Parse/Parse.framework/Headers/PFGeoPoint.h"
+- "/Users/haruna/Documents/iOSdev/yelpy/Build/Products/Debug-iphonesimulator/Parse/Parse.framework/Headers/PFQuery.h"
 - "/Users/haruna/Documents/iOSdev/yelpy/Build/Products/Debug-iphonesimulator/AlamofireImage/AlamofireImage.framework/Modules/module.modulemap"
 - "/Users/haruna/Documents/iOSdev/yelpy/Build/Products/Debug-iphonesimulator/lottie-ios/Lottie.framework/Modules/module.modulemap"
 - "/Users/haruna/Documents/iOSdev/yelpy/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/module.modulemap"
+- "/Users/haruna/Documents/iOSdev/yelpy/Build/Products/Debug-iphonesimulator/Parse/Parse.framework/Modules/module.modulemap"
+- "/Users/haruna/Documents/iOSdev/yelpy/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Modules/module.modulemap"
 - "/Users/haruna/Documents/iOSdev/yelpy/Build/Products/Debug-iphonesimulator/SkeletonView/SkeletonView.framework/Modules/module.modulemap"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/usr/include/objc/ObjectiveC.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
@@ -394,10 +506,12 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/StoreKit.framework/Headers/StoreKit.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
-interface-hash: "32f3f7f8fec1db170f4a48cd26aba846"
+interface-hash: "0b09cf97fe752fd9f734f61a67252520"

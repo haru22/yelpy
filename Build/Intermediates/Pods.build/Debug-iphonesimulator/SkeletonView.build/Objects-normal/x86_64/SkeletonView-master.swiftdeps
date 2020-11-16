@@ -1,6 +1,6 @@
 version: "Apple Swift version 5.2.4 (swiftlang-1103.0.32.9 clang-1103.0.32.53)"
 options: "c914c1746167a0bcac7fa4b799588de0"
-build_time: [1605063315, 284925000]
+build_time: [1605486505, 580582000]
 inputs:
   "/Users/haruna/Documents/iOSdev/yelpy/Pods/SkeletonView/Sources/Helpers/AssociationPolicy.swift": [1604940965, 497593266]
   "/Users/haruna/Documents/iOSdev/yelpy/Pods/SkeletonView/Sources/Extensions/CALayer+Extensions.swift": [1604940965, 490020159]

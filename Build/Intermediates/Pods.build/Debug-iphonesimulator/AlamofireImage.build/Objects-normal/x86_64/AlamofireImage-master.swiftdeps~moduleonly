@@ -1,6 +1,6 @@
 version: "Apple Swift version 5.2.4 (swiftlang-1103.0.32.9 clang-1103.0.32.53)"
 options: "9fa5d2693478f3193b056cb26ed283e7"
-build_time: [1605063326, 711897000]
+build_time: [1605486525, 40508000]
 inputs:
   "/Users/haruna/Documents/iOSdev/yelpy/Pods/AlamofireImage/Source/AFIError.swift": [1590100371, 0]
   "/Users/haruna/Documents/iOSdev/yelpy/Pods/AlamofireImage/Source/Image.swift": [1590100371, 0]
