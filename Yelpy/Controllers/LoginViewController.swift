@@ -28,17 +28,26 @@ class LoginViewController: UIViewController {
         if (!usernameAndPasswordEmpty()) {
             // initialize a user object
             let newUser = PFUser()
+            // if it's nill return
+            guard let username = usernameTextField.text else {
+                print("No text in text field")
+                return
+            }
+            guard let password = passwordTextField.text else {
+                return
+            }
             
-            newUser.username = usernameTextField.text
-            newUser.password = passwordTextField.text
+            newUser.username = username
+            newUser.password = password
             
             // cell sign up function on the object
-            newUser.signUpInBackground() { (success: Bool, error: Error?) in
+            newUser.signUpInBackground() { (success, error) in
                 if let error = error {
                     print(error.localizedDescription)
-                    self.displaySignpError(error: error)
+                    self.displaySignpError(with: error)
                 } else {
                     print("User \(newUser.username!) Registered successfully")
+                    // post internal notification to the app to let other screens that listen for key know we signed up
                     NotificationCenter.default.post(name: NSNotification.Name("login"), object: nil)
                 }
                 
@@ -47,14 +56,20 @@ class LoginViewController: UIViewController {
             displayEmptyTextError()
         }
     }
+    
     @IBAction func onLogin(_ sender: Any) {
         if (!usernameAndPasswordEmpty()) {
-            let username = usernameTextField.text ?? ""
-            let password = passwordTextField.text ?? ""
+            guard let username = usernameTextField.text else {
+                return
+            }
+            guard let password = passwordTextField.text else {
+                return
+            }
+            
             PFUser.logInWithUsername(inBackground: username, password: password) { (user: PFUser?, error: Error?) in
                 if let error = error {
                     print("User log in failed: \(error.localizedDescription)")
-                    self.displayLoginError(error: error)
+                    self.displayLoginError(with: error)
                 } else {
                     print("User \(username) Logged in successfully")
                     NotificationCenter.default.post(name: NSNotification.Name("login"), object: nil)
@@ -68,7 +83,9 @@ class LoginViewController: UIViewController {
         
     }
     
-    func displaySignpError(error: Error) {
+    /** Alert Controller */
+    
+    func displaySignpError(with error: Error) {
         let title = "Sign up error"
         let message = "Oops! something went wrong while signing up: \(error.localizedDescription)"
         let alertController = UIAlertController(title: title, message: message, preferredStyle: .alert)
@@ -88,7 +105,8 @@ class LoginViewController: UIViewController {
         present(alertController,animated: true)
     }
     
-    func displayLoginError(error: Error) {
+    // use with for readablity
+    func displayLoginError(with error: Error) {
         let title = "Login error"
         let message = "Oops! something went wrong while logging in: \(error.localizedDescription)"
         let alertController = UIAlertController(title: title, message: message, preferredStyle: .alert)

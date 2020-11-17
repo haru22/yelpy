@@ -6,6 +6,8 @@ provides-nominal:
 provides-member:
 - ["5Yelpy13SceneDelegateC", ""]
 provides-dynamic-lookup:
+- "login"
+- "logout"
 - "scene"
 - "sceneDidBecomeActive"
 - "sceneDidDisconnect"
@@ -14,17 +16,43 @@ provides-dynamic-lookup:
 - "sceneWillResignActive"
 - "window"
 depends-top-level:
+- !private "!="
+- "AssignmentPrecedence"
 - "CastingPrecedence"
+- !private "NSNotification"
+- !private "NotificationCenter"
+- !private "OperationQueue"
+- !private "PFUser"
 - "SceneDelegate"
+- !private "StringLiteralType"
 - "UIResponder"
 - "UIScene"
 - "UISceneSession"
+- !private "UIStoryboard"
 - "UIWindow"
 - !private "UIWindowScene"
 - "UIWindowSceneDelegate"
+- !private "print"
 depends-member:
 - ["12SkeletonView17AssociatedObjectsP", "ConnectionOptions"]
+- !private ["12SkeletonView17AssociatedObjectsP", "NSNotification"]
+- !private ["12SkeletonView17AssociatedObjectsP", "Name"]
+- !private ["12SkeletonView17AssociatedObjectsP", "NotificationCenter"]
+- !private ["12SkeletonView17AssociatedObjectsP", "OperationQueue"]
+- !private ["12SkeletonView17AssociatedObjectsP", "PFUser"]
+- !private ["12SkeletonView17AssociatedObjectsP", "UIStoryboard"]
 - ["12SkeletonView17AssociatedObjectsP", ""]
+- !private ["12SkeletonView17AssociatedObjectsP", "addObserver"]
+- !private ["12SkeletonView17AssociatedObjectsP", "current"]
+- !private ["12SkeletonView17AssociatedObjectsP", "default"]
+- !private ["12SkeletonView17AssociatedObjectsP", "init"]
+- !private ["12SkeletonView17AssociatedObjectsP", "instantiateViewController"]
+- !private ["12SkeletonView17AssociatedObjectsP", "logOutInBackground"]
+- !private ["12SkeletonView17AssociatedObjectsP", "login"]
+- !private ["12SkeletonView17AssociatedObjectsP", "logout"]
+- !private ["12SkeletonView17AssociatedObjectsP", "main"]
+- !private ["12SkeletonView17AssociatedObjectsP", "print"]
+- !private ["12SkeletonView17AssociatedObjectsP", "rootViewController"]
 - ["12SkeletonView17AssociatedObjectsP", "scene"]
 - ["12SkeletonView17AssociatedObjectsP", "sceneDidBecomeActive"]
 - ["12SkeletonView17AssociatedObjectsP", "sceneDidDisconnect"]
@@ -35,8 +63,26 @@ depends-member:
 - ["12SkeletonView17AssociatedObjectsP", "stateRestorationActivityForScene"]
 - ["12SkeletonView17AssociatedObjectsP", "window"]
 - ["12SkeletonView17AssociatedObjectsP", "windowScene"]
+- !private ["So15CALayerDelegateP", "rootViewController"]
 - ["s7CVarArgP", "ConnectionOptions"]
+- !private ["s7CVarArgP", "NSNotification"]
+- !private ["s7CVarArgP", "Name"]
+- !private ["s7CVarArgP", "NotificationCenter"]
+- !private ["s7CVarArgP", "OperationQueue"]
+- !private ["s7CVarArgP", "PFUser"]
+- !private ["s7CVarArgP", "UIStoryboard"]
 - ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "addObserver"]
+- !private ["s7CVarArgP", "current"]
+- !private ["s7CVarArgP", "default"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "instantiateViewController"]
+- !private ["s7CVarArgP", "logOutInBackground"]
+- !private ["s7CVarArgP", "login"]
+- !private ["s7CVarArgP", "logout"]
+- !private ["s7CVarArgP", "main"]
+- !private ["s7CVarArgP", "print"]
+- !private ["s7CVarArgP", "rootViewController"]
 - ["s7CVarArgP", "scene"]
 - ["s7CVarArgP", "sceneDidBecomeActive"]
 - ["s7CVarArgP", "sceneDidDisconnect"]
@@ -48,7 +94,24 @@ depends-member:
 - ["s7CVarArgP", "window"]
 - ["s7CVarArgP", "windowScene"]
 - ["s28CustomDebugStringConvertibleP", "ConnectionOptions"]
+- !private ["s28CustomDebugStringConvertibleP", "NSNotification"]
+- !private ["s28CustomDebugStringConvertibleP", "Name"]
+- !private ["s28CustomDebugStringConvertibleP", "NotificationCenter"]
+- !private ["s28CustomDebugStringConvertibleP", "OperationQueue"]
+- !private ["s28CustomDebugStringConvertibleP", "PFUser"]
+- !private ["s28CustomDebugStringConvertibleP", "UIStoryboard"]
 - ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "addObserver"]
+- !private ["s28CustomDebugStringConvertibleP", "current"]
+- !private ["s28CustomDebugStringConvertibleP", "default"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "instantiateViewController"]
+- !private ["s28CustomDebugStringConvertibleP", "logOutInBackground"]
+- !private ["s28CustomDebugStringConvertibleP", "login"]
+- !private ["s28CustomDebugStringConvertibleP", "logout"]
+- !private ["s28CustomDebugStringConvertibleP", "main"]
+- !private ["s28CustomDebugStringConvertibleP", "print"]
+- !private ["s28CustomDebugStringConvertibleP", "rootViewController"]
 - ["s28CustomDebugStringConvertibleP", "scene"]
 - ["s28CustomDebugStringConvertibleP", "sceneDidBecomeActive"]
 - ["s28CustomDebugStringConvertibleP", "sceneDidDisconnect"]
@@ -60,7 +123,24 @@ depends-member:
 - ["s28CustomDebugStringConvertibleP", "window"]
 - ["s28CustomDebugStringConvertibleP", "windowScene"]
 - ["s23CustomStringConvertibleP", "ConnectionOptions"]
+- !private ["s23CustomStringConvertibleP", "NSNotification"]
+- !private ["s23CustomStringConvertibleP", "Name"]
+- !private ["s23CustomStringConvertibleP", "NotificationCenter"]
+- !private ["s23CustomStringConvertibleP", "OperationQueue"]
+- !private ["s23CustomStringConvertibleP", "PFUser"]
+- !private ["s23CustomStringConvertibleP", "UIStoryboard"]
 - ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "addObserver"]
+- !private ["s23CustomStringConvertibleP", "current"]
+- !private ["s23CustomStringConvertibleP", "default"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "instantiateViewController"]
+- !private ["s23CustomStringConvertibleP", "logOutInBackground"]
+- !private ["s23CustomStringConvertibleP", "login"]
+- !private ["s23CustomStringConvertibleP", "logout"]
+- !private ["s23CustomStringConvertibleP", "main"]
+- !private ["s23CustomStringConvertibleP", "print"]
+- !private ["s23CustomStringConvertibleP", "rootViewController"]
 - ["s23CustomStringConvertibleP", "scene"]
 - ["s23CustomStringConvertibleP", "sceneDidBecomeActive"]
 - ["s23CustomStringConvertibleP", "sceneDidDisconnect"]
@@ -72,7 +152,24 @@ depends-member:
 - ["s23CustomStringConvertibleP", "window"]
 - ["s23CustomStringConvertibleP", "windowScene"]
 - ["SQ", "ConnectionOptions"]
+- !private ["SQ", "NSNotification"]
+- !private ["SQ", "Name"]
+- !private ["SQ", "NotificationCenter"]
+- !private ["SQ", "OperationQueue"]
+- !private ["SQ", "PFUser"]
+- !private ["SQ", "UIStoryboard"]
 - ["SQ", ""]
+- !private ["SQ", "addObserver"]
+- !private ["SQ", "current"]
+- !private ["SQ", "default"]
+- !private ["SQ", "init"]
+- !private ["SQ", "instantiateViewController"]
+- !private ["SQ", "logOutInBackground"]
+- !private ["SQ", "login"]
+- !private ["SQ", "logout"]
+- !private ["SQ", "main"]
+- !private ["SQ", "print"]
+- !private ["SQ", "rootViewController"]
 - ["SQ", "scene"]
 - ["SQ", "sceneDidBecomeActive"]
 - ["SQ", "sceneDidDisconnect"]
@@ -83,8 +180,26 @@ depends-member:
 - ["SQ", "stateRestorationActivityForScene"]
 - ["SQ", "window"]
 - ["SQ", "windowScene"]
+- !private ["s5ErrorP", "localizedDescription"]
 - ["SH", "ConnectionOptions"]
+- !private ["SH", "NSNotification"]
+- !private ["SH", "Name"]
+- !private ["SH", "NotificationCenter"]
+- !private ["SH", "OperationQueue"]
+- !private ["SH", "PFUser"]
+- !private ["SH", "UIStoryboard"]
 - ["SH", ""]
+- !private ["SH", "addObserver"]
+- !private ["SH", "current"]
+- !private ["SH", "default"]
+- !private ["SH", "init"]
+- !private ["SH", "instantiateViewController"]
+- !private ["SH", "logOutInBackground"]
+- !private ["SH", "login"]
+- !private ["SH", "logout"]
+- !private ["SH", "main"]
+- !private ["SH", "print"]
+- !private ["SH", "rootViewController"]
 - ["SH", "scene"]
 - ["SH", "sceneDidBecomeActive"]
 - ["SH", "sceneDidDisconnect"]
@@ -95,12 +210,33 @@ depends-member:
 - ["SH", "stateRestorationActivityForScene"]
 - ["SH", "window"]
 - ["SH", "windowScene"]
+- !private ["12SkeletonView15IterableElementP", "rootViewController"]
+- !private ["So8NSCodingP", "Name"]
+- !private ["So8NSCodingP", "rootViewController"]
+- !private ["So9NSCopyingP", "Name"]
+- !private ["So14NSNotificationC", "Name"]
 - ["So8NSObjectC", "ConnectionOptions"]
+- !private ["So8NSObjectC", "NSNotification"]
+- !private ["So8NSObjectC", "Name"]
+- !private ["So8NSObjectC", "NotificationCenter"]
+- !private ["So8NSObjectC", "OperationQueue"]
+- !private ["So8NSObjectC", "PFUser"]
 - ["So8NSObjectC", "UIScene"]
 - ["So8NSObjectC", "UISceneSession"]
+- !private ["So8NSObjectC", "UIStoryboard"]
 - ["So8NSObjectC", "UIWindow"]
 - !private ["So8NSObjectC", "UIWindowScene"]
+- !private ["So8NSObjectC", "addObserver"]
+- !private ["So8NSObjectC", "current"]
+- !private ["So8NSObjectC", "default"]
 - ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "instantiateViewController"]
+- !private ["So8NSObjectC", "logOutInBackground"]
+- ["So8NSObjectC", "login"]
+- ["So8NSObjectC", "logout"]
+- !private ["So8NSObjectC", "main"]
+- !private ["So8NSObjectC", "print"]
+- !private ["So8NSObjectC", "rootViewController"]
 - ["So8NSObjectC", "scene"]
 - ["So8NSObjectC", "sceneDidBecomeActive"]
 - ["So8NSObjectC", "sceneDidDisconnect"]
@@ -112,7 +248,24 @@ depends-member:
 - ["So8NSObjectC", "window"]
 - ["So8NSObjectC", "windowScene"]
 - ["So8NSObjectP", "ConnectionOptions"]
+- !private ["So8NSObjectP", "NSNotification"]
+- !private ["So8NSObjectP", "Name"]
+- !private ["So8NSObjectP", "NotificationCenter"]
+- !private ["So8NSObjectP", "OperationQueue"]
+- !private ["So8NSObjectP", "PFUser"]
+- !private ["So8NSObjectP", "UIStoryboard"]
 - ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "addObserver"]
+- !private ["So8NSObjectP", "current"]
+- !private ["So8NSObjectP", "default"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "instantiateViewController"]
+- !private ["So8NSObjectP", "logOutInBackground"]
+- !private ["So8NSObjectP", "login"]
+- !private ["So8NSObjectP", "logout"]
+- !private ["So8NSObjectP", "main"]
+- !private ["So8NSObjectP", "print"]
+- !private ["So8NSObjectP", "rootViewController"]
 - ["So8NSObjectP", "scene"]
 - ["So8NSObjectP", "sceneDidBecomeActive"]
 - ["So8NSObjectP", "sceneDidDisconnect"]
@@ -123,12 +276,33 @@ depends-member:
 - ["So8NSObjectP", "stateRestorationActivityForScene"]
 - ["So8NSObjectP", "window"]
 - ["So8NSObjectP", "windowScene"]
+- !private ["So18NSNotificationNamea", "init"]
+- !private ["So20NSNotificationCenterC", "addObserver"]
+- !private ["So20NSNotificationCenterC", "default"]
+- !private ["So16NSOperationQueueC", "main"]
+- !private ["So8PFObjectC", "current"]
+- !private ["So8PFObjectC", "logOutInBackground"]
+- !private ["So13PFSubclassingP", "current"]
+- !private ["So13PFSubclassingP", "logOutInBackground"]
+- !private ["So6PFUserC", "current"]
+- !private ["So6PFUserC", "logOutInBackground"]
+- !private ["So19NSProgressReportingP", "main"]
+- !private ["SY", "init"]
+- !private ["12SkeletonView11RecoverableP", "rootViewController"]
+- !private ["5Yelpy13SceneDelegateC", "NSNotification"]
+- !private ["5Yelpy13SceneDelegateC", "NotificationCenter"]
+- !private ["5Yelpy13SceneDelegateC", "OperationQueue"]
+- !private ["5Yelpy13SceneDelegateC", "PFUser"]
 - ["5Yelpy13SceneDelegateC", "UIScene"]
 - ["5Yelpy13SceneDelegateC", "UISceneSession"]
+- !private ["5Yelpy13SceneDelegateC", "UIStoryboard"]
 - ["5Yelpy13SceneDelegateC", "UIWindow"]
 - !private ["5Yelpy13SceneDelegateC", "UIWindowScene"]
 - ["5Yelpy13SceneDelegateC", "deinit"]
 - ["5Yelpy13SceneDelegateC", "init"]
+- ["5Yelpy13SceneDelegateC", "login"]
+- ["5Yelpy13SceneDelegateC", "logout"]
+- !private ["5Yelpy13SceneDelegateC", "print"]
 - ["5Yelpy13SceneDelegateC", "scene"]
 - ["5Yelpy13SceneDelegateC", "sceneDidBecomeActive"]
 - ["5Yelpy13SceneDelegateC", "sceneDidDisconnect"]
@@ -139,8 +313,27 @@ depends-member:
 - ["5Yelpy13SceneDelegateC", "stateRestorationActivityForScene"]
 - ["5Yelpy13SceneDelegateC", "window"]
 - ["5Yelpy13SceneDelegateC", "windowScene"]
+- !private ["7Combine9SchedulerP", "main"]
+- !private ["So29UIAccessibilityIdentificationP", "rootViewController"]
+- !private ["So12UIAppearanceP", "rootViewController"]
+- !private ["So21UIAppearanceContainerP", "rootViewController"]
+- !private ["So17UICoordinateSpaceP", "rootViewController"]
+- !private ["So13UIDynamicItemP", "rootViewController"]
+- !private ["So18UIFocusEnvironmentP", "rootViewController"]
+- !private ["So11UIFocusItemP", "rootViewController"]
+- !private ["So20UIFocusItemContainerP", "rootViewController"]
+- !private ["So24UILargeContentViewerItemP", "rootViewController"]
 - ["So30UIPasteConfigurationSupportingP", "ConnectionOptions"]
+- !private ["So30UIPasteConfigurationSupportingP", "NSNotification"]
+- !private ["So30UIPasteConfigurationSupportingP", "NotificationCenter"]
+- !private ["So30UIPasteConfigurationSupportingP", "OperationQueue"]
+- !private ["So30UIPasteConfigurationSupportingP", "PFUser"]
+- !private ["So30UIPasteConfigurationSupportingP", "UIStoryboard"]
 - ["So30UIPasteConfigurationSupportingP", ""]
+- !private ["So30UIPasteConfigurationSupportingP", "login"]
+- !private ["So30UIPasteConfigurationSupportingP", "logout"]
+- !private ["So30UIPasteConfigurationSupportingP", "print"]
+- !private ["So30UIPasteConfigurationSupportingP", "rootViewController"]
 - ["So30UIPasteConfigurationSupportingP", "scene"]
 - ["So30UIPasteConfigurationSupportingP", "sceneDidBecomeActive"]
 - ["So30UIPasteConfigurationSupportingP", "sceneDidDisconnect"]
@@ -152,12 +345,21 @@ depends-member:
 - ["So30UIPasteConfigurationSupportingP", "window"]
 - ["So30UIPasteConfigurationSupportingP", "windowScene"]
 - ["So11UIResponderC", "ConnectionOptions"]
+- !private ["So11UIResponderC", "NSNotification"]
+- !private ["So11UIResponderC", "NotificationCenter"]
+- !private ["So11UIResponderC", "OperationQueue"]
+- !private ["So11UIResponderC", "PFUser"]
 - ["So11UIResponderC", "UIScene"]
 - ["So11UIResponderC", "UISceneSession"]
+- !private ["So11UIResponderC", "UIStoryboard"]
 - ["So11UIResponderC", "UIWindow"]
 - !private ["So11UIResponderC", "UIWindowScene"]
 - ["So11UIResponderC", ""]
 - ["So11UIResponderC", "init"]
+- ["So11UIResponderC", "login"]
+- ["So11UIResponderC", "logout"]
+- !private ["So11UIResponderC", "print"]
+- !private ["So11UIResponderC", "rootViewController"]
 - ["So11UIResponderC", "scene"]
 - ["So11UIResponderC", "sceneDidBecomeActive"]
 - ["So11UIResponderC", "sceneDidDisconnect"]
@@ -169,7 +371,16 @@ depends-member:
 - ["So11UIResponderC", "window"]
 - ["So11UIResponderC", "windowScene"]
 - ["So30UIResponderStandardEditActionsP", "ConnectionOptions"]
+- !private ["So30UIResponderStandardEditActionsP", "NSNotification"]
+- !private ["So30UIResponderStandardEditActionsP", "NotificationCenter"]
+- !private ["So30UIResponderStandardEditActionsP", "OperationQueue"]
+- !private ["So30UIResponderStandardEditActionsP", "PFUser"]
+- !private ["So30UIResponderStandardEditActionsP", "UIStoryboard"]
 - ["So30UIResponderStandardEditActionsP", ""]
+- !private ["So30UIResponderStandardEditActionsP", "login"]
+- !private ["So30UIResponderStandardEditActionsP", "logout"]
+- !private ["So30UIResponderStandardEditActionsP", "print"]
+- !private ["So30UIResponderStandardEditActionsP", "rootViewController"]
 - ["So30UIResponderStandardEditActionsP", "scene"]
 - ["So30UIResponderStandardEditActionsP", "sceneDidBecomeActive"]
 - ["So30UIResponderStandardEditActionsP", "sceneDidDisconnect"]
@@ -181,7 +392,15 @@ depends-member:
 - ["So30UIResponderStandardEditActionsP", "window"]
 - ["So30UIResponderStandardEditActionsP", "windowScene"]
 - ["So7UISceneC", "ConnectionOptions"]
+- !private ["So15UISceneDelegateP", "NSNotification"]
+- !private ["So15UISceneDelegateP", "NotificationCenter"]
+- !private ["So15UISceneDelegateP", "OperationQueue"]
+- !private ["So15UISceneDelegateP", "PFUser"]
+- !private ["So15UISceneDelegateP", "UIStoryboard"]
 - ["So15UISceneDelegateP", ""]
+- !private ["So15UISceneDelegateP", "login"]
+- !private ["So15UISceneDelegateP", "logout"]
+- !private ["So15UISceneDelegateP", "print"]
 - ["So15UISceneDelegateP", "scene"]
 - ["So15UISceneDelegateP", "sceneDidBecomeActive"]
 - ["So15UISceneDelegateP", "sceneDidDisconnect"]
@@ -192,8 +411,20 @@ depends-member:
 - ["So15UISceneDelegateP", "stateRestorationActivityForScene"]
 - ["So15UISceneDelegateP", "window"]
 - ["So15UISceneDelegateP", "windowScene"]
+- !private ["So12UIStoryboardC", "init"]
+- !private ["So12UIStoryboardC", "instantiateViewController"]
+- !private ["So18UITraitEnvironmentP", "rootViewController"]
 - ["So23UIUserActivityRestoringP", "ConnectionOptions"]
+- !private ["So23UIUserActivityRestoringP", "NSNotification"]
+- !private ["So23UIUserActivityRestoringP", "NotificationCenter"]
+- !private ["So23UIUserActivityRestoringP", "OperationQueue"]
+- !private ["So23UIUserActivityRestoringP", "PFUser"]
+- !private ["So23UIUserActivityRestoringP", "UIStoryboard"]
 - ["So23UIUserActivityRestoringP", ""]
+- !private ["So23UIUserActivityRestoringP", "login"]
+- !private ["So23UIUserActivityRestoringP", "logout"]
+- !private ["So23UIUserActivityRestoringP", "print"]
+- !private ["So23UIUserActivityRestoringP", "rootViewController"]
 - ["So23UIUserActivityRestoringP", "scene"]
 - ["So23UIUserActivityRestoringP", "sceneDidBecomeActive"]
 - ["So23UIUserActivityRestoringP", "sceneDidDisconnect"]
@@ -204,7 +435,17 @@ depends-member:
 - ["So23UIUserActivityRestoringP", "stateRestorationActivityForScene"]
 - ["So23UIUserActivityRestoringP", "window"]
 - ["So23UIUserActivityRestoringP", "windowScene"]
+- !private ["So6UIViewC", "rootViewController"]
+- !private ["So8UIWindowC", "rootViewController"]
+- !private ["So21UIWindowSceneDelegateP", "NSNotification"]
+- !private ["So21UIWindowSceneDelegateP", "NotificationCenter"]
+- !private ["So21UIWindowSceneDelegateP", "OperationQueue"]
+- !private ["So21UIWindowSceneDelegateP", "PFUser"]
+- !private ["So21UIWindowSceneDelegateP", "UIStoryboard"]
 - ["So21UIWindowSceneDelegateP", ""]
+- !private ["So21UIWindowSceneDelegateP", "login"]
+- !private ["So21UIWindowSceneDelegateP", "logout"]
+- !private ["So21UIWindowSceneDelegateP", "print"]
 - ["So21UIWindowSceneDelegateP", "scene"]
 - ["So21UIWindowSceneDelegateP", "sceneDidBecomeActive"]
 - ["So21UIWindowSceneDelegateP", "sceneDidDisconnect"]
@@ -215,8 +456,27 @@ depends-member:
 - ["So21UIWindowSceneDelegateP", "stateRestorationActivityForScene"]
 - ["So21UIWindowSceneDelegateP", "window"]
 - ["So21UIWindowSceneDelegateP", "windowScene"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "Name"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "ConnectionOptions"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "NSNotification"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Name"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "NotificationCenter"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "OperationQueue"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "PFUser"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UIStoryboard"]
 - ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "addObserver"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "current"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "default"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "instantiateViewController"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "logOutInBackground"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "login"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "logout"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "main"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "print"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "rootViewController"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "scene"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "sceneDidBecomeActive"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "sceneDidDisconnect"]
@@ -228,7 +488,24 @@ depends-member:
 - ["10Foundation27_KeyValueCodingAndObservingP", "window"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "windowScene"]
 - ["10Foundation37_KeyValueCodingAndObservingPublishingP", "ConnectionOptions"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "NSNotification"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "Name"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "NotificationCenter"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "OperationQueue"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "PFUser"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "UIStoryboard"]
 - ["10Foundation37_KeyValueCodingAndObservingPublishingP", ""]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "addObserver"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "current"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "default"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "init"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "instantiateViewController"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "logOutInBackground"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "login"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "logout"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "main"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "print"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "rootViewController"]
 - ["10Foundation37_KeyValueCodingAndObservingPublishingP", "scene"]
 - ["10Foundation37_KeyValueCodingAndObservingPublishingP", "sceneDidBecomeActive"]
 - ["10Foundation37_KeyValueCodingAndObservingPublishingP", "sceneDidDisconnect"]
@@ -239,25 +516,61 @@ depends-member:
 - ["10Foundation37_KeyValueCodingAndObservingPublishingP", "stateRestorationActivityForScene"]
 - ["10Foundation37_KeyValueCodingAndObservingPublishingP", "window"]
 - ["10Foundation37_KeyValueCodingAndObservingPublishingP", "windowScene"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s20_SwiftNewtypeWrapperP", "init"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "rootViewController"]
 depends-nominal:
 - "12SkeletonView17AssociatedObjectsP"
+- !private "So15CALayerDelegateP"
 - "s7CVarArgP"
 - "s28CustomDebugStringConvertibleP"
 - "s23CustomStringConvertibleP"
 - "SQ"
+- !private "s5ErrorP"
 - "SH"
+- !private "12SkeletonView15IterableElementP"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So14NSNotificationC"
 - "So8NSObjectC"
 - "So8NSObjectP"
+- !private "So18NSNotificationNamea"
+- !private "So20NSNotificationCenterC"
+- !private "So16NSOperationQueueC"
+- !private "So8PFObjectC"
+- !private "So13PFSubclassingP"
+- !private "So6PFUserC"
+- !private "So19NSProgressReportingP"
+- !private "SY"
+- !private "12SkeletonView11RecoverableP"
 - "5Yelpy13SceneDelegateC"
+- !private "7Combine9SchedulerP"
+- !private "So29UIAccessibilityIdentificationP"
+- !private "So12UIAppearanceP"
+- !private "So21UIAppearanceContainerP"
+- !private "So17UICoordinateSpaceP"
+- !private "So13UIDynamicItemP"
+- !private "So18UIFocusEnvironmentP"
+- !private "So11UIFocusItemP"
+- !private "So20UIFocusItemContainerP"
+- !private "So24UILargeContentViewerItemP"
 - "So30UIPasteConfigurationSupportingP"
 - "So11UIResponderC"
 - "So30UIResponderStandardEditActionsP"
 - "So7UISceneC"
 - "So15UISceneDelegateP"
+- !private "So12UIStoryboardC"
+- !private "So18UITraitEnvironmentP"
 - "So23UIUserActivityRestoringP"
+- !private "So6UIViewC"
+- !private "So8UIWindowC"
 - "So21UIWindowSceneDelegateP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
 - "10Foundation27_KeyValueCodingAndObservingP"
 - "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s20_SwiftNewtypeWrapperP"
+- !private "s38__DefaultCustomPlaygroundQuickLookableP"
 depends-dynamic-lookup:
 depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64.swiftmodule"
@@ -359,4 +672,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/StoreKit.framework/Headers/StoreKit.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
-interface-hash: "127201c8c716b7030f8c10092b30daff"
+interface-hash: "b333501f3f50bbccdc5026c9d3f0817a"

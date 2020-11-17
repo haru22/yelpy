@@ -1,6 +1,6 @@
 version: "Apple Swift version 5.2.4 (swiftlang-1103.0.32.9 clang-1103.0.32.53)"
 options: "3e7abd794db2d0195b6e2455fa2f8708"
-build_time: [1605486505, 580606000]
+build_time: [1605585592, 820135000]
 inputs:
   "/Users/haruna/Documents/iOSdev/yelpy/Pods/lottie-ios/lottie-swift/src/Public/iOS/AnimatedButton.swift": [1604938893, 386694708]
   "/Users/haruna/Documents/iOSdev/yelpy/Pods/lottie-ios/lottie-swift/src/Public/iOS/AnimatedControl.swift": [1604938893, 387647276]

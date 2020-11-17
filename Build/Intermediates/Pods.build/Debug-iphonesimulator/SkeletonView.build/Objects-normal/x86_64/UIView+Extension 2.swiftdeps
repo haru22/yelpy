@@ -1,0 +1,285 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ViewAssociatedKeys"
+provides-nominal:
+- "12SkeletonView0B14AssociatedKeysO"
+- "So6UIViewC12SkeletonViewE6StatusO"
+provides-member:
+- ["12SkeletonView0B14AssociatedKeysO", ""]
+- ["So6UIViewC", ""]
+- ["So6UIViewC12SkeletonViewE6StatusO", ""]
+- ["So6UIViewC", "Status"]
+- ["So6UIViewC", "flowDelegate"]
+- ["So6UIViewC", "skeletonLayer"]
+- ["So6UIViewC", "currentSkeletonConfig"]
+- ["So6UIViewC", "status"]
+- ["So6UIViewC", "isSkeletonAnimated"]
+provides-dynamic-lookup:
+- "currentSkeletonConfig"
+- "flowDelegate"
+- "isSkeletonAnimated"
+- "skeletonLayer"
+- "status"
+depends-top-level:
+- "=="
+- !private "??"
+- "Bool"
+- !private "BooleanLiteralType"
+- "CastingPrecedence"
+- !private "FloatLiteralType"
+- !private "IntegerLiteralType"
+- "SkeletonConfig"
+- "SkeletonFlowDelegate"
+- "SkeletonLayer"
+- "StringLiteralType"
+- "UIView"
+- "ViewAssociatedKeys"
+depends-member:
+- !private ["12SkeletonView17AssociatedObjectsP", "ViewAssociatedKeys"]
+- !private ["12SkeletonView17AssociatedObjectsP", "ao_get"]
+- !private ["12SkeletonView17AssociatedObjectsP", "ao_set"]
+- !private ["12SkeletonView17AssociatedObjectsP", "ao_setOptional"]
+- !private ["So15CALayerDelegateP", "ViewAssociatedKeys"]
+- !private ["So15CALayerDelegateP", "ao_get"]
+- !private ["So15CALayerDelegateP", "ao_set"]
+- !private ["So15CALayerDelegateP", "ao_setOptional"]
+- !private ["s7CVarArgP", "ViewAssociatedKeys"]
+- !private ["s7CVarArgP", "ao_get"]
+- !private ["s7CVarArgP", "ao_set"]
+- !private ["s7CVarArgP", "ao_setOptional"]
+- !private ["s28CustomDebugStringConvertibleP", "ViewAssociatedKeys"]
+- !private ["s28CustomDebugStringConvertibleP", "ao_get"]
+- !private ["s28CustomDebugStringConvertibleP", "ao_set"]
+- !private ["s28CustomDebugStringConvertibleP", "ao_setOptional"]
+- !private ["s23CustomStringConvertibleP", "ViewAssociatedKeys"]
+- !private ["s23CustomStringConvertibleP", "ao_get"]
+- !private ["s23CustomStringConvertibleP", "ao_set"]
+- !private ["s23CustomStringConvertibleP", "ao_setOptional"]
+- ["SQ", "=="]
+- !private ["SQ", "ViewAssociatedKeys"]
+- ["SQ", ""]
+- ["SQ", "_rawHashValue"]
+- !private ["SQ", "ao_get"]
+- !private ["SQ", "ao_set"]
+- !private ["SQ", "ao_setOptional"]
+- ["SQ", "hash"]
+- ["SQ", "hashValue"]
+- !private ["SQ", "off"]
+- ["SH", "=="]
+- !private ["SH", "ViewAssociatedKeys"]
+- ["SH", ""]
+- ["SH", "_rawHashValue"]
+- !private ["SH", "ao_get"]
+- !private ["SH", "ao_set"]
+- !private ["SH", "ao_setOptional"]
+- ["SH", "hash"]
+- ["SH", "hashValue"]
+- !private ["SH", "off"]
+- !private ["s6HasherV", "combine"]
+- !private ["12SkeletonView15IterableElementP", "ViewAssociatedKeys"]
+- !private ["12SkeletonView15IterableElementP", "ao_get"]
+- !private ["12SkeletonView15IterableElementP", "ao_set"]
+- !private ["12SkeletonView15IterableElementP", "ao_setOptional"]
+- !private ["So8NSCodingP", "ViewAssociatedKeys"]
+- !private ["So8NSCodingP", "ao_get"]
+- !private ["So8NSCodingP", "ao_set"]
+- !private ["So8NSCodingP", "ao_setOptional"]
+- ["So8NSObjectC", "Bool"]
+- ["So8NSObjectC", "SkeletonConfig"]
+- ["So8NSObjectC", "SkeletonFlowDelegate"]
+- ["So8NSObjectC", "SkeletonLayer"]
+- ["So8NSObjectC", "Status"]
+- !private ["So8NSObjectC", "ViewAssociatedKeys"]
+- !private ["So8NSObjectC", "ao_get"]
+- !private ["So8NSObjectC", "ao_set"]
+- !private ["So8NSObjectC", "ao_setOptional"]
+- ["So8NSObjectC", "currentSkeletonConfig"]
+- ["So8NSObjectC", "flowDelegate"]
+- ["So8NSObjectC", "isSkeletonAnimated"]
+- ["So8NSObjectC", "skeletonLayer"]
+- ["So8NSObjectC", "status"]
+- !private ["So8NSObjectP", "ViewAssociatedKeys"]
+- !private ["So8NSObjectP", "ao_get"]
+- !private ["So8NSObjectP", "ao_set"]
+- !private ["So8NSObjectP", "ao_setOptional"]
+- !private ["12SkeletonView11RecoverableP", "ViewAssociatedKeys"]
+- !private ["12SkeletonView11RecoverableP", "ao_get"]
+- !private ["12SkeletonView11RecoverableP", "ao_set"]
+- !private ["12SkeletonView11RecoverableP", "ao_setOptional"]
+- ["So6UIViewC12SkeletonViewE6StatusO", "=="]
+- ["So6UIViewC12SkeletonViewE6StatusO", "__derived_enum_equals"]
+- ["So6UIViewC12SkeletonViewE6StatusO", "_rawHashValue"]
+- ["So6UIViewC12SkeletonViewE6StatusO", "deinit"]
+- ["So6UIViewC12SkeletonViewE6StatusO", "hash"]
+- ["So6UIViewC12SkeletonViewE6StatusO", "hashValue"]
+- ["So6UIViewC12SkeletonViewE6StatusO", "off"]
+- ["So6UIViewC12SkeletonViewE6StatusO", "on"]
+- !private ["So29UIAccessibilityIdentificationP", "ViewAssociatedKeys"]
+- !private ["So29UIAccessibilityIdentificationP", "ao_get"]
+- !private ["So29UIAccessibilityIdentificationP", "ao_set"]
+- !private ["So29UIAccessibilityIdentificationP", "ao_setOptional"]
+- !private ["So12UIAppearanceP", "ViewAssociatedKeys"]
+- !private ["So12UIAppearanceP", "ao_get"]
+- !private ["So12UIAppearanceP", "ao_set"]
+- !private ["So12UIAppearanceP", "ao_setOptional"]
+- !private ["So21UIAppearanceContainerP", "ViewAssociatedKeys"]
+- !private ["So21UIAppearanceContainerP", "ao_get"]
+- !private ["So21UIAppearanceContainerP", "ao_set"]
+- !private ["So21UIAppearanceContainerP", "ao_setOptional"]
+- !private ["So17UICoordinateSpaceP", "ViewAssociatedKeys"]
+- !private ["So17UICoordinateSpaceP", "ao_get"]
+- !private ["So17UICoordinateSpaceP", "ao_set"]
+- !private ["So17UICoordinateSpaceP", "ao_setOptional"]
+- !private ["So13UIDynamicItemP", "ViewAssociatedKeys"]
+- !private ["So13UIDynamicItemP", "ao_get"]
+- !private ["So13UIDynamicItemP", "ao_set"]
+- !private ["So13UIDynamicItemP", "ao_setOptional"]
+- !private ["So18UIFocusEnvironmentP", "ViewAssociatedKeys"]
+- !private ["So18UIFocusEnvironmentP", "ao_get"]
+- !private ["So18UIFocusEnvironmentP", "ao_set"]
+- !private ["So18UIFocusEnvironmentP", "ao_setOptional"]
+- !private ["So11UIFocusItemP", "ViewAssociatedKeys"]
+- !private ["So11UIFocusItemP", "ao_get"]
+- !private ["So11UIFocusItemP", "ao_set"]
+- !private ["So11UIFocusItemP", "ao_setOptional"]
+- !private ["So20UIFocusItemContainerP", "ViewAssociatedKeys"]
+- !private ["So20UIFocusItemContainerP", "ao_get"]
+- !private ["So20UIFocusItemContainerP", "ao_set"]
+- !private ["So20UIFocusItemContainerP", "ao_setOptional"]
+- !private ["So24UILargeContentViewerItemP", "ViewAssociatedKeys"]
+- !private ["So24UILargeContentViewerItemP", "ao_get"]
+- !private ["So24UILargeContentViewerItemP", "ao_set"]
+- !private ["So24UILargeContentViewerItemP", "ao_setOptional"]
+- !private ["So30UIPasteConfigurationSupportingP", "ViewAssociatedKeys"]
+- !private ["So30UIPasteConfigurationSupportingP", "ao_get"]
+- !private ["So30UIPasteConfigurationSupportingP", "ao_set"]
+- !private ["So30UIPasteConfigurationSupportingP", "ao_setOptional"]
+- ["So11UIResponderC", "Bool"]
+- ["So11UIResponderC", "SkeletonConfig"]
+- ["So11UIResponderC", "SkeletonFlowDelegate"]
+- ["So11UIResponderC", "SkeletonLayer"]
+- ["So11UIResponderC", "Status"]
+- !private ["So11UIResponderC", "ViewAssociatedKeys"]
+- !private ["So11UIResponderC", "ao_get"]
+- !private ["So11UIResponderC", "ao_set"]
+- !private ["So11UIResponderC", "ao_setOptional"]
+- ["So11UIResponderC", "currentSkeletonConfig"]
+- ["So11UIResponderC", "flowDelegate"]
+- ["So11UIResponderC", "isSkeletonAnimated"]
+- ["So11UIResponderC", "skeletonLayer"]
+- ["So11UIResponderC", "status"]
+- !private ["So30UIResponderStandardEditActionsP", "ViewAssociatedKeys"]
+- !private ["So30UIResponderStandardEditActionsP", "ao_get"]
+- !private ["So30UIResponderStandardEditActionsP", "ao_set"]
+- !private ["So30UIResponderStandardEditActionsP", "ao_setOptional"]
+- !private ["So18UITraitEnvironmentP", "ViewAssociatedKeys"]
+- !private ["So18UITraitEnvironmentP", "ao_get"]
+- !private ["So18UITraitEnvironmentP", "ao_set"]
+- !private ["So18UITraitEnvironmentP", "ao_setOptional"]
+- !private ["So23UIUserActivityRestoringP", "ViewAssociatedKeys"]
+- !private ["So23UIUserActivityRestoringP", "ao_get"]
+- !private ["So23UIUserActivityRestoringP", "ao_set"]
+- !private ["So23UIUserActivityRestoringP", "ao_setOptional"]
+- ["So6UIViewC", "Bool"]
+- ["So6UIViewC", "SkeletonConfig"]
+- ["So6UIViewC", "SkeletonFlowDelegate"]
+- ["So6UIViewC", "SkeletonLayer"]
+- ["So6UIViewC", "Status"]
+- !private ["So6UIViewC", "ViewAssociatedKeys"]
+- !private ["So6UIViewC", "ao_get"]
+- !private ["So6UIViewC", "ao_set"]
+- !private ["So6UIViewC", "ao_setOptional"]
+- ["So6UIViewC", "currentSkeletonConfig"]
+- ["So6UIViewC", "flowDelegate"]
+- ["So6UIViewC", "isSkeletonAnimated"]
+- ["So6UIViewC", "skeletonLayer"]
+- ["So6UIViewC", "status"]
+- ["12SkeletonView0B14AssociatedKeysO", "buttonViewState"]
+- ["12SkeletonView0B14AssociatedKeysO", "currentSkeletonConfig"]
+- ["12SkeletonView0B14AssociatedKeysO", "flowDelegate"]
+- ["12SkeletonView0B14AssociatedKeysO", "hiddenWhenSkeletonIsActive"]
+- ["12SkeletonView0B14AssociatedKeysO", "imageViewState"]
+- ["12SkeletonView0B14AssociatedKeysO", "isSkeletonAnimated"]
+- ["12SkeletonView0B14AssociatedKeysO", "labelViewState"]
+- ["12SkeletonView0B14AssociatedKeysO", "skeletonCornerRadius"]
+- ["12SkeletonView0B14AssociatedKeysO", "skeletonLayer"]
+- ["12SkeletonView0B14AssociatedKeysO", "skeletonable"]
+- ["12SkeletonView0B14AssociatedKeysO", "status"]
+- ["12SkeletonView0B14AssociatedKeysO", "viewState"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "ViewAssociatedKeys"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "ao_get"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "ao_set"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "ao_setOptional"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "ViewAssociatedKeys"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "ao_get"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "ao_set"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "ao_setOptional"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "ViewAssociatedKeys"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "ao_get"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "ao_set"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "ao_setOptional"]
+depends-nominal:
+- !private "12SkeletonView17AssociatedObjectsP"
+- !private "So15CALayerDelegateP"
+- !private "s7CVarArgP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s23CustomStringConvertibleP"
+- "SQ"
+- "SH"
+- !private "s6HasherV"
+- !private "12SkeletonView15IterableElementP"
+- !private "So8NSCodingP"
+- "So8NSObjectC"
+- !private "So8NSObjectP"
+- !private "12SkeletonView11RecoverableP"
+- "So6UIViewC12SkeletonViewE6StatusO"
+- !private "So29UIAccessibilityIdentificationP"
+- !private "So12UIAppearanceP"
+- !private "So21UIAppearanceContainerP"
+- !private "So17UICoordinateSpaceP"
+- !private "So13UIDynamicItemP"
+- !private "So18UIFocusEnvironmentP"
+- !private "So11UIFocusItemP"
+- !private "So20UIFocusItemContainerP"
+- !private "So24UILargeContentViewerItemP"
+- !private "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- !private "So30UIResponderStandardEditActionsP"
+- !private "So18UITraitEnvironmentP"
+- !private "So23UIUserActivityRestoringP"
+- "So6UIViewC"
+- "12SkeletonView0B14AssociatedKeysO"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- !private "s38__DefaultCustomPlaygroundQuickLookableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/haruna/Documents/iOSdev/yelpy/Pods/Target Support Files/SkeletonView/SkeletonView-umbrella.h"
+- "/Users/haruna/Documents/iOSdev/yelpy/Build/Intermediates/Pods.build/Debug-iphonesimulator/SkeletonView.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "a0267d0ee84cece652893c5eb90f9b9b"

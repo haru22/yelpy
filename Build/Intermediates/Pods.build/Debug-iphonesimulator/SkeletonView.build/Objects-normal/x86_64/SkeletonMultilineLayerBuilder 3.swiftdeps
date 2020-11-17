@@ -1,0 +1,264 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "SkeletonMultilineLayerBuilder"
+provides-nominal:
+- "12SkeletonView0A21MultilineLayerBuilderC"
+provides-member:
+- ["12SkeletonView0A21MultilineLayerBuilderC", ""]
+provides-dynamic-lookup:
+- "build"
+- "cornerRadius"
+- "height"
+- "index"
+- "isRTL"
+- "multilineSpacing"
+- "paddingInsets"
+- "setCornerRadius"
+- "setHeight"
+- "setIndex"
+- "setIsRTL"
+- "setMultilineSpacing"
+- "setPadding"
+- "setSkeletonType"
+- "setWidth"
+- "skeletonType"
+- "width"
+depends-top-level:
+- "AssignmentPrecedence"
+- "Bool"
+- "BooleanLiteralType"
+- "CALayer"
+- "CGFloat"
+- !private "CGSize"
+- "Int"
+- "SkeletonAppearance"
+- "SkeletonMultilineLayerBuilder"
+- "SkeletonType"
+- "UIEdgeInsets"
+depends-member:
+- !private ["s18AdditiveArithmeticP", "init"]
+- ["12SkeletonView10AppearanceP", "multilineSpacing"]
+- !private ["12SkeletonView17AssociatedObjectsP", "anchorPoint"]
+- !private ["12SkeletonView17AssociatedObjectsP", "cornerRadius"]
+- !private ["12SkeletonView17AssociatedObjectsP", "masksToBounds"]
+- !private ["12SkeletonView17AssociatedObjectsP", "name"]
+- !private ["12SkeletonView17AssociatedObjectsP", "skeletonSubLayersName"]
+- !private ["12SkeletonView17AssociatedObjectsP", "updateLayerFrame"]
+- !private ["SB", "init"]
+- !private ["So7CALayerC", "anchorPoint"]
+- !private ["So7CALayerC", "cornerRadius"]
+- !private ["So7CALayerC", "masksToBounds"]
+- !private ["So7CALayerC", "name"]
+- !private ["So7CALayerC", "skeletonSubLayersName"]
+- !private ["So7CALayerC", "updateLayerFrame"]
+- !private ["So13CAMediaTimingP", "anchorPoint"]
+- !private ["So13CAMediaTimingP", "cornerRadius"]
+- !private ["So13CAMediaTimingP", "masksToBounds"]
+- !private ["So13CAMediaTimingP", "name"]
+- !private ["So13CAMediaTimingP", "skeletonSubLayersName"]
+- !private ["So13CAMediaTimingP", "updateLayerFrame"]
+- !private ["12CoreGraphics7CGFloatV", "init"]
+- !private ["So7CGPointV", "zero"]
+- !private ["So6CGSizeV", "init"]
+- !private ["s7CVarArgP", "anchorPoint"]
+- !private ["s7CVarArgP", "cornerRadius"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "masksToBounds"]
+- !private ["s7CVarArgP", "name"]
+- !private ["s7CVarArgP", "skeletonSubLayersName"]
+- !private ["s7CVarArgP", "updateLayerFrame"]
+- !private ["SL", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "anchorPoint"]
+- !private ["s28CustomDebugStringConvertibleP", "cornerRadius"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "masksToBounds"]
+- !private ["s28CustomDebugStringConvertibleP", "name"]
+- !private ["s28CustomDebugStringConvertibleP", "skeletonSubLayersName"]
+- !private ["s28CustomDebugStringConvertibleP", "updateLayerFrame"]
+- !private ["s28CustomDebugStringConvertibleP", "zero"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "zero"]
+- !private ["s23CustomStringConvertibleP", "anchorPoint"]
+- !private ["s23CustomStringConvertibleP", "cornerRadius"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "masksToBounds"]
+- !private ["s23CustomStringConvertibleP", "name"]
+- !private ["s23CustomStringConvertibleP", "skeletonSubLayersName"]
+- !private ["s23CustomStringConvertibleP", "updateLayerFrame"]
+- !private ["Se", "init"]
+- ["Se", "zero"]
+- !private ["SE", "init"]
+- ["SE", "zero"]
+- !private ["SQ", "anchorPoint"]
+- !private ["SQ", "cornerRadius"]
+- !private ["SQ", "init"]
+- !private ["SQ", "layer"]
+- !private ["SQ", "masksToBounds"]
+- !private ["SQ", "name"]
+- !private ["SQ", "skeletonSubLayersName"]
+- !private ["SQ", "updateLayerFrame"]
+- ["SQ", "zero"]
+- !private ["s25ExpressibleByFloatLiteralP", "init"]
+- !private ["s27ExpressibleByIntegerLiteralP", "init"]
+- !private ["SF", "init"]
+- !private ["SH", "anchorPoint"]
+- !private ["SH", "cornerRadius"]
+- !private ["SH", "init"]
+- !private ["SH", "layer"]
+- !private ["SH", "masksToBounds"]
+- !private ["SH", "name"]
+- !private ["SH", "skeletonSubLayersName"]
+- !private ["SH", "updateLayerFrame"]
+- !private ["12SkeletonView15IterableElementP", "anchorPoint"]
+- !private ["12SkeletonView15IterableElementP", "cornerRadius"]
+- !private ["12SkeletonView15IterableElementP", "masksToBounds"]
+- !private ["12SkeletonView15IterableElementP", "name"]
+- !private ["12SkeletonView15IterableElementP", "skeletonSubLayersName"]
+- !private ["12SkeletonView15IterableElementP", "updateLayerFrame"]
+- !private ["So8NSCodingP", "anchorPoint"]
+- !private ["So8NSCodingP", "cornerRadius"]
+- !private ["So8NSCodingP", "masksToBounds"]
+- !private ["So8NSCodingP", "name"]
+- !private ["So8NSCodingP", "skeletonSubLayersName"]
+- !private ["So8NSCodingP", "updateLayerFrame"]
+- !private ["So8NSObjectC", "anchorPoint"]
+- !private ["So8NSObjectC", "cornerRadius"]
+- !private ["So8NSObjectC", "masksToBounds"]
+- !private ["So8NSObjectC", "name"]
+- !private ["So8NSObjectC", "skeletonSubLayersName"]
+- !private ["So8NSObjectC", "updateLayerFrame"]
+- !private ["So8NSObjectP", "anchorPoint"]
+- !private ["So8NSObjectP", "cornerRadius"]
+- !private ["So8NSObjectP", "masksToBounds"]
+- !private ["So8NSObjectP", "name"]
+- !private ["So8NSObjectP", "skeletonSubLayersName"]
+- !private ["So8NSObjectP", "updateLayerFrame"]
+- !private ["So14NSSecureCodingP", "anchorPoint"]
+- !private ["So14NSSecureCodingP", "cornerRadius"]
+- !private ["So14NSSecureCodingP", "masksToBounds"]
+- !private ["So14NSSecureCodingP", "name"]
+- !private ["So14NSSecureCodingP", "skeletonSubLayersName"]
+- !private ["So14NSSecureCodingP", "updateLayerFrame"]
+- !private ["Sj", "init"]
+- !private ["s13SignedNumericP", "init"]
+- ["12SkeletonView0A10AppearanceO", "default"]
+- ["12SkeletonView0A21MultilineLayerBuilderC", "Bool"]
+- ["12SkeletonView0A21MultilineLayerBuilderC", "CALayer"]
+- ["12SkeletonView0A21MultilineLayerBuilderC", "CGFloat"]
+- !private ["12SkeletonView0A21MultilineLayerBuilderC", "CGSize"]
+- ["12SkeletonView0A21MultilineLayerBuilderC", "Int"]
+- ["12SkeletonView0A21MultilineLayerBuilderC", "SkeletonAppearance"]
+- ["12SkeletonView0A21MultilineLayerBuilderC", "SkeletonMultilineLayerBuilder"]
+- ["12SkeletonView0A21MultilineLayerBuilderC", "SkeletonType"]
+- ["12SkeletonView0A21MultilineLayerBuilderC", "UIEdgeInsets"]
+- ["12SkeletonView0A21MultilineLayerBuilderC", "build"]
+- ["12SkeletonView0A21MultilineLayerBuilderC", "cornerRadius"]
+- ["12SkeletonView0A21MultilineLayerBuilderC", "deinit"]
+- ["12SkeletonView0A21MultilineLayerBuilderC", "height"]
+- ["12SkeletonView0A21MultilineLayerBuilderC", "index"]
+- ["12SkeletonView0A21MultilineLayerBuilderC", "init"]
+- ["12SkeletonView0A21MultilineLayerBuilderC", "isRTL"]
+- ["12SkeletonView0A21MultilineLayerBuilderC", "multilineSpacing"]
+- ["12SkeletonView0A21MultilineLayerBuilderC", "paddingInsets"]
+- ["12SkeletonView0A21MultilineLayerBuilderC", "setCornerRadius"]
+- ["12SkeletonView0A21MultilineLayerBuilderC", "setHeight"]
+- ["12SkeletonView0A21MultilineLayerBuilderC", "setIndex"]
+- ["12SkeletonView0A21MultilineLayerBuilderC", "setIsRTL"]
+- ["12SkeletonView0A21MultilineLayerBuilderC", "setMultilineSpacing"]
+- ["12SkeletonView0A21MultilineLayerBuilderC", "setPadding"]
+- ["12SkeletonView0A21MultilineLayerBuilderC", "setSkeletonType"]
+- ["12SkeletonView0A21MultilineLayerBuilderC", "setWidth"]
+- ["12SkeletonView0A21MultilineLayerBuilderC", "skeletonType"]
+- ["12SkeletonView0A21MultilineLayerBuilderC", "width"]
+- !private ["12SkeletonView0A4TypeO", "layer"]
+- !private ["Sx", "init"]
+- ["So12UIEdgeInsetsV", "zero"]
+- !private ["s15_CVarArgAlignedP", "init"]
+- !private ["s22_CVarArgPassedAsDoubleP", "init"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "init"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "zero"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "anchorPoint"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "cornerRadius"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "masksToBounds"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "name"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "skeletonSubLayersName"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "updateLayerFrame"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "anchorPoint"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "cornerRadius"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "masksToBounds"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "name"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "skeletonSubLayersName"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "updateLayerFrame"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- ["s21_ObjectiveCBridgeableP", "zero"]
+depends-nominal:
+- !private "s18AdditiveArithmeticP"
+- "12SkeletonView10AppearanceP"
+- !private "12SkeletonView17AssociatedObjectsP"
+- !private "SB"
+- !private "So7CALayerC"
+- !private "So13CAMediaTimingP"
+- !private "12CoreGraphics7CGFloatV"
+- !private "So7CGPointV"
+- !private "So6CGSizeV"
+- !private "s7CVarArgP"
+- !private "SL"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- "Se"
+- "SE"
+- "SQ"
+- !private "s25ExpressibleByFloatLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- !private "SF"
+- !private "SH"
+- !private "12SkeletonView15IterableElementP"
+- !private "So8NSCodingP"
+- !private "So8NSObjectC"
+- !private "So8NSObjectP"
+- !private "So14NSSecureCodingP"
+- !private "Sj"
+- !private "s13SignedNumericP"
+- "12SkeletonView0A10AppearanceO"
+- "12SkeletonView0A21MultilineLayerBuilderC"
+- !private "12SkeletonView0A4TypeO"
+- !private "Sx"
+- "So12UIEdgeInsetsV"
+- !private "s15_CVarArgAlignedP"
+- !private "s22_CVarArgPassedAsDoubleP"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/haruna/Documents/iOSdev/yelpy/Pods/Target Support Files/SkeletonView/SkeletonView-umbrella.h"
+- "/Users/haruna/Documents/iOSdev/yelpy/Build/Intermediates/Pods.build/Debug-iphonesimulator/SkeletonView.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "00d5c31b2caed3771f2abeeb9d210298"

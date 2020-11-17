@@ -218,27 +218,42 @@ SWIFT_CLASS("_TtC5Yelpy11AppDelegate")
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
+@class UILabel;
 @class NSCoder;
 
 SWIFT_CLASS("_TtC5Yelpy21ChatCellTableViewCell")
 @interface ChatCellTableViewCell : UITableViewCell
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified usernameLabel;
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified messageLabel;
 - (void)awakeFromNib;
 - (void)setSelected:(BOOL)selected animated:(BOOL)animated;
 - (nonnull instancetype)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString * _Nullable)reuseIdentifier OBJC_DESIGNATED_INITIALIZER SWIFT_AVAILABILITY(ios,introduced=3.0);
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
 @end
 
+@class UITextField;
+@class UITableView;
 @class NSBundle;
 
 SWIFT_CLASS("_TtC5Yelpy18ChatViewController")
 @interface ChatViewController : UIViewController
+@property (nonatomic, weak) IBOutlet UITextField * _Null_unspecified messageTextField;
+@property (nonatomic, weak) IBOutlet UITableView * _Null_unspecified tableView;
 - (void)viewDidLoad;
+- (void)retrieveChatMessage;
+- (IBAction)onSendMessage:(id _Nonnull)sender;
+- (IBAction)onLogout:(id _Nonnull)sender;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
 @end
 
+
+@interface ChatViewController (SWIFT_EXTENSION(Yelpy)) <UITableViewDataSource, UITableViewDelegate>
+- (NSInteger)tableView:(UITableView * _Nonnull)tableView numberOfRowsInSection:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
+- (UITableViewCell * _Nonnull)tableView:(UITableView * _Nonnull)tableView cellForRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
+@end
+
 @class UIImageView;
-@class UILabel;
 
 SWIFT_CLASS("_TtC5Yelpy21DetailsViewController")
 @interface DetailsViewController : UIViewController
@@ -249,7 +264,6 @@ SWIFT_CLASS("_TtC5Yelpy21DetailsViewController")
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
 @end
 
-@class UITextField;
 
 SWIFT_CLASS("_TtC5Yelpy19LoginViewController")
 @interface LoginViewController : UIViewController
@@ -278,7 +292,6 @@ SWIFT_CLASS("_TtC5Yelpy14RestaurantCell")
 @end
 
 @class UISearchBar;
-@class UITableView;
 
 SWIFT_CLASS("_TtC5Yelpy25RestaurantsViewController")
 @interface RestaurantsViewController : UIViewController

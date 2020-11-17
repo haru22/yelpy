@@ -7,10 +7,13 @@ provides-member:
 - ["5Yelpy017ChatCellTableViewC0C", ""]
 provides-dynamic-lookup:
 - "awakeFromNib"
+- "messageLabel"
 - "setSelected"
+- "usernameLabel"
 depends-top-level:
 - "Bool"
 - "ChatCellTableViewCell"
+- "UILabel"
 - "UITableViewCell"
 depends-member:
 - ["12SkeletonView17AssociatedObjectsP", ""]
@@ -23,10 +26,13 @@ depends-member:
 - !private ["s7CVarArgP", "awakeFromNib"]
 - !private ["s7CVarArgP", "setSelected"]
 - ["5Yelpy017ChatCellTableViewC0C", "Bool"]
+- ["5Yelpy017ChatCellTableViewC0C", "UILabel"]
 - ["5Yelpy017ChatCellTableViewC0C", "awakeFromNib"]
 - ["5Yelpy017ChatCellTableViewC0C", "deinit"]
 - ["5Yelpy017ChatCellTableViewC0C", "init"]
+- ["5Yelpy017ChatCellTableViewC0C", "messageLabel"]
 - ["5Yelpy017ChatCellTableViewC0C", "setSelected"]
+- ["5Yelpy017ChatCellTableViewC0C", "usernameLabel"]
 - ["s28CustomDebugStringConvertibleP", ""]
 - !private ["s28CustomDebugStringConvertibleP", "awakeFromNib"]
 - !private ["s28CustomDebugStringConvertibleP", "setSelected"]
@@ -46,9 +52,12 @@ depends-member:
 - !private ["So8NSCodingP", "awakeFromNib"]
 - !private ["So8NSCodingP", "setSelected"]
 - ["So8NSObjectC", "Bool"]
+- ["So8NSObjectC", "UILabel"]
 - ["So8NSObjectC", "awakeFromNib"]
 - ["So8NSObjectC", "init"]
+- ["So8NSObjectC", "messageLabel"]
 - ["So8NSObjectC", "setSelected"]
+- ["So8NSObjectC", "usernameLabel"]
 - ["So8NSObjectP", ""]
 - !private ["So8NSObjectP", "awakeFromNib"]
 - !private ["So8NSObjectP", "setSelected"]
@@ -92,17 +101,23 @@ depends-member:
 - !private ["So30UIPasteConfigurationSupportingP", "awakeFromNib"]
 - !private ["So30UIPasteConfigurationSupportingP", "setSelected"]
 - ["So11UIResponderC", "Bool"]
+- ["So11UIResponderC", "UILabel"]
 - ["So11UIResponderC", "awakeFromNib"]
 - ["So11UIResponderC", "init"]
+- ["So11UIResponderC", "messageLabel"]
 - ["So11UIResponderC", "setSelected"]
+- ["So11UIResponderC", "usernameLabel"]
 - ["So30UIResponderStandardEditActionsP", ""]
 - !private ["So30UIResponderStandardEditActionsP", "awakeFromNib"]
 - !private ["So30UIResponderStandardEditActionsP", "setSelected"]
 - ["So15UITableViewCellC", "Bool"]
+- ["So15UITableViewCellC", "UILabel"]
 - ["So15UITableViewCellC", ""]
 - ["So15UITableViewCellC", "awakeFromNib"]
 - ["So15UITableViewCellC", "init"]
+- ["So15UITableViewCellC", "messageLabel"]
 - ["So15UITableViewCellC", "setSelected"]
+- ["So15UITableViewCellC", "usernameLabel"]
 - ["So18UITraitEnvironmentP", ""]
 - !private ["So18UITraitEnvironmentP", "awakeFromNib"]
 - !private ["So18UITraitEnvironmentP", "setSelected"]
@@ -110,9 +125,12 @@ depends-member:
 - !private ["So23UIUserActivityRestoringP", "awakeFromNib"]
 - !private ["So23UIUserActivityRestoringP", "setSelected"]
 - ["So6UIViewC", "Bool"]
+- ["So6UIViewC", "UILabel"]
 - ["So6UIViewC", "awakeFromNib"]
 - ["So6UIViewC", "init"]
+- ["So6UIViewC", "messageLabel"]
 - ["So6UIViewC", "setSelected"]
+- ["So6UIViewC", "usernameLabel"]
 - ["10Foundation27_KeyValueCodingAndObservingP", ""]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "awakeFromNib"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "setSelected"]
@@ -258,4 +276,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/StoreKit.framework/Headers/StoreKit.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
-interface-hash: "0993da495413ec6452b8fa4a07e916c8"
+interface-hash: "90380bab097ddf56e57db93983869f1c"
