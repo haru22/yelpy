@@ -20,7 +20,7 @@ depends-top-level:
 - "AssignmentPrecedence"
 - !private "BooleanLiteralType"
 - "CastingPrecedence"
-- !private "ChatCellTableViewCell"
+- !private "ChatCell"
 - "ChatViewController"
 - !private "FloatLiteralType"
 - "IndexPath"
@@ -184,9 +184,9 @@ depends-member:
 - !private ["s7CVarArgP", "viewDidLoad"]
 - ["s7CVarArgP", "viewForZooming"]
 - ["s7CVarArgP", "viewForZoomingInScrollView"]
-- !private ["5Yelpy017ChatCellTableViewC0C", "messageLabel"]
-- !private ["5Yelpy017ChatCellTableViewC0C", "usernameLabel"]
-- !private ["5Yelpy18ChatViewControllerC", "ChatCellTableViewCell"]
+- !private ["5Yelpy8ChatCellC", "messageLabel"]
+- !private ["5Yelpy8ChatCellC", "usernameLabel"]
+- !private ["5Yelpy18ChatViewControllerC", "ChatCell"]
 - ["5Yelpy18ChatViewControllerC", "IndexPath"]
 - ["5Yelpy18ChatViewControllerC", "Int"]
 - !private ["5Yelpy18ChatViewControllerC", "NSNotification"]
@@ -663,7 +663,7 @@ depends-member:
 - !private ["So21NSItemProviderWritingP", "isEmpty"]
 - !private ["So16NSMutableCopyingP", "isEmpty"]
 - !private ["So14NSNotificationC", "Name"]
-- !private ["So8NSObjectC", "ChatCellTableViewCell"]
+- !private ["So8NSObjectC", "ChatCell"]
 - ["So8NSObjectC", "IndexPath"]
 - ["So8NSObjectC", "Int"]
 - !private ["So8NSObjectC", "NSNotification"]
@@ -1116,7 +1116,7 @@ depends-member:
 - !private ["So30UIPasteConfigurationSupportingP", "viewDidLoad"]
 - ["So30UIPasteConfigurationSupportingP", "viewForZooming"]
 - ["So30UIPasteConfigurationSupportingP", "viewForZoomingInScrollView"]
-- !private ["So11UIResponderC", "ChatCellTableViewCell"]
+- !private ["So11UIResponderC", "ChatCell"]
 - ["So11UIResponderC", "IndexPath"]
 - ["So11UIResponderC", "Int"]
 - !private ["So11UIResponderC", "NSNotification"]
@@ -1496,7 +1496,7 @@ depends-member:
 - !private ["So6UIViewC", "rowHeight"]
 - !private ["So6UIViewC", "text"]
 - !private ["So6UIViewC", "usernameLabel"]
-- !private ["So16UIViewControllerC", "ChatCellTableViewCell"]
+- !private ["So16UIViewControllerC", "ChatCell"]
 - ["So16UIViewControllerC", "IndexPath"]
 - ["So16UIViewControllerC", "Int"]
 - !private ["So16UIViewControllerC", "NSNotification"]
@@ -1710,7 +1710,7 @@ depends-nominal:
 - !private "SK"
 - !private "So15CALayerDelegateP"
 - "s7CVarArgP"
-- !private "5Yelpy017ChatCellTableViewC0C"
+- !private "5Yelpy8ChatCellC"
 - "5Yelpy18ChatViewControllerC"
 - !private "Sl"
 - !private "12SkeletonView010CollectionA0P"

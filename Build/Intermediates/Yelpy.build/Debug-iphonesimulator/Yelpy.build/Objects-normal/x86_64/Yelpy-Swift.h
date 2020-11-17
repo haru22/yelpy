@@ -221,8 +221,8 @@ SWIFT_CLASS("_TtC5Yelpy11AppDelegate")
 @class UILabel;
 @class NSCoder;
 
-SWIFT_CLASS("_TtC5Yelpy21ChatCellTableViewCell")
-@interface ChatCellTableViewCell : UITableViewCell
+SWIFT_CLASS("_TtC5Yelpy8ChatCell")
+@interface ChatCell : UITableViewCell
 @property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified usernameLabel;
 @property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified messageLabel;
 - (void)awakeFromNib;

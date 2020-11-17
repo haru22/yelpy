@@ -29,6 +29,7 @@ class ChatViewController: UIViewController {
         
         // retrieve message every 5 seconds
         Timer.scheduledTimer(timeInterval: 5, target: self, selector: #selector(self.retrieveChatMessage), userInfo: nil, repeats: true)
+        tableView.reloadData()
         
     }
     @objc func retrieveChatMessage() {
@@ -62,6 +63,12 @@ class ChatViewController: UIViewController {
         }
     }
     
+    /*------ Dismiss Keyboard and Logout ------*/
+    func textFieldShouldReturn(textField: UITextField) -> Bool {
+        textField.resignFirstResponder()
+        return true
+    }
+    
     @IBAction func onLogout(_ sender: Any) {
         NotificationCenter.default.post(name: NSNotification.Name("logout"), object: nil)
     }
@@ -83,15 +90,19 @@ extension ChatViewController: UITableViewDelegate,UITableViewDataSource {
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "ChatCell", for: indexPath) as! ChatCellTableViewCell
+        let cell = tableView.dequeueReusableCell(withIdentifier: "ChatCell", for: indexPath) as! ChatCell
+         
+         // NOTE: Please follow the lab before asking for help :)
         let message = messages[indexPath.row]
-        cell.messageLabel.text = message["text"] as? String
-        
-        // set the username
+         cell.messageLabel.text = message["text"] as? String
+         
+         // set the username
         if let user = message["user"] as? PFUser {
             cell.usernameLabel.text = user.username
+            
         } else {
             cell.usernameLabel.text = "?"
+            
         }
         
                 // BONUS: ADD avatarImage TO CELL STORYBOARD AND CONNECT TO ChatCell

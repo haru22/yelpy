@@ -12,7 +12,7 @@
 		999262F62547B4ED00A83E76 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 999262F52547B4ED00A83E76 /* DetailsViewController.swift */; };
 		999262F92547BC5800A83E76 /* Restaurant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 999262F82547BC5800A83E76 /* Restaurant.swift */; };
 		99E616DE2561173B006D8D31 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99E616DD2561173B006D8D31 /* ChatViewController.swift */; };
-		99E616E025611F5E006D8D31 /* ChatCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99E616DF25611F5E006D8D31 /* ChatCellTableViewCell.swift */; };
+		99E616E025611F5E006D8D31 /* ChatCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99E616DF25611F5E006D8D31 /* ChatCell.swift */; };
 		99E616E225613C94006D8D31 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99E616E125613C94006D8D31 /* LoginViewController.swift */; };
 		BB47B3AA247739640029FFF6 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB47B3A9247739640029FFF6 /* API.swift */; };
 		BB47B3AF2477426A0029FFF6 /* exampleAPI.json in Resources */ = {isa = PBXBuildFile; fileRef = BB47B3AE2477426A0029FFF6 /* exampleAPI.json */; };
@@ -35,7 +35,7 @@
 		999262F52547B4ED00A83E76 /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
 		999262F82547BC5800A83E76 /* Restaurant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Restaurant.swift; sourceTree = "<group>"; };
 		99E616DD2561173B006D8D31 /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
-		99E616DF25611F5E006D8D31 /* ChatCellTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatCellTableViewCell.swift; sourceTree = "<group>"; };
+		99E616DF25611F5E006D8D31 /* ChatCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatCell.swift; sourceTree = "<group>"; };
 		99E616E125613C94006D8D31 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		BB47B3A9247739640029FFF6 /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
 		BB47B3AE2477426A0029FFF6 /* exampleAPI.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = exampleAPI.json; sourceTree = "<group>"; };
@@ -128,7 +128,7 @@
 			isa = PBXGroup;
 			children = (
 				BBCF2DE3253B674B00BADA81 /* RestaurantCell.swift */,
-				99E616DF25611F5E006D8D31 /* ChatCellTableViewCell.swift */,
+				99E616DF25611F5E006D8D31 /* ChatCell.swift */,
 			);
 			path = Cells;
 			sourceTree = "<group>";
@@ -291,7 +291,7 @@
 				BB47B3AA247739640029FFF6 /* API.swift in Sources */,
 				999262F42547AB4200A83E76 /* YelpStars.swift in Sources */,
 				999262F92547BC5800A83E76 /* Restaurant.swift in Sources */,
-				99E616E025611F5E006D8D31 /* ChatCellTableViewCell.swift in Sources */,
+				99E616E025611F5E006D8D31 /* ChatCell.swift in Sources */,
 				999262F62547B4ED00A83E76 /* DetailsViewController.swift in Sources */,
 				BBEBF10C247738A50044AFE0 /* AppDelegate.swift in Sources */,
 				99E616DE2561173B006D8D31 /* ChatViewController.swift in Sources */,
