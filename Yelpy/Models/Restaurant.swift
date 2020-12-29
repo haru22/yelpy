@@ -16,6 +16,11 @@ class Restaurant {
     var rating: Double
     var review: Int
     
+    // refactor model
+    var coordinates: [String:Double]
+    
+    
+    
     init(dict: [String:Any]) {
         imageURL = URL(string: dict["image_url"] as! String)
         name = dict["name"] as! String
@@ -23,6 +28,7 @@ class Restaurant {
         rating = dict["rating"] as! Double
         review = dict["review_count"] as! Int
         mainCategory = Restaurant.getMainCategory(dict: dict)
+        coordinates = dict["coordinates"] as! [String:Double]
 
     }
     

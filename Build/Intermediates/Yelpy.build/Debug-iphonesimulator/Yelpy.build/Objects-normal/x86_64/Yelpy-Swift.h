@@ -187,6 +187,7 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #pragma clang diagnostic ignored "-Watimport-in-framework-header"
 #endif
 @import Foundation;
+@import MapKit;
 @import UIKit;
 #endif
 
@@ -254,12 +255,21 @@ SWIFT_CLASS("_TtC5Yelpy18ChatViewController")
 @end
 
 @class UIImageView;
+@class MKMapView;
+@protocol MKAnnotation;
+@class MKAnnotationView;
+@class UIControl;
 
 SWIFT_CLASS("_TtC5Yelpy21DetailsViewController")
-@interface DetailsViewController : UIViewController
+@interface DetailsViewController : UIViewController <MKMapViewDelegate>
 @property (nonatomic, weak) IBOutlet UIImageView * _Null_unspecified restaurantImage;
-@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified restaurantName;
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified restaurantNameLabel;
+@property (nonatomic, weak) IBOutlet UIImageView * _Null_unspecified starImage;
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified reviewCount;
+@property (nonatomic, weak) IBOutlet MKMapView * _Null_unspecified mapView;
 - (void)viewDidLoad;
+- (MKAnnotationView * _Nullable)mapView:(MKMapView * _Nonnull)mapView viewForAnnotation:(id <MKAnnotation> _Nonnull)annotation SWIFT_WARN_UNUSED_RESULT;
+- (void)mapView:(MKMapView * _Nonnull)mapView annotationView:(MKAnnotationView * _Nonnull)view calloutAccessoryControlTapped:(UIControl * _Nonnull)control;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
 @end
@@ -272,6 +282,17 @@ SWIFT_CLASS("_TtC5Yelpy19LoginViewController")
 - (void)viewDidLoad;
 - (IBAction)onSignUp:(id _Nonnull)sender;
 - (IBAction)onLogin:(id _Nonnull)sender;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+SWIFT_CLASS("_TtC5Yelpy23PostImageViewController")
+@interface PostImageViewController : UIViewController <UIImagePickerControllerDelegate, UINavigationControllerDelegate>
+@property (nonatomic, weak) IBOutlet UIImageView * _Null_unspecified imageView;
+- (void)viewDidLoad;
+- (IBAction)tapImage:(id _Nonnull)sender;
+- (IBAction)onPost:(id _Nonnull)sender;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
 @end
@@ -303,12 +324,6 @@ SWIFT_CLASS("_TtC5Yelpy25RestaurantsViewController")
 @end
 
 
-@interface RestaurantsViewController (SWIFT_EXTENSION(Yelpy)) <UITableViewDataSource, UITableViewDelegate>
-- (NSInteger)tableView:(UITableView * _Nonnull)tableView numberOfRowsInSection:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
-- (UITableViewCell * _Nonnull)tableView:(UITableView * _Nonnull)tableView cellForRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
-@end
-
-
 @interface RestaurantsViewController (SWIFT_EXTENSION(Yelpy))
 - (void)stopAnimation;
 @end
@@ -318,6 +333,16 @@ SWIFT_CLASS("_TtC5Yelpy25RestaurantsViewController")
 - (void)searchBar:(UISearchBar * _Nonnull)searchBar textDidChange:(NSString * _Nonnull)searchText;
 - (void)searchBarTextDidBeginEditing:(UISearchBar * _Nonnull)searchBar;
 - (void)searchBarCancelButtonClicked:(UISearchBar * _Nonnull)searchBar;
+@end
+
+@class UIStoryboardSegue;
+@class UIScrollView;
+
+@interface RestaurantsViewController (SWIFT_EXTENSION(Yelpy)) <UITableViewDataSource, UITableViewDelegate>
+- (NSInteger)tableView:(UITableView * _Nonnull)tableView numberOfRowsInSection:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
+- (UITableViewCell * _Nonnull)tableView:(UITableView * _Nonnull)tableView cellForRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
+- (void)prepareForSegue:(UIStoryboardSegue * _Nonnull)segue sender:(id _Nullable)sender;
+- (void)scrollViewDidScroll:(UIScrollView * _Nonnull)scrollView;
 @end
 
 @class UIWindow;

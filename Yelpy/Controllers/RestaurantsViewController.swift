@@ -40,9 +40,7 @@ class RestaurantsViewController: UIViewController{
 
     }
     
-//    func tableView(_ tableView: UITableView, willDisplay cell: UITableViewCell, forRowAt indexPath: IndexPath) {
-//        <#code#>
-//    }
+
     
     // (completionRestaurants) in = func (completionRestaurants) {}
     // ––––– TODO: Get data from API helper and retrieve restaurants
@@ -159,9 +157,9 @@ extension RestaurantsViewController: UITableViewDelegate, UITableViewDataSource,
 //            cell.hideSkeleton()
 //        }
         
-//    }
+    }
 
-    func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
          let cell = sender as! UITableViewCell
          if let indexPath = tableView.indexPath(for: cell) {
              let r = filteredResturants[indexPath.row]
@@ -207,7 +205,7 @@ extension RestaurantsViewController: UITableViewDelegate, UITableViewDataSource,
 
     
 
-    }
-    
 }
+    
+
 
