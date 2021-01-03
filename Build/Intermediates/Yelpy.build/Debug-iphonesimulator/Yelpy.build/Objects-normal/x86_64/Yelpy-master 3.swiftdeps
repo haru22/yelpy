@@ -1,0 +1,16 @@
+version: "Apple Swift version 5.2.4 (swiftlang-1103.0.32.9 clang-1103.0.32.53)"
+options: "a16b76101657fbc64941e978b2841d4b"
+build_time: [1609261697, 670782000]
+inputs:
+  "/Users/haruna/Documents/iOSdev/yelpy/Yelpy/Cells/RestaurantCell.swift": [1603767098, 407047954]
+  "/Users/haruna/Documents/iOSdev/yelpy/Yelpy/Controllers/RestaurantsViewController.swift": [1609224518, 142434380]
+  "/Users/haruna/Documents/iOSdev/yelpy/Yelpy/Network/API.swift": [1603766955, 249380924]
+  "/Users/haruna/Documents/iOSdev/yelpy/Yelpy/Extra/YelpStars.swift": [1603761437, 983368081]
+  "/Users/haruna/Documents/iOSdev/yelpy/Yelpy/Models/Restaurant.swift": [1608359810, 861579458]
+  "/Users/haruna/Documents/iOSdev/yelpy/Yelpy/Cells/ChatCell.swift": [1605588034, 520711094]
+  "/Users/haruna/Documents/iOSdev/yelpy/Yelpy/Controllers/DetailsViewController.swift": [1609261143, 558472184]
+  "/Users/haruna/Documents/iOSdev/yelpy/Yelpy/AppDelegate.swift": [1605593117, 53523922]
+  "/Users/haruna/Documents/iOSdev/yelpy/Yelpy/Controllers/PostImageViewController.swift": [1609227123, 801581165]
+  "/Users/haruna/Documents/iOSdev/yelpy/Yelpy/Controllers/ChatViewController.swift": [1605592867, 36806574]
+  "/Users/haruna/Documents/iOSdev/yelpy/Yelpy/SceneDelegate.swift": [1605587519, 71089632]
+  "/Users/haruna/Documents/iOSdev/yelpy/Yelpy/Controllers/LoginViewController.swift": [1605581780, 907081750]

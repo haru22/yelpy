@@ -1284,6 +1284,7 @@ depends-member:
 - !private ["Sq", "showGradientSkeleton"]
 - !private ["Sq", "showsCancelButton"]
 - !private ["Sq", "stop"]
+- !private ["5Yelpy31PostImageViewControllerDelegateP", "r"]
 - !private ["So19NSProgressReportingP", "main"]
 - !private ["So19NSProgressReportingP", "resume"]
 - !private ["Sk", "count"]
@@ -3139,6 +3140,7 @@ depends-nominal:
 - !private "So8NSStringC"
 - !private "So16NSOperationQueueC"
 - !private "Sq"
+- !private "5Yelpy31PostImageViewControllerDelegateP"
 - !private "So19NSProgressReportingP"
 - !private "Sk"
 - !private "Sm"

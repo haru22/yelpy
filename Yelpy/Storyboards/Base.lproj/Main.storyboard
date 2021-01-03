@@ -211,7 +211,7 @@
                         <outlet property="restaurantNameLabel" destination="rcD-ut-DXB" id="RBN-Cn-KUu"/>
                         <outlet property="reviewCount" destination="2fq-Ea-EJH" id="5Wh-6Y-hBG"/>
                         <outlet property="starImage" destination="VUT-Bc-Qal" id="Owy-Es-51s"/>
-                        <segue destination="ZUp-FZ-DXD" kind="show" identifier="toPostImageVC" id="gmO-vy-i4I"/>
+                        <segue destination="ZUp-FZ-DXD" kind="modal" identifier="toPostImageVC" id="gmO-vy-i4I"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qhv-Pu-Z0i" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -223,17 +223,9 @@
             <objects>
                 <viewController id="ZUp-FZ-DXD" customClass="PostImageViewController" customModule="Yelpy" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="0Iv-9d-Rl5">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="eOc-L7-ayW">
-                                <rect key="frame" x="51" y="113" width="328" height="248"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <gestureRecognizers/>
-                                <connections>
-                                    <outletCollection property="gestureRecognizers" destination="Icw-nT-SGM" appends="YES" id="4Cy-Zt-zQ8"/>
-                                </connections>
-                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lIr-H9-Hng">
                                 <rect key="frame" x="181" y="410" width="56" height="47"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -243,8 +235,17 @@
                                 </state>
                                 <connections>
                                     <action selector="onPost:" destination="ZUp-FZ-DXD" eventType="touchUpInside" id="gNv-w8-HNq"/>
+                                    <segue destination="oIB-VW-0YY" kind="unwind" identifier="unwindToDetail" unwindAction="unwind:" id="0kG-Sa-Bia"/>
                                 </connections>
                             </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="camera" translatesAutoresizingMaskIntoConstraints="NO" id="eOc-L7-ayW">
+                                <rect key="frame" x="43" y="116" width="328" height="248"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="Icw-nT-SGM" appends="YES" id="4Cy-Zt-zQ8"/>
+                                </connections>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="cz0-b7-haD"/>
@@ -255,6 +256,7 @@
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bCa-Ze-75u" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <exit id="oIB-VW-0YY" userLabel="Exit" sceneMemberID="exit"/>
                 <tapGestureRecognizer id="Icw-nT-SGM">
                     <connections>
                         <action selector="tapImage:" destination="ZUp-FZ-DXD" id="9en-9V-DxJ"/>
@@ -477,6 +479,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="camera" width="64" height="64"/>
         <image name="house" catalog="system" width="128" height="110"/>
         <image name="message" catalog="system" width="128" height="113"/>
     </resources>

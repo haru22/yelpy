@@ -10,7 +10,9 @@ import UIKit
 import MapKit
 import AlamofireImage
 
-class DetailsViewController: UIViewController, MKMapViewDelegate {
+class DetailsViewController: UIViewController, MKMapViewDelegate, PostImageViewControllerDelegate {
+
+    
     @IBOutlet weak var restaurantImage: UIImageView!
     @IBOutlet weak var restaurantNameLabel: UILabel!
     @IBOutlet weak var starImage: UIImageView!
@@ -30,6 +32,13 @@ class DetailsViewController: UIViewController, MKMapViewDelegate {
         configureOutlet()
         mapView.delegate = self
 
+    }
+    // add image to mapview annotation
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "toPostImageVC" {
+            let postImageVC = segue.destination as! PostImageViewController
+            postImageVC.delegate = self
+        }
     }
     
 
@@ -85,5 +94,18 @@ class DetailsViewController: UIViewController, MKMapViewDelegate {
                  calloutAccessoryControlTapped control: UIControl) {
         // perform segue to postimageVC
         self.performSegue(withIdentifier: "toPostImageVC", sender: nil)
+    }
+    
+    
+    // unwind segue after finished uploading images
+    @IBAction func unwind(_ seg: UIStoryboardSegue) {
+        
+    }
+    
+    func imageSelected(controller: PostImageViewController, image: UIImage) {
+        // info button to annotation view
+        let annotationViewButton = UIButton(frame: CGRect(x:0, y:0, width: 50, height: 50))
+        annotationViewButton.setImage(image, for: .normal)
+        annotationView.leftCalloutAccessoryView = annotationViewButton 
     }
 }

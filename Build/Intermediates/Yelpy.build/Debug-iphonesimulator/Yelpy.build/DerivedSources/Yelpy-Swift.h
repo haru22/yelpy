@@ -256,6 +256,7 @@ SWIFT_CLASS("_TtC5Yelpy18ChatViewController")
 
 @class UIImageView;
 @class MKMapView;
+@class UIStoryboardSegue;
 @protocol MKAnnotation;
 @class MKAnnotationView;
 @class UIControl;
@@ -268,8 +269,10 @@ SWIFT_CLASS("_TtC5Yelpy21DetailsViewController")
 @property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified reviewCount;
 @property (nonatomic, weak) IBOutlet MKMapView * _Null_unspecified mapView;
 - (void)viewDidLoad;
+- (void)prepareForSegue:(UIStoryboardSegue * _Nonnull)segue sender:(id _Nullable)sender;
 - (MKAnnotationView * _Nullable)mapView:(MKMapView * _Nonnull)mapView viewForAnnotation:(id <MKAnnotation> _Nonnull)annotation SWIFT_WARN_UNUSED_RESULT;
 - (void)mapView:(MKMapView * _Nonnull)mapView annotationView:(MKAnnotationView * _Nonnull)view calloutAccessoryControlTapped:(UIControl * _Nonnull)control;
+- (IBAction)unwind:(UIStoryboardSegue * _Nonnull)seg;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
 @end
@@ -286,13 +289,15 @@ SWIFT_CLASS("_TtC5Yelpy19LoginViewController")
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
 @end
 
+@class UIImagePickerController;
 
 SWIFT_CLASS("_TtC5Yelpy23PostImageViewController")
 @interface PostImageViewController : UIViewController <UIImagePickerControllerDelegate, UINavigationControllerDelegate>
 @property (nonatomic, weak) IBOutlet UIImageView * _Null_unspecified imageView;
 - (void)viewDidLoad;
-- (IBAction)tapImage:(id _Nonnull)sender;
+- (IBAction)tapImage;
 - (IBAction)onPost:(id _Nonnull)sender;
+- (void)imagePickerController:(UIImagePickerController * _Nonnull)picker didFinishPickingMediaWithInfo:(NSDictionary<UIImagePickerControllerInfoKey, id> * _Nonnull)info;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
 @end
@@ -335,7 +340,6 @@ SWIFT_CLASS("_TtC5Yelpy25RestaurantsViewController")
 - (void)searchBarCancelButtonClicked:(UISearchBar * _Nonnull)searchBar;
 @end
 
-@class UIStoryboardSegue;
 @class UIScrollView;
 
 @interface RestaurantsViewController (SWIFT_EXTENSION(Yelpy)) <UITableViewDataSource, UITableViewDelegate>
